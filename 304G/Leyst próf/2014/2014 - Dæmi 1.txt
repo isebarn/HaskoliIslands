@@ -1,0 +1,24 @@
+Klárað: Já
+
+BNF, EBNF og málrit fyrir lambda-reiknisegðir með svigum, breytunum x,y og z og fallsbeitingu NM þar sem N og M eru lambda-reiknisegðir, og fallskilgreiningum La.N
+
+L = lambda
+
+BNF:
+<E> ::= <E><E> | <S> | ( <E> ) | L.<S><E>
+<S> ::= x | y | z
+
+EBNF:
+e = e,e | s | '(',e,')' | 'L',s,'.',e
+s = 'x' | 'y' | 'z'
+
+Málrit:
+
+e ------'('-e-')'------
+  -----'L',s,'.',e-----
+  ---------e-e---------
+  ----------s----------
+
+ s -----x-----
+   -----y-----
+   -----z-----

@@ -1,0 +1,8 @@
+Klárað: Já
+
+Skrifa fall í Scheme, CAML, Morpho eða Haskell sem tekur lista lista af fleytitölum milli 0 1 og skilar tölu sem er minnsta hágildi innri listanna
+
+Scheme	: 2014 - Dæmi 8.scm í möppunni Scheme
+CAML	: 
+Morpho	: 
+Haskell	: 

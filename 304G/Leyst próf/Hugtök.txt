@@ -1,0 +1,112 @@
+-----Bálkmótað forritunarmál-----
+
+Bálkmótuð forritunarmál: Ada, Pascal, Morpho, Scheme, CAML
+
+Vakningafærslur bálkmótaðra forritunarmála innihalda:
+Viðföng (args) 
+Staðværar breytur (local variables)
+Aðgangshlekki/Tengihlekki (Access/static link)
+Vendisvistfang(return address)
+Stýrihlekki (Dynamic link)
+
+Lokannir eru notaðar í bálkmótuðum forritunarmálum
+
+
+-----Staðværar breytur-----
+
+Staðværar breytur eru einungis sýnilegar í fallinu sem býr þær til
+og í föllum sem eru beint undir þeim ef um bálkmótað forritunarmál er að ræða
+Ef fall X býr til breytuna y, þá hverfur y þegar kallinu á X líkur.
+
+
+-----Stýrihlekkir-----
+Stýrihlekkur er bendir sem vísar á botninn á vakningafærslu
+
+-----Tengihlekkir/Aðgangshlekkir-----
+Tengihlekkir benda á vakningarfærslu foreldris síns svo hægt sé að komast í staðværar breytur
+foreldrisins
+
+-----Lokanir-----
+Lokanir eru notaðar til að innihalda breytur annarstaðar frá? Eða þá sem fall sem má geyma sem breytu. 
+Þýðir það að þau föll sem styðja lambda-reikninga hafi lokanir?
+
+-----Vakningarfærslur-----
+Þegar kallað er á eithvað "subprogram" þá þarf að:
+1. Vista "execution status" á forritinu sem er að keyra
+2. Reikna út tilviksbreyturnar  og senda þær í sub-forritið
+3. Senda vendisvistfangið í sub-forritið
+4. Færa stjórnina á sub-forritið
+
+Þegar sub-program klárar keyrslu þá þarf að:
+1. Flytja breytur sem eru pass-by-value þangað sem næsta stef kemst í þær
+2. Ef sub-forritið er fall með return-value, þá þarf að skila því
+3. Restore-a execution-status á því stefi sem kallaði á sub-forritið
+4. Færa stjórnina á kall-forritið
+
+Þetta ferli þarfnast geymslu á status-info á forritinu sem kallaði, breytum, vendisvistfangið, return-value og kóðann sjálfann í sub-forritinu. Þessir hlutir ásamt staðværum breytum er það sem sub-forritið þarf til að keyra
+
+Allir þessir hlutir, fyrir utan kóðann sjálfann, eru hlutirnir sem mynda Vakningafærslu.
+Forritunarmál sem leyfa endurkvæmni geta haft fleiri en eina vakningafærslu í einu
+
+Vakningafærsla í sinni einföldustu mynd er
+
+|----------------|
+| local vars     |
+|----------------|
+| parameters     |
+|----------------|
+| return address |
+|----------------|
+
+
+-----Mark & Sweep-----
+In the mark phase the algorithm traces out all reachable objects.
+Reachable objects are those that are referenced anywhere
+In the sweep phase, all garbage is collected
+
+Every object has an extra bit, the mark bit
+Initially the mark bit is 0
+Set to 1 if object is reachable	
+
+The sweep will start at the bottom of the heap and walk through it and look for 
+bits marked 0
+The ones marked 0 are added to the free list
+Objects that are marked 1 are reset to 0
+The 'sweep' algorithm has a sizefield that keeps track of the size of current available memory and increments that number every time it encounters an object marked 0
+
+Mynd 1 - lýsing
+Myndin sýnir minnissvæði á hlaða á þrjá mismunandi vegu:
+fyrir mark-phase 
+eftir mark-phase
+eftir sweep-phase
+
+Efst, fyrir mark-phase þá er allt merkt með 0, en þá sést þar að auki að minnissvæðið merkt 'A' er 'root'
+Útfrá A, rótinni, er hægt að komast í 'C' og þaðan í 'E'
+Í upphafi er minnissvæðið merk 'F' merkt sem 'free'
+
+Í miðjunni, eftir mark-phase er búið að merkja A,C og E með 1 en B og E er aldrei snert svo að 
+Mark-reikniritið merkir því A,C og E með 1, en B og E haldast merkt 0 því þau eru aldrei snert
+
+Neðst, eftir að sweep-phase hefur klárast er gerður linked-list sem byrjar í F og sem tengist í B og þaðan í D en þau minnissvæði eru 'free'
+
+/Mynd 1 - lýsing
+
+Gallar við mark-phase:
+Keyrist einungis þegar plássið er búið en þarfnast pláss til að smíða "todo lista", sem er listi yfir allar rætur
+
+
+-----Stop & Copy-----
+Memory is organized into two areas. Old space, used for allocation and New space that is used as a reserve for garbage collecting
+
+Drawback is that the program can only use half the space allocated for it
+
+Mynd 2
+Minninu er skipt í tvennt eins og sést á myndinni. Old space geymir öll gögnin sem að forritið þarf að nota
+Allt sem er hægra meginn við heap pointer er pláss sem er verið að nota, og allt hægra meginn er pláss sem er tómt. Ef einhverju er bætt inn, þá færist þessi bendirinn lengra til hægri
+Þegar bendirinn er kominn upp að mörkunum á Old og New space þá fer ruslasöfnunin í gang, þ.e þegar Old space er fullt
+
+/Mynd 2
+
+Þegar plássið er búið þá eru öll 'reachable objects', þ.e.a.s allt sem er í notkun, afritað yfir á New Space og ruslið er skilið eftir og New space verður að Old space og öfugt
+
+Allt sem er afritað yfir í New Space er afritað, sem þýðir að alla pointera þarf að búa til nýja pointera líka

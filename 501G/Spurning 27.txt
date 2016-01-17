@@ -1,0 +1,3 @@
+Modify the following implementation of a JavaServer Page so that it displays the
+property name of the object user that is stored in the current session, as well as
+the request parameter language: [...]

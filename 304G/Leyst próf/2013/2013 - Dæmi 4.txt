@@ -1,0 +1,55 @@
+void f(x,y)
+{
+	y = 1;
+	print x,y
+	x = 2;
+}
+
+int i,a[10];
+for( i=0; i!= 10; i++) a[i] = i;
+f(a[a[0]],a[0]);
+print a[0],a[1].a[2];
+
+-----Hvað skrifar þetta ef viðföngin eru gildisviðföng?-----
+Gildisviðföng eru reiknuð áður en kallað er á stef/forritsbút
+
+Lína
+9	set a[0] = 0, a[1] = 1 ....
+10	kalla á f(x,y) með viðföng f(a[a[0]],a[0]) = f(0,0)
+1	fer inní f(x = 0,y = 0)
+3	y er gildað y = 1
+4	print x,y => print 0 1
+5	x er gildað x = 2
+11  print a[0], a[1], a[2] => print 0 1 2
+
+-----Hvað skrifar þetta ef viðföngin eru tilvísunarviðföng?-----
+Tilvísunarviðföng eru ekki gilduð beint heldur benda á gildi í vakningarfærslu
+Þegar vistfangið er notað þá er gengið beint inn í minnissvæðið
+
+Lína
+9	Í minnissvæði eru smíðuð 10 hól fyrir tölurnar 0123456789
+	Önnur minnishólf fyrir breyturnar a[0], a[1] ... a[9]
+	a[0] bendir á hólfið sem geymir 0, a[1] bendir á hólfið sem geymir 1 o.s.f
+10	Kallað er á f() með viðföngin f(a[a[0]],a[0]) = f(a[0],a[0]) = f(0,0)
+1	Búin eru til hólf í minnissvæði fyrir breyturnar x og y og bæði þessi
+	minnissvæði benda á hólfið sem geymir töluna 0
+3	y er gildað y = 1 með því að breyta fyrsta hólfinu úr 0 í 1, 1123456789
+4	print x,y, prenta út tölurnar sem x og y vísa í, print 1 1
+5	x er gildað x = 2 með því að breyta fyrsta hólfinu úr 1 í 2, 2123456789
+11	print a[0] a[1] a[2], en a[0] vísar í fremsta töluhólfið, sem geymir 2, a[1]
+	vísar í næstfremsta töluhólfið sem geymir 1, og a[2] vísar í 3ja hólfið sem geymir 2
+	svo út prentast print 2 1 2
+
+-----Hvað skrifar þetta ef viðföngin eru nafnviðföng?-----
+Ekki viss um þessa lausn
+Nafnviðföng eru ekki reiknuð fyrr en þörf er á þeim og þá er það gert styðstu leið sem hægt er
+
+Lína
+4	print x,y. Þarf að finna x og y. Bakka í línu 3
+3	y = 1
+1	x er gildað hér
+10	kallað er á f(a[a[0]],a[0]) en a[a[0]] = x.
+	a[0] = y = 1, svo a[1] = 1 = x
+4 	print 1 1
+5	x = 2 svo a[1] = 2
+11 	print a[0] a[1] a[2], print  1 2 2

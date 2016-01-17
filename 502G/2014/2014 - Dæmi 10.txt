@@ -1,0 +1,19 @@
+Klárað: Já
+
+Varmaskiptir sem kostar 8 milljónir mun endast í 4 eða 5 ár og hvert ár 
+	sem hann virkar þá mun hann spara 2 milljónir í rekstrarkostnað
+
+	Finn IRR fyrir annars vegar 4 ár, og hinsvegar 5 ár
+
+	Leysa 4 og 5 stigs jöfnuna fyrir r
+
+	4. stigs
+		-8 + 2/r + 2/r^2 + 2/r^3 + 2/r^4
+
+		Það þarf að gera það í vasareikni, en þó sést að svarið er einfaldlega 1.0 svo
+		að IRR er 0%
+
+	5. stigs
+		-8 + 2/r + 2/r^2 + 2/r^3 + 2/r^4 + 2/r^5
+
+		Hér verður að nota vasareikni og þá fæst að r = 1.0793 svo IRR = 7.93%

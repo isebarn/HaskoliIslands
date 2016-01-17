@@ -1,0 +1,11 @@
+WACC 11.1%
+7% ávöxtun
+75% eigið fé
+
+Finn fjármagnskostnað fyrirtækisins af lánsfé
+
+Ef 75% er eigið fé þá er 25% lánsfé
+
+WACC = .75*.07 + .25*r*(1-.2)
+
+r = 29.25%

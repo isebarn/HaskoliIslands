@@ -1,0 +1,20 @@
+Klárað: Já
+
+Hef klasana A og B, þar sem B er undirklasi A
+
+Þeir hafa skilyrðin
+	A
+	Usage	: y = z.t(x)
+	Before	: a <= x <= b
+	After	: c <= y <= d
+	B
+	Usage	: y = z.t(x)
+	Before	: e < x < f
+	After	: g < y < g
+
+Þar sem B er undirklasi A þá eru forskilyrðin í A þrengri en í B, og eftirskilyrðin í B þrengri en
+	í a
+Svo forsilyrðin verða
+	e < a <= x <= b < f
+Og eftirskylyrðin
+	c <= g < y < h <= d

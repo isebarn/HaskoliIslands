@@ -1,0 +1,65 @@
+Klárað: Nei
+
+Hverjar eftirfarandi fullyrðinga um lokanir eru sannar?
+
+a) Lokanir innihalda tengihlekk/aðgangshlekk
+b) Lokanir innihalda stýrihlekk
+c) Lokanir innihalda vakningarfærslu
+d) Lokanir innihalda bendi á vakningafærslu
+e) Lokanir innihalda bendi á stef eða fall
+f) Lokanir eru sveigjanlegri í notkun í Scheme en í Pascal því í Scheme má geyma lokanir í kös
+g) Lokanir eru sveigjanlegri í notkun í Scheme en í Pascal því í Scheme má geyma vakningafærslur í 		kös
+h) Í Scheme má lokun vera skilagildi úr falli, en ekki í Standard Pascal
+i) CAML hefur lokanir
+j) C++ hefur lokanir
+k) Morpho hefur lokanir
+l) Haskell hefur lokanir
+m) Java hefur lokanir
+
+
+Fullyrðingar a) til e)
+	Tekið frá bls 31 í vikublöð 1-13.pdf
+
+	Lokun inniheldur:
+	• Fallsbendi á vélarmálsþulu viðkomandi falls.
+	• Aðgangshlekk, sem bendir á viðeigandi vakningarfærslu þess stefs, sem inni-
+		heldur viðkomandi fall.
+
+	Þ.e, lokun inniheldur: 
+		bendi á fall 
+		aðgangshlekk sem bendir á vakningafærslu
+
+	Svo að a), d) og e) eru sannar fullyrðingar
+	Fullyrðingar b) og c) eru ósannar
+
+
+Fullyrðingar i), k), m)
+	Tekið frá lausn á miðmisserisprófi
+	Lokanir eru til í C, Scheme, CAML, Morpho, Java
+
+	Svo fullyrðingar i), k) og m) eru sannar
+
+Fullyrðing l)
+	Haskell hefur lokannir skv wiki.haskell.org/Closure
+
+	Svo fullyrðing l) er sönn
+
+Fullyrðing h)
+	Tekið frá bls 31 í vikublöð 1-13.pdf
+	Ekki er hægt að skila lokun sem niðurstöðu úr kalli eða vista lokun í breytu. 
+		Ástæða þessarar takmörkunar er sú að að-gangshlekkurinn í lokuninni 
+		inniheldur tilvísun á vakningarfærslu. Sú vakningarfærsla
+		er áreiðanlega til staðar þegar lokunin verður til og allt þar til bálkur sá sem lokunin
+		verður til í lýkur keyrslu, en eftir það er mögulegt að vakningarfærslunni sé eytt. Lok-
+		unin er aðeins í nothæfu ástandi ef aðgangshlekkurinn vísar á vakningarfærslu sem til
+		er
+
+		Sum önnur bálkmótuð forritunarmál s.s. Scheme og ML hafa ekki þessa takmörkun
+		á notkun lokana. Þau forritunarmál hafa ruslasöfnun (eins og Java, sem er ekki bálk-
+		mótað).
+
+		Svo Pascal getur ekki látið lokun skila falli en Scheme getur það
+
+	Svo fullyrðing h) er sönn
+
+Fullyrðingar f) og g) eru a mistery

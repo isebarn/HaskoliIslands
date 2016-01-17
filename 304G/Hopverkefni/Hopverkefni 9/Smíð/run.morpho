@@ -1,0 +1,30 @@
+"queue.mmod" = 
+{{
+	queue = 
+	obj()
+	{
+		var queueList;
+
+		msg isEmpty()
+		{
+			queueList == [];
+		};
+	};
+}}
+;
+
+"run.mexe" = main in
+{{
+	main = 
+		fun()
+		{
+			writeln("test");
+			var s = queue();
+			writeln(s.isEmpty());
+		};
+
+}}
+*
+"queue.mmod"
+*
+BASIS;

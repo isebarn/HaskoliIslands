@@ -1,0 +1,20 @@
+Klárað: Já
+
+Fyrirtæki kaupir þotu á 250 
+Afskrifar hana á 5 árum, 50 á ári
+Selur hana síðan á 50
+Skattur er 20%
+Fyrirtækið er alltaf í gróða
+
+Hver eru skattaleg áhrif þessara þotukaupa?
+
+Ef fyrirtækið er alltaf í gróða, þá er það alltaf að greiða skatt
+Það má draga frá 50 af uppgefinni upphæð vegna afskrifta
+Það þýðir að í stað þess að borga skatt af upphæð A, þá borgar fyrirtækið
+	skatt af A-50, svo fyrirtækið borgar 10 minna í skatt á hverju ári
+	Á 5 árum eru það 50 í skattafslátt
+Síðan selur fyrirtækið þotuna á 50, og greiðir af því 20% skatt, eða 10
+
+Svo fyrirtækið greiðir 10 minna í skatt í 4 ár en á seinasta ári greiðir fyrirtækið
+	venjulegann skatt
+

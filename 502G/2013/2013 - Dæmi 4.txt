@@ -1,0 +1,13 @@
+Klárað: Já
+
+Hver er ávöxtunarkrafa markaðarins (yield to maturity) á skuldabréf sem eru
+	gefin út til 12 ára.
+	Árlega eru 16% vextir og nafnvirði er 1000
+	Söluverð í dag er 1450
+
+	Leysa fyrir x úr jöfnunni:
+	0 = -1450 + 160x + 160x² ... 160x¹¹ + 1160x¹²
+
+	x = 0.9129
+
+	þ.a r = 9.54%

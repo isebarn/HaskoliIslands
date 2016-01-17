@@ -1,0 +1,50 @@
+Hef töflu með verkþáttum A-H
+
+Verkþáttur	Undanfari	Tími	Starfsfólk
+A 						   1			 3
+B			A 			   2             2	
+C			A              4             2
+D			B,C            2             1
+E			D              1             1
+F			D              3             2
+G			D              2             1
+H 			E,F,G          1             2
+
+1. Teikna flæðirit
+	Mynd 1
+	Bundna leiðin er A-C-D-F-H
+
+2. G.r.f að þrír starfsmenn séu til. Úthluta starfsmönnum á verkþætti
+	Mynd 2
+
+	
+3.  Mynd 3
+
+4. Finn EV, SV, CV í lok viku 4 ef A er 100% og raunkostnaður var 250 og C er 50% og 
+	raunkostnaður 350
+
+	EV = % Complete * Budget
+	CV = EV * actual cost
+	SV = EV - present value
+
+	% Complete er 100% fyrir A
+	% Complete er 50% fyrir C
+
+	Budget fyrir A er 100
+	Budget fyrir C er 500
+
+	Raunkostnaður fyrir A er 250
+	Raunkostnaður fyrir C er 350
+
+	Present value fyrir A er 100
+	Present value fyrir C er 500
+
+	Þá verður fyrir A
+	EV = 100
+	CV = -150
+	SV = 0
+
+	Þá verður fyrir C
+	EV = 500
+	CV = 150
+	SV = 0

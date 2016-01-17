@@ -1,0 +1,35 @@
+Hönnunarskjal fyrir hlaða í Java/Morpho
+
+
+Inni í hönnunarskjali á að vera:
+Útflutt - 
+	Notkunarlýsing allra aðferða sem eru smíðaðar í klasanum 
+
+Innflutt -
+	Notkunarlýsing þeirra aðferða sem eru innfluttar inn í klasann
+
+
+		Hönnunarskjal fyrir hlaða
+
+// Útflutt: 
+// --------
+// 		Notkun 	: a = new stack();
+// 		Eftir	: a er nýr, tómur hlaði sem tekur inn hluti af tagi T
+// 
+// 		Notkun 	: a.push(x);
+// 		Fyrir 	: a er hlaði með hluti af tagi T (eða tómur)
+// 				  x er hlutur af tagi T		
+// 		Eftir  	: x hefur verið bætt efst í hlaðann a
+// 
+// 		Notkun 	: T x = a.pop();
+// 		Fyrir 	: a er hlaði með hluti af tagi T (eða tómur)
+// 		Eftir  	: Efsta gildið x í hlaða a hefur verið fjarlægt úr a og skilað
+// 
+// 		Notkun 	: boolean m = a.isEmpty();
+// 		Fyrir 	: a er hlaði með hluti af tagi T (eða tómur)
+// 		Eftir  	: m er true ef a er tómur hlaði, false annars
+
+
+
+Java 	: stack.java í möppunni Java
+Morhpo 	: 

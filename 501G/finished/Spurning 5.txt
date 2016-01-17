@@ -1,0 +1,38 @@
+Explain how the phases of the Unified Process differ from the phases of the
+	waterfall model
+
+	The waterfall model consists of:
+		-Figuring out the requirements
+		-Designing the system
+		-Implementing the design (building)
+		-Testing
+		-Deloying
+		-Maintaining
+
+	The phases of the UP modell are 
+		-Inception
+		-Elaboration
+		-Construction
+		-Transition
+
+	The difference:
+		The waterfall model tries to esablish firmly what will be done. All the requirements
+			and the risks, designing and building.
+			The waterfall model moves to the next phase when it is completed and perfect, and there is no going back
+
+		The UP model, rather than iteratively creating modules or building blocks of a software
+			that will be then laid down once ready, the UP creates a working system with minimal functionality and iteratively adds features and polishes existing 
+			features until the system is ready
+
+	The two have a much in common on the surface but not in practice. They both do a 
+		requirement alanysis, but the Waterfall model does a more thorough one and 
+		does it just once, while the UP does a "ballparck" analysis, mostly to check
+		viability and to map the logistics, rather than to have a clear picture of how
+		the final product should function. Further analysis is performed iteratively
+		by feedback and so forth, slowly painting the whole picture as the software is 
+		produced
+
+	In its essence, the waterfall model makes plans and sticks with them and delivers 
+		a product
+	In its essence, the UP creates a product with a neglible ammount of functionality
+		and quantatively refines it, adding functionality as it evolves into a full product

@@ -1,0 +1,41 @@
+6c
+1. How does the WBS differ from the project network?
+	
+	Both the WBS and the Project network visually describe the work packages required
+	In addition, the WBS shows all branches, what work packages belong to what part of the project
+	What the WBS does not show, but the Project Network does show, is duration of tasks and the
+		dependancies of work packages. The project network allows us to view the sequence
+		work packages need to be executed in, how long they will take, and what effect delays will
+		bring
+	The Project network does not in general show the branches of work packages
+
+2. How are WBS and project networks linked?
+	
+	The work packages from the WBS are the (only) ingredients for a Project Network
+
+3. Why bother creating a WBS? Why not go straight to a project network and for-
+get the WBS?
+
+	The Project Network doesnt describe what project parts the work packages belong to.
+
+4. Why is slack important to the project manager?
+	
+	It tells him how much a project can be delayed without delaying the overall project
+
+5. What is the difference between free slack and total slack?
+	
+	Total slack tells us how much a task can be delayed without delaying the whole project
+	Free slack tells us how much a project can be delayed without affecting its successor
+
+6. Why are lags used in developing project networks?
+
+	Lag is the ammount of time a project "must" be delayed to begin or end. Fx if building
+		a whole house is a single activity (it isnt, but its an example) and the windows must
+		be custom made in Italy and shipped. The whole house may be ready in 1 week, but the 
+		glass windows wont arrive until they have been ordered
+		If building the house is work package A and ordering windows is work package B, then A
+			is lagged by a week, becouse its end is somehow dependant on another completing
+	
+
+7. What is a hammock activity, and when is it used?
+	A series of activities that span a considerable segment of the whole project

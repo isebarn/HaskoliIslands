@@ -1,0 +1,31 @@
+Klárað: Já
+
+Nota IRR eða IRR2
+
+Finn IRR fyrir
+
+Ár 	Greiðslur
+0	-100
+1	360
+2	-570
+3	360
+
+Hér myndi hagnaður = [-100 360 -570 360]
+
+Ef að deilari = [ (1+r)^0 (1+r)^1 (1+r)^2 (1+r)^3 ] hvaða gildi
+	þarf að vera á 'r' þannig að
+
+	sum [ hagnaður / deilari ] = 0
+
+	Ég byrja á að kalla 
+		x = 1 + r
+	þá verður jafnan [-100/x^0 360/x^1 -570/x^2 360/x^3]
+	Margfalda í gegn með x^3 og fæ
+
+	-100x^3 + 360x^2 - 570x + 360
+
+	Leysi þessa jöfnu og fæ að x = 1.354
+	Þar sem x = 1+r þá er r = 35.4%
+
+
+

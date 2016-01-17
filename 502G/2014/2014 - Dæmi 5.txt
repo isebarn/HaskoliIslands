@@ -1,0 +1,6 @@
+Klárað: Já
+Hlutabréf í fyrirtækinu Skrilljónir hefur 16.5% áætlaða ávöxtun og beta 1.25
+Áhættulaus ávöxtun er 4%
+Hver er mismunurinn á markaðsávöxtun og áhættulausnri ávöxtun hjá Skrilljónum?
+
+Nota BETA til að finna að MarketRate er 14% og því munurinn á MarketRate og RiskFree = 10%

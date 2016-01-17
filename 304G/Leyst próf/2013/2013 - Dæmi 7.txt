@@ -1,0 +1,8 @@
+Klárað: Nei
+
+Skrifa insert-left og insert-right föll sem taka inn tvíunaraðgerð og tvær tölur
+
+Scheme	: 2013 - Dæmi 7.scm
+CAML	:
+Morpho	:	
+Haskell :

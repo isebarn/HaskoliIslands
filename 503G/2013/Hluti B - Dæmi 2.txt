@@ -1,0 +1,63 @@
+Klárað: Nei
+
+Hver eru SCRUM hlutverkin og lýstu ábyrgð hvers og eins
+
+	SCRUM  is a specific agile methodology, like RUP, RPD and Lean
+	SCRUM begins with a high-level scope definition and a ballbark time/cost estimates close
+		enough to be comfortable with deciding on the project
+
+	Scrum uses product features as deliverables, a piece of a product that delivers useful functionality to a customoer
+
+	Scrum relies on specific roles, meetings and documents to manage a project
+
+	The roles are:
+		Product owner
+			The person acts on behalf of customers to represent their interests.
+			They are responsible for ensuring that the development team focuses their
+			efforts on developing a product that fulfill the business objective of 
+			the project
+			The product owner is the one that makes changes in features and priorities
+			at the end of each sprint. 
+		The development team
+			The team is responsible for delivering the product. The team is made up of
+			a few people with cross-functional skills. There are no designated roles or 
+			titles, people take on responsibilities depending on the nature of the work
+			and the team is self organizing
+		The Scrum master
+			The master facilitates the Scrum process and resolves impediments at the team
+			and at the organizational level. He isnt a leader of the team as the team is 
+			supposed to lead it self, rather a buffer between the team and outside
+			interference. A coach not a manager
+
+	The Scrum meetings are:
+		Sprint planning
+			At the start of each sprint, the product owner and the development team
+			negotiate what product backlog items  the team will attempt this sprint
+			The owner identifies the features he values most 
+			Once goals have been chosen and meeting adjourned, they cannot be changed 
+		Daily scrum
+			The core of an agile project is the daily meeting, called the scrum
+			Every day at the same time at the same place, a team discusses what has 
+			been accomplished since the last daily scrum, what will be done before the
+			next one and what problems are present
+			This meeting is short, 15 minutes, at a whiteboard
+			This meeting creates a sense of team identity and encourages openness
+			The scrum master manages the whiteboard but does not assign tasks
+		Sprint review
+			At the end of a sprint, the team demonstrates the actual work product
+			increments they have built to the product owner
+			Feedback is welcomned from the owner  and he declares what he feels is
+			complete and what needs more work
+			The team may present some suggestions for refinements 
+		Sprint retrospective
+			This meeting is facilitated by the scrum master, and its purpose is to
+			reflect how well the previous sprint was executed. Discuss what can be
+			improved and decide on changes on how things will be done next sprint
+
+	Documents:
+		Product backlog:
+			The product backlog is the customers prioritized list of features desired
+			and is kept by the product owner
+		Sprint backlog:
+			The backlog is the developing teams log on what features to assign time to
+			and how much time

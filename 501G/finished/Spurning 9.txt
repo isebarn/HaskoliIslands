@@ -1,0 +1,5 @@
+Explain the difference between use cases and user stories.
+
+	A user story is a short description of how a user does when he uses the software, usually
+		in a single sentence
+	A use case is a set of use sequences

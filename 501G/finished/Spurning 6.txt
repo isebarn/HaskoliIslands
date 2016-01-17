@@ -1,0 +1,14 @@
+Explain how the goals of the Inception and Elaboration phase in the 
+	Unified Process differ.
+
+	Inception is to envision the product scope, vision and business case, while the
+		elaboration phase is meant to build the core architecture, resolve risk elements
+		discovered in the inception phase, define most requirements that make up the
+		scope from inception and estimate the overall schedule and resources
+
+	The business case from Inception includes the success criteria, risk and estimation
+		of resources. These are somewhat refined in the Elaboration phase and the risk
+		is dealt with
+
+	Moving from inception to elaboration can be thought of as moving from an educated guess
+		to a engineering/feasibility study

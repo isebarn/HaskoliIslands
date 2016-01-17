@@ -1,0 +1,9 @@
+Skrifa í Scheme, CAML, Morpho eða Haskell fallið biApplySum sem tekur 3 lista
+Einn listi hefur tvíundaraðgerðir
+Tveir jafnlangir listar sem eru líka jafnlangir tvíundaaðgerðalistans 
+Forritið á að beita tvíundaraðgerð i á stök i í listunum tveim og leggja allar niðurstöðurnar saman
+
+Scheme	: 2014 - Dæmi 9.scm í möppunni Scheme
+Morpho	: 
+Haskell	: 
+CAML	: 

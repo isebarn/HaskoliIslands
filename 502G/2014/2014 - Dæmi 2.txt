@@ -1,0 +1,8 @@
+Klárað: Já
+Hluthafar 18% ávöxtunarkrafa á 330
+Skuldir 135 með 8% vöxtum
+Skuldabréf á 210 með 4% vöxtum
+
+[ .18(330) + .08(135) + .04(210) ] / [ 330 + 135 + 210 ]
+
+= 11.64%

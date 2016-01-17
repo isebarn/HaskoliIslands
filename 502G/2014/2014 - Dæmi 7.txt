@@ -1,0 +1,22 @@
+Klárað: Já
+
+Höfuðstóll 500.000 með 16% vexti
+
+Hvert er framtíðarvirði eftir 5 ár með
+a) 48 vaxtatímabil á ári
+b) Árlegir veldisvextir
+
+a) 48 vaxtatímabil á ári
+	Jafnan fyrir vaxatímabil er V = A(1 + r/m)^(tm)
+	Þar sem að: 
+	A er höfuðstóll
+	r eru vextir
+	m er fjöldi vaxtatímabila á ári
+	t er tíminn í árum
+
+	Úr þessu kemur 1.113e6, eða 1.116.000
+
+b) Árlegir veldisvextir
+	Jafnan fyrir veldisvexti er V = A(1 + r)^t
+
+	Svo að þá fæst 1.050.000

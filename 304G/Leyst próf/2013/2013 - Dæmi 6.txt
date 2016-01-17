@@ -1,0 +1,6 @@
+Klárað: Nei
+Forrita straum Fibonacci-talna
+
+Scheme	: 2013 - Dæmi 6 		
+Haskell	:	 
+Morpho	: 	

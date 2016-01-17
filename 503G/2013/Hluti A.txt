@@ -1,0 +1,255 @@
+Klárað: Já
+
+1. Hvað er breytingastjórnun í verkefnum?
+	a) Til a fækka breytingum á markmið verkefnis
+	b) Að breyta verkefninu stöðugt í upphafi
+	c) Kerfisbundin og ítarleg skráning á ferli breytinga
+	d) Að breyta áætlunum í takt við fyrirsjáanleg vikmörk þegar illa gengur
+
+	A major element of the risk control process is change management
+
+	Most changes fall into three categories:
+		1. Scope changes
+		2. Implementation of contigency plans
+		3. Improvement changes
+
+	Change management systems involve reporting, controlling and recording changes to the project baseline, this is accomplished by:
+		1. Identifying proposed changes
+		2. List expected effects
+		3. Review, evaluate and approve
+		4. Negotiate and resolve conflicts that arise
+		5. Communicate changes to parties affected
+		6. Assign responsibility for implementing change
+		7. Adjust master schedule and budget
+		8. Track all changes that are to be implemented
+
+	c-liður
+
+2. Siðareglur eru:
+	a) Til að tryggja samræmi við gildandi lagaákvæði siðfræðinga
+	b) Til að virkja hlutaðeigandi hagsmunaaðila
+	c) Óþarfar í verkefnum
+	d) Ætlaðar til að ná yfir viðurkennda hegðun einstaklinga
+
+	a)
+
+3. Þyngdarlögmál Fangel
+Ekki í bókinni eða glósum. Óþarfi
+
+4. Óvirk verkefnastjórnun byggir á:
+	a) Að verkefnishópur hittist ekki nægilega oft
+	b) Að verkefnastjórinn sé stöðugt að leysa vandamál
+	c) Stöðugri endurskoðun á áætlanagerðinni
+	d) Að verkefnisstjórinn sé stöðugt í verkefnavinnu
+
+	Ekki í bók né glósum. Sennilega d-liður
+
+5. Líftími verkefna
+	a) Kostnaður við breytingar fer stígandi með því sem verkefninu líður
+	b) Áhrifamáttur verkefnastjórnunar er mestur í upphafi verkefnis
+	c) Verkskil fara fram í lok verkefnis
+	d) Allt af ofangreindu á við
+
+	d
+
+6. Hvað af eftirtöldu á best við um verkefnisstjórann
+	a) Hann ber ábyrgð á ræsfundum verkefnis
+	b) Hann vinnur mikið í minni verkefnum við hina eiginlegu verkefnisvinnu
+	c) Hann er ábyrgur fyrir áætlanagerð og skipulagningu verkefnis
+	d) Hann ber ábyrgð á allri skjölun í verkefninu
+
+	c) liður
+
+7. Pareto lögmálið er:
+	a) Stöðugt ferli sem breytist ekki
+	b) Notað við að finna unnið virði
+	c) Nefnt eftir ítölskum hagfræðingi sem ræktaði baunir
+	d) Ekkert af ofangreindu
+
+	Trying to solve every customer issue with a product or service rather than
+		focusing on the 20 percent with 80 percent of the value (Pareto’s Law)	
+
+	d)
+
+8. Hvaða fundur er hluti af SCRUM
+	a) Agile planning
+	b) Daily huddle
+	c) Sprint review
+	d) Öll ofangrein atriði eru hluti af SCRUM
+
+	Scrum Meetings:
+		Scrum uses a series of coordinated meetings to manage the development process
+
+		Sprint Planning. At the start of each sprint, the product owner and development
+			team negotiate which product backlog items the team will attempt this sprint.
+
+		Daily Scrum. The heartbeat of an Agile project is the daily meetings which are com-
+			monly referred to as the “Scrum.”
+
+		Sprint Review. At the end of each sprint, the team demonstrates the actual work
+			product increments they have built to the product owner and other relevant stake-
+			holders.
+
+		Sprint Retrospective. The purpose of the retrospective meeting is to reflect on
+			how well the previous sprint went and identify specific actions that can improve
+			future sprints.
+
+	c) nema þá að Agile Planning = Sprint Planning og Daily Huddle = Daily Scrum, þá d)-liður
+
+9. Hver er helsti tilgangur sprint review
+	a) Fara yfir í hvað tíminn fór í sprettinum
+	b) Sjá fram hver hefur ekki klárað sín verk og finna leið til að aðstoða hann
+	c) Sýna fram á árangurinn sem náðst hefur og fara yfir það sem er eftir
+	d) Sprint review er ekki hluti af SCRUM
+
+	Sprint review meeting:
+		A scrum meeting in which the team demonstrates to the product owner and any other interested parties what it was able to accomplish during the sprint
+		The product owner declares which items are done and which ones need further work.
+
+		a) eða c) en þó frekar c)
+
+
+10. Hvað á ekki við hefðbundna stýringu verkefnaskráa
+	a) Forgangsraða verkefnum
+	b) Finna hvaða verkefnum á ekki að vinna í
+	c) Finna hvaða verkefni uppfyla gæði
+	d) Tryggja að verkefni séu í samræmi við stefnu
+
+	The major functions of portfolio management are to
+
+		passar við b)
+		Oversee project selection.
+
+		Monitor aggregate resource levels and skills.
+
+		Encourage use of best practices.
+
+		Passar við a)
+		Balance projects in the portfolio in order to represent a risk level appropriate to
+		the organization. 
+
+		Improve communication among all stakeholders.
+
+		passar við d)
+		Create a total organization perspective that goes beyond silo thinking.
+
+		Improve the overall management of projects over time.
+
+
+		helst c) samt mjög vaguely
+
+11. Stjórnskipulag verkefnis tekur mið af:
+	a) Mannaflaþörf
+	b) Einkennum verkefnis
+	c) Umhverfi verkefnis
+	d) Öllum ofangreindum atriðum
+
+	d)
+
+12. Efsta stýrilag sundurliðunar (WBS) er
+	a) Verkliður
+	b) Afurð
+	c) Verkefnið
+	d) Kostnaðarbókhald
+
+	Level 1: Project - The complete project
+	Level 2: Deliverable - Major deliverables
+	Level 3: Subdeliverables - Supporting deliverables
+	Level 4: Lowest subdeliverable - Lowest management responsibility level
+	Level 5: Cost account - Grouping of work packages for monitoring progress & responsibility
+	Work package - Identifiable work activities
+
+	Liður a)
+
+13. Samtenging stjórnskipulags og sundurliðunar (WBS) er
+	a) Áhættugreining
+	b) Hlutverkaflétta
+	c) Kostnaðargreining
+	d) Yfirlöppun verkefnis
+
+	As the WBS is developed, organizational units and individuals are assigned responsibility
+		for executing work packages. This integrates the work and the organization
+
+	b) eða d) ég veit ekki hvað yfirlöppun er
+
+	EÐA
+
+	WBS and OBS. The intersection of work packages and the organizational unit creates a project
+		contrl point, a cost account, that integrates work and responsibility.
+		The intersection of the EBS and OBS represents the set of work packages necessary to complete the subdeliverable
+
+	Þetta segir að c-liður sé svarið
+
+14. Að meta kostnað við aðföng felst í því að
+	a) Fá tilboð hjá aðföngum
+	b) Margfalda fjölda eininga með einingarverði
+	c) Skoða vinnutaxta aðfanga
+	d) Magntaka einingar fyrir aðföng
+
+	b) liður
+
+15. Hvað eftirtalina atriða á ekki við um aðföng verkefnis
+	a) Starfsfólk verkefnis
+	b) Aðstað
+	c) Efni
+	d) Samningagerð
+
+	Aðföng eru það sem þarf til að vinna verkið. Í verk þarf starfsfólk, aðstöðu, efni
+
+	d) liður
+
+16. Hvað tilheyrir ekki beinum kostnaði
+	a) Verktakakostnaður
+	b) Hönnunarkostnaður
+	c) Verkefnastjórnun
+	d) Kostnaður við yfirsjón
+
+	Indirect costs are the costs that cannot be directly traced to a particular project or work 
+	package
+
+	d) kostnaður við yfirsjón
+
+17. Hlutverk bakhjarls er:
+	a) Að vinna hinu fjármálalegu vinnu í verkefninu
+	b) Að koma eingöngu að þarfagreiningu og skilgreiningu niðurstöðu
+	c) Að gæta hagsmuna eigenda
+	d) Að stýra verkefnahópum
+
+	Bakhjarl ber ábyrgð á viðskiptafærinu
+
+	c) held ég
+
+18. Stjórnskipulag verkefnis tekur mið af
+	a) Mannaflaþörf
+	b) Einkennum verkefnis
+	c) Umhverfi verkefnis
+	d) Öllum ofangreindum verkefnum
+
+	sama spurning og 11
+
+19 Hvað á ekki við um skilamat
+	a) Lærdomur sem tekinn er saman í verklok
+	b) Skýrsla um niðurstöðu verkefnis
+	c) Uppgjör í verklok
+	d) Skýrsla um ágreining í verkefnum
+
+	A performance review is in general, all review methods of individual performance center 
+		on the technical and social skills brought to the project and team. These reviews stress personal improvement and are frequently used for salary and promotion decisions
+
+	Erfitt að svara. b) held ég
+
+20. Hvað á best við þegar kostnaðaráætlanir standast ekki?
+	a) Sundurliðun verkefnis ónákvæm
+	b) Hönnun ekki lokið áður en framkvæmdir hófust
+	c) Ekki tekið tillit til óvissu
+	d) Öll ofangrein atriði
+
+	d)
+
+
+
+
+
+
+
+

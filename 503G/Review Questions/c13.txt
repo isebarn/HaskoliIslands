@@ -1,0 +1,34 @@
+c13
+
+1. How does a Tracking Gantt chart help communicate project progress?
+	If depicts where we should be versus where we are with a project
+
+2. How does earned value give a clearer picture of project schedule and cost status
+	than a simple plan versus actual system?
+
+	It shows how much of the budget we have used to complete how much of the project
+
+3. Schedule variance (SV) is in dollars and does not directly represent time. Why
+	is it still useful?
+
+	It shows us if we are under or over budget with a task
+
+4. How would a project manager use the CPI?
+
+	It shows hof efficiently money is being spent
+
+5. What are the differences between BAC and EAC?
+
+	BAC is the total budget at hand, and EAC is an estimation of what we will be needing
+		in total to complete the project
+
+6. Why is it important for project managers to resist changes to the project
+	baseline? Under what conditions would a project manager make changes to
+	a baseline? When would a project manager not allow changes to a baseline?
+
+	Scope changes, and by extention baseline changes, should only be accepted if either
+		the project will clearly fail without changes or if there is significant improvement
+		promise with these changes.
+		Additionally, if the customer is ready to pay for changes, they may be allowed
+
+	Otherwise, changes in scope will be expensive and of no direct benefit to the project

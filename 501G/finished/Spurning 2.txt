@@ -1,0 +1,55 @@
+Klárað: Já
+
+Explain the difference between sequential, iterative-incremental, agile and plan-
+	driven process models.
+
+	The sequential model, is an extreme version of the waterfall model and it:
+		-Identifies all requirements at the begining of a project
+		-Creates a thorough design as a blueprint before programming starts
+		-Defines a complete schedule at the beginning of the project
+
+		It assumes that requirements are static, implementation details can be
+			predicted completely, time estimates are accurate etc
+
+		This methology is unrealistic
+
+	The iterative incremental model splits a projects into iterations, where
+		each iteration is a mini project, making requirements more fathomable,
+		and slowly building a software by first creating a small software with
+		minimal functionality, and then adding to that functionality with each 
+		iteration.
+		Every iteration is a chance to change, remove or add more requirements as
+		the desired functionality becomes clearer by each iteration
+
+		Benefits of this system are:
+			-Better productivity
+			-Lower defect rates
+			-Early visible progress
+			-Early user engagement and feedback
+			-Manageable complexity
+
+	Plan-driven process models use iterations and are subschemas of the interative
+		incremental.
+		In a plan-driven development we:
+			-Gain insight using models and specifications
+			-Manage risk by planning
+			-Strive to structure the project early
+			-Optimize by planning
+			-Work on the most risky features first
+			-Every increment is a section of the working system
+			-Roles and responsibilities have clear outlines
+			-A somewhat well defined end product
+			-Plans are to be followed
+
+	Agile driven process models also use iterations and thus, are subschemas of the
+		iterative incremental mode.
+		In an agile enviroment we
+			-Paint a picture by communicating and by receiving a ton of feedback
+			-Manage all risk by being flexible
+			-Not firmly structured
+			-Optimize by refactoring until desired quality has been acheived
+			-Features deemed most valueable developed first
+			-Every increment yields a product
+			-Flexible target vision
+			-Teams organize themselves
+			-Freedom

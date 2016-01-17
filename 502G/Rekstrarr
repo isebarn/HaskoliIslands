@@ -1,0 +1,109 @@
+
+Rekstrarreikningur
+Breytist ekki ef skuldir eru greiddar af bankaláni
+Rekstrarreikningur sýnir heildartekjur og heildargjöld
+	á rekstrartíma og hvernig hagnaður/tap myndast
+
+
++Rekstrartekjur
+-Rekstrargjöld
+	Breytilegur kostnaður af seldum vörum
+		Hráefni A
+		Laun B
+		Önnur gjöld C
+	Rekstrargjöld (fastur kostnaður)
+		Kostnaður fyrir að hafa fyrirtæki opið F
+		R&D
+		Stjórnunarkostnaður E
+		Sölu og markaðskostnaður D
+----------------------------------------
+=EBITDA
+-Afskriftir
+----------------------------------------
+=EBIT
+-Fjármagnsgjöld
+	+Vextir bankabókar
+	-Vextir lána
+----------------------------------------
+=EBT
+-Skattur
+----------------------------------------
+=Hagn. e. skatt
+-Arður
+----------------------------------------
+=Hagnaður
+
+
+
+
+Sjóðsstreymi
+Sjóðsstreymi sýnir hvernig handbært fé t.d bankareikningur, breytist
+	á rekstrartíma
+Sjóðstreymi sýnir ef að vél er keypt eða skuld greidd
+
+ATH breyting á viðskiptakröfum, viðskiptaskuld og birgðum gefa handbært fé
+
++Hagn. e. skatt
++Afskriftir
+------------------------------------------------
+=Veltufé frá rekstri
+Breyting á rekstrartengdum eignum og skuldum
+	-(delta) Viðskiptakröfur 
+	+(delta) Viðskiptaskuldir 
+	-(delta) Birgðir 
+	-(delta) Skammtímaskuldir
+------------------------------------------------
+=Handb. fé frá rekstri
+
+Fjárfestingar
+	+ Sala á eign
+	- Kaup á eign
+
+Fjármögnun
+	+ Ný lán
+	- Afborgun láns
+	+ Sala eigin bréfa
+	- Kaup eigin bréfa
+
++ Nýtt hlutafé 
+- Arðgreiðsla
+------------------------------------------------
+=Breytingar á handbæru fé
+
+
+Efnahagsreikningur
+
+Skipt í tvennt:
+Eignir
+------
+Skuldir
+Eigið Fé
+
+Eignir = Skuldir + Eigið fé
+
+Eignir
+
+	Fastafjármunir
+		Fasteignir
+		Vélar
+
+	Veltufjármunir
+		Viðskiptakröfur
+		Birgðir
+		Bankareikningar/Handbært fé
+		Fyrirframgreiddur kostnaður
+		Verðbréf
+--------------------
+Skuldir
+	Langtímaskuldir
+		Bankalán
+		Skuldabréfalán
+		Langtímalán
+
+	Skammtímaskuldir
+		Yfirdráttur
+		Viðskiptaskuldir
+
+Eigið fé
+	Hlutafé
+	Óráðstafaður hagnaður/eigið fé

@@ -1,0 +1,14 @@
+Klárað: Já
+
+Forrita fall í Scheme, CAML, Haskell eða Morpho sem tekur gildi u, tvíundaraðgerð
+	+ og lista x = [x1,...xn] og skilar u + x1 + .. + xn reiknað frá vinstri
+	til hægri
+
+Forrita fall í Scheme, CAML, Haskell eða Morpho sem tekur gildi u, tvíundaraðgerð
+	+ og lista x = [x1,...xn] og skilar x1 + .. + xn + u reiknað frá hægri
+	til vinstri
+
+Scheme	: 2014 - Dæmi 3.scm í möppunni Scheme
+CAML	: 
+Haskell	: 
+Morpho	: 

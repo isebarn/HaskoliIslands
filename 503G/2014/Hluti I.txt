@@ -1,0 +1,226 @@
+Krossar 1-10
+
+-------------------------------------------------------------------------------------
+1. Hvað af eftirfarandi telst til helstu eiginleika (characteristics) verkefnis
+a) skýrt upphaf og endir
+b) Endurtekin vinna
+c) Flókin viðfangsefni
+d) Bæði a) og c) eru rétt
+
+Tekið frá bls 5 í bók
+
+A project is a temporary endeavor that creates a unique product, service or result.
+Major characteristics of a projects are:
+An established objective
+A defined life span with a beginning and an end
+Usually the involvement of multiple departments
+Usually making/doing something new
+Specific requirements w.r.t time, cost and performance
+
+Svo það er hálfgert túlkunaratriði hvort að rétt svar sé a) eða þá d)
+Rétt svar er d)
+
+
+-------------------------------------------------------------------------------------
+2. Í hverju af eftirfarandi stjórnskipulagi er valdajafnvægi milli deildarstjóra og
+	verkefnastjóra verkefnastjórum í hag?
+a) Veikt fléttuskipulag
+b) Fléttuskipulag í jafnvægi
+c) Sterkt fléttuskipulag
+d) Ekkert af því sem er nefnt að ofan er rétt
+
+Tekið frá bls 73 í bók
+
+In a weak matrix the project manager acts as a staff assistant who draws the schedules
+and collects information
+The project manager has indirect authority to expedite and monitor the project
+The functional manager calls most of the shots and decides who does what  and when
+work is completed
+
+In a balanced matrix, the project manager is responsible for edfining what needs to
+be accomplished and the functional manager is concerned with how it will be 
+accomplished
+
+In a strong matrix, the functional manager has title over his people and is
+consulted on a need basis, and the project manager controls most aspects of the
+project, what specialists do and has final say on major project decisions
+
+Hér virðist því c) vera rétt svar, sterkt fléttuskipulag (strong matrix)
+
+
+-------------------------------------------------------------------------------------
+3. Hver af eftirfarandi fullyrðingum lýsir best þeim breytingum sem hafa orðið í 
+	áherslum verkefnastjórnunar frá stofnun fyrstu erlendu fagfélagana?
+a) Áherslan hefur færst frá því að meta og stýra kostnaði í verkefnum í að tryggja
+	árangur í verkefnum
+b) Áherslan hefur færst frá gerð ítarlegra verkefna- og kostnaðaráætlana í upphafi
+	verkefnis yfir í stjórnun og sveigjanleika verkefna
+c) Áherslan hefur færst frá því að nota einföld verkfæri til áætlanagerðar í að
+	nota flóknari verkfæri til áætlanagerðar
+d) Bæði a) og b) eru rétt
+
+Tekið frá lausn miðannaprófsins:
+Í upphafi var áherslan á að meta og stýra kostnaði verkefna og hvernig
+hægt var að gera ítarlegar verkefnaáætlannir
+En nú hafa þessar áherslur breyst því að verkefni hafa orðið flóknari og 
+hraði og samkeppni er mikilvægur þáttur
+
+Liður d)
+
+
+-------------------------------------------------------------------------------------
+4. Hvert af eftirfarandi lýsir best forgangsröðun þar sem kostnaður er fastur, tíma 
+	á að bæta og umfang má breytast
+a) Seinkanir mega ekki eiga sér stað, ekki má minnka kröfur um árangur og kostnaður
+	þarf að vera í lágmarki
+b) Nýta á tækifæri til að stytta verkefnistíma, tryggja verður árangur en kostnaður 
+	má ekki fara framúr áætlun
+c) Seinkun er leyfileg, ekki má breyta umfangi nema það sé algerlega nauðsynlegt og
+	kostnaður má ekki fara fram úr áætlun
+d) Ef það er mögulegt þá skal tími styttur, umfang má minnka ef það reynist 
+	nauðsynlegt, en kostnaður má ekk fara fram úr áætlun
+
+Spurningin segir að:
+Cost 		: Constrain
+Time 		: Enhance
+Performance	: Accept
+
+Liður a) hefur verkefni sem hefur
+Cost 		: Enhance
+Time 		: Constrain
+Performance	: Constrain
+
+Liður b) hefur verkefni sem hefur
+Cost 		: Constrain
+Time 		: Enhance
+Performance	: Constrain
+
+Liður c) hefur verkefni sem hefur
+Cost 		: Constrain
+Time 		: Accept
+Performance	: Accept
+
+Liður d) hefur verkefni sem hefur
+Cost 		: Constrain
+Time 		: Enhance
+Performance	: Accept
+
+Liður d)
+
+
+-------------------------------------------------------------------------------------
+5. Hvert af eftirfarandi lýsir best næmni flæðirits (Project network sensitivity)
+a) Líkur á því að bundin leið breytist eftir að framkvæmt hefst
+b) Líkur á því að verkefni seinki
+c) Líkur á því að verkefni fari fram úr kostnaðaráætlun
+d) Bæði b) og c)
+
+Tekið frá bls 646
+network sensitivity: The likelihood that the critical path
+will change on a project.
+
+Liður a)
+
+
+-------------------------------------------------------------------------------------
+6. Hvað af eftirfarandi telst til áhættustjórnunar (risk management)
+a) Greiningu áhættu
+b) Mat á óvissu
+c) Viðbragðsáætlun
+d) Bæði a) og c)
+
+Tekið úr töflu bls 213
+The Risk Management Process:
+Step 1: Risk identification
+Step 2: Risk assessment
+Step 3: Risk response development
+Step 4: Risk response control
+
+Step 1 er greining áhættu og Step 4 er viðbragðsáætlun
+
+Liður d)
+
+
+-------------------------------------------------------------------------------------
+7. Hvert af eftirfarandi lýsir best aðstæðum þar sem verkefnastjórar ættu að athuga
+	möguleika á að stytta verkefnið (crash)
+a) Miklu máli skiptir að vöruþróunarverkefni taki sem stystan tíma til að vara komist
+	sem fyrst á markað
+b) Verkefnakostnaður er hár, bæði breytilegur og fastur
+c) Verkefni hefur seinkað og samkvæmt járnþríhyrningnum þá á að nýta tækifæri til að
+	klára verkefnið á sem stystum tíma
+d) Verkefnið hefur mikilvæga vörðu sem þarf að ná
+
+Tekið frá bls 323:
+The need for reducing the project duration occurs for many reasons such as im-
+posed duration dates, time-to-market considerations, incentive contracts, key re-
+source needs, high overhead costs, or simply unforeseen delays.
+
+Hér er hvorki nefndur járnþríhyrningur né neitt um vörður (milestones)
+
+Hinsvegar er talað um time-to-market og líka high-overhead costs, sem gæti 
+bæði átt við, þ.e liði a) og b).
+En liður b) nefnir bæði overhead (fastann kostnað) AND variable cost en það er ekki
+nefnt
+
+Liður a)
+
+
+-------------------------------------------------------------------------------------
+8. Hver af eftirfarandi fullyrðingum lýsir best mun á milli A-vottunar og D-vottunar 
+	í vottunarkerfi IPMA
+a) Verkefnastjóri með A-vottun er fær um að stjórna flóknari verkefnum en 
+	verkefnastjóri með D-vottun
+b) Verkefnastjóri með A-vottun hefur tekið þátt í fleiri verkefnum en verkefnastjóri
+	með D-vottun
+c) Verkefnastjóri með A-vottun hefur meiri menntun á sviði verkefnastjórnunar en
+	verkefnastjóri með D-vottun
+d) Bæði a) og c) er rétt
+
+
+Liður d)
+
+
+-------------------------------------------------------------------------------------
+9. Hver af eftirtöldum fullyrðingum lýsir best eiginleikum skilvirks verkefnastjóra?
+a) Sér til að þátttakendur fylgi upprunalegri verkefnaáætlun
+b) Fær einstaklinga til að leggja sig fram en hvetur um leið til liðsvinnu
+c) Sér til þess að sjálfsmynd (identity) þátttakenda rými við sjálfsmynd 
+	fyrirtækisisn
+d) Útbýr áætlanir sem ekki þarf að breyta eftir að verkefni er hafið
+
+Örugglega a)
+b) er of specific, micro managing
+c) er á ábyrgð þeirra sem velja verkefni
+d) áætlanir breytast
+
+Liður a)
+
+
+-------------------------------------------------------------------------------------
+10. Hvað af eftirfarandi telst EKKI til verkefnastjórnunarferlis skv PMI staðlinum?
+a) Upphaf
+b) Framkvæmd
+c) Gæðastjórnun
+d) Lok
+
+Frá krossaprófi:
+Hvað af eftirfarandi telst EKKI til verkefnastjórnunarferlis
+samkvæmt PMI staðlinum?
+	Upphaf (initiating process)
+	Framkvæmd (executing process)
+	Áhættustýring (risk process)
+	Lok (closing process)
+
+Þarna var rétt svar áhættustýring svo rétt svar núna er gæðastjórnun
+
+Úr skjalinu PMI_2013_PMBOOK.pdf er sagt að project management process groups séu:
+	Initiating process group
+	Planning process group
+	Executing process group
+	Monitoring and controlling process group
+	Closing process group
+
+
+
+

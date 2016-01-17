@@ -1,0 +1,31 @@
+;;; Hönnun
+;;;
+;;;	 Útflutt
+;;;
+;;;		Notkun: s=queue();
+;;;     Fyrir: Ekkert.
+;;;		Eftir s er ný tóm forgangsbiðröð með pláss
+;;;		fyrir ótakmarkaðan fjölda gilda
+;;;		meðan minnisrými tölvunnar leyfir
+;;;
+;;;	 Innflutt
+;;;
+;;;		Notkun: b=s.isEmpty();
+;;;		Fyrir: s er forgangsbiðröð
+;;;		Eftir: b er satt þþaa s er tóm
+;;;
+;;;		Notkun: s.putIn(x);
+;;;		Fyrir: s forgangsbiðröð, x er gildi
+;;;			   af þeirri gerð sem s getur innihaldið
+;;;		Eftir: búið er að bæta gildinu x í s,
+;;;			   með því að nota samanburðaraðgerðina <<<
+;;;
+;;;		Notkun: x=s.remove();
+;;;     Fyrir: s er forgangsbiðröð, ekki tóm
+;;;		Eftir: Búið er að fjarlægja fremsta gildið
+;;;            úr s sem er x
+;;;
+;;;		Notkun b=x<<<y;
+;;;     Fyrir: x og y eru gildi af þeirri gerð sem við
+;;;			   viljum að forgangsbiðröð getur innihaldið
+;;;		Eftir: b er satt ef x á að vera á undan y

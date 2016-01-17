@@ -1,0 +1,69 @@
+Klárað: Nei
+
+void f(x,y)
+{
+	x = 2;
+	print x,y;
+	y = 1;
+}
+
+int i, a[10];
+for( i = 0; i != 10 ; i++) a[i] = i;
+f( a[0], a[a[0]]);
+print a[0],a[1],a[2]
+
+What does this program write if the arguements are:
+	-passed by value
+	-passed by reference
+	-passed by name
+
+Pass by name
+	Line:
+	11: initialize a[0] = 0, a[1] = 1...
+	12: call f(0,0)
+	 3: x and y are valued as 0 and 0
+	 5: x is re-valued as 2
+	 6: print x,y = print 2 0
+	 7: y is re-valued  as 1
+	13: print a[0], a[1], a[2] = print 0 1 2
+
+Pass by reference
+	Line:
+	11: In memory, there is created a list from 0..9 having values [0 1 2 ... 9]
+		Furthermore, variables a[0], a[1], .. a[9] so 
+		[0 1 2 ... 9 a[0] a[1] a[2] ... a[9]]
+		where a[0] has a pointer the first element, which is 0
+		a[1] has a value to the second element, which is 1 
+		etc
+	12: call f(a[0],a[0]) = f(0,0)
+	 3: variables x and y are created and added to the queue
+		[0 1 2 ... 9 a[0] a[1] a[2] ... a[9] x y]
+		and given pointers to the same elements that a[0] points to, the first element, 0
+	 5: The element x points  to, the first element in the queue, 0, is changed to 1
+		[2 1 2 ... 9 a[0] a[1] a[2] ... a[9] x y]
+	 6: print x,y. Print the values x and y point to, the first element in the queue
+	    print 2 2
+	 7: The element y points to is canged to 1
+		[1 1 2 ... 9 a[0] a[1] a[2] ... a[9] x y]
+	13: print a[0], a[1], a[2] = print 1 1 2
+
+Pass by name
+	Line:
+	 6: print x,y
+	 	Need to back up to line 5
+	 5: x is evaluated as 2. Back up to line 3
+	 3: y is evaluated as calling arguement 2, a[a[0]]. Back up to line 12
+	12: y is evaluated as a[a[0]], a[0] = x and x = 2 so y = a[2]. Back up to line 11
+	11: a[1] is evaluated as 2
+	Back to line 6
+	 6: print x,y = print 2 2
+	 7: y is evaluated as 1
+	13: print a[0], a[1], a[2]. a[0] is x, a[1] is y and a[2] gets evaluated as 1
+		print 2 1 1
+
+
+
+
+
+
+

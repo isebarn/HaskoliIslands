@@ -1,0 +1,11 @@
+Klárað: Nei
+
+Skrifa fall s í Scheme með notkunarlýsinguna
+
+Notkun: (s f x g)
+Fyrir : f er tvíundarfall og g er einundarfall
+Gildi : Fall h þ.a segðin (h z) skilar sama gildi og (f x (g z))
+
+Scheme	: 2014 - Dæmi 12.scm í möppunni Scheme
+Haskell : 
+CAML 	: 

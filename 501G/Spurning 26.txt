@@ -1,0 +1,2 @@
+Implement the entity classes that are needed to let the Java Persistence API
+handle the storage and retrieval of the following objects: [...]

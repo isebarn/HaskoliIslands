@@ -1,0 +1,69 @@
+Glósa upp úr fyrirlestrum og viðeigandi kafla
+1 Explain how software can be both a product and a vehicle that delivers a
+product, and argue what that means for its creation process.
+2 Explain the difference between sequential, iterative-incremental, agile and plan-
+driven process models.
+3 Discuss how Eisenhower’s statement “I have always found that plans are
+useless, but planning is indispensable” could be interpreted in the context of
+software engineering.
+
+Sample Questions: The Unified Process
+4 Explain the relationship of phases and activities in the Unified Process.
+5 Explain how the phases of the Unified Process differ from the phases of the
+waterfall model.
+6 Explain how the goals of the Inception and Elaboration phase in the Unified
+Process differ.
+
+Sample Questions: Project Vision and Use Cases
+7 Give an example of a vision statement that could appear in a RUP Vision and
+Scope Document.
+8 Point out issues with the following use cases: [...]
+9 Explain the difference between use cases and user stories.
+10 Discuss if user interface descriptions should be part of a use case.
+
+Sample Questions: Project Management
+11 Name two categories of project risks, and give two examples for each of them.
+12 Explain how a risk-value matrix helps to prioritize risks.
+
+Sample Questions: Software Architecture
+13 Explain the difference between internal and external quality attributes, and give
+two examples of each.
+14 Explain how quality requirements can influence the design and implementation
+of a system, and why they may require trade-offs.
+15 Argue which of the following quality scenarios have no architectural impact: [...]
+
+Sample Questions: Domain Models
+16 Discuss advantages and limitations of using category lists to identify conceptual
+classes.
+17 Assume that an online store sells a variety of items that users can customize
+(e.g. t-shirts in different sizes; coffee mugs with custom lettering etc.). Draw a
+UML class diagram (as part of a domain model) showing how these items are
+listed in the store’s inventory and in a customer’s order.
+18 Explain the different meanings of arrows in UML sequence diagrams in a
+domain model vs. in a design model.
+
+Sample Questions: Behavior Modeling
+19 Explain the difference between a decision node and a fork node in a UML
+activity diagram.
+20 Point out the modeling errors in the following UML activity diagram: [...]
+21 Draw a UML state machine diagram modeling the following scenario: [...]
+
+Sample Questions: Design Models and Patterns
+22 Explain the issue addressed by the Creator and Expert Principles, and the
+solution strategy recommended by them.
+23 Assume you are asked to build a solution for the following scenario: [...] Draw a
+UML class diagram (as part of a design model) illustrating your solution, using a
+suitable design pattern.
+24 Explain which design pattern has been used in the following model, and argue
+whether you would have made the same choice: [...]
+
+Sample Questions: Web Applications
+25 Modify the following implementation of a Java class so it can function as a
+controller in the Spring Web MVC framework: [...]
+26 Implement the entity classes that are needed to let the Java Persistence API
+handle the storage and retrieval of the following objects: [...]
+27 Modify the following implementation of a JavaServer Page so that it displays the
+property name of the object user that is stored in the current session, as well as
+the request parameter language: [...]
+28 Argue which HTTP request method you would use in order to transfer the
+following data from a client to a server: [...]

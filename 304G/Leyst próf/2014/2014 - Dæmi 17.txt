@@ -1,0 +1,27 @@
+Klárað: Já
+
+Hvert er sniðmengi málanna A og B og nefndu 3 strengi sem eru í sniðmenginu og 3 strengi
+	sem eru í sniðmenginu en ekki í sameiningunni
+
+Mál A
+	<A> ::= x <A> z
+	<A> ::= <B>
+	<B> ::= y <B> epsilon
+	<B> ::= epsilon
+
+
+Mál D
+	<D> ::= x <D> 
+	<D> ::= <E>
+	<E> ::= y <E> z
+	<E> ::= epsilon
+
+Sniðmengi:
+
+<F> ::= x <F> y <G> z 
+<G> ::= epsilon
+
+Í sammenginu er m.a x, xx, xxx sem er ekki í sniðmenginu
+Í sniðmenginu er 
+
+fuu veit ekkert 

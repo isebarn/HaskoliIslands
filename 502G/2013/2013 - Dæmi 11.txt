@@ -1,0 +1,9 @@
+Klárað: Já
+
+Fyrirtæki hefur vél sem kostar 7.750.000 í rekstri á ári
+Ef hægt er að kaupa vél sem endist í 4 ár og kostar árlega 3.575.000 í rekstri
+	hvað má þá kostnaðarverð þeirrar vélar vera til að það borgi sig að kaupa hana
+	ef að fjármagnskostnaður er 15%?
+
+	Set 7.750.000-3.575.000 inn í NPV jöfnuna og reikna með r = 15%
+	Fæ 11.919.534

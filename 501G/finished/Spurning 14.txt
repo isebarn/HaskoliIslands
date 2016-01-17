@@ -1,0 +1,11 @@
+Explain how quality requirements can influence the design and implementation
+	of a system, and why they may require trade-offs.
+
+	Quality requirements obviously shape the design in the inception and elaboration phase
+		and the implementation in the construction phase aswell
+	The architectural analysis is largely concerned with the quality attributes, namely identifying
+		them with the aim of bringing focus to those that are of most value
+	Architectural analysis yields a factor table that details all the quality requirements dressed
+		up as scenarios, sorted by difficulty and priority for success
+		The architect can then, more or less, make trade-offs having a clear view of priorities
+			and interdependancies

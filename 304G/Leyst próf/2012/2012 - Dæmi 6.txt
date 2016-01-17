@@ -1,0 +1,8 @@
+Klárað: Já
+
+Skrifa fall í Scheme, Morpho, CAML eða Haskell sem að finnur minnsta hágildið í lista af listum
+
+Scheme	: 2012 - Dæmi 6.scm í möppunni Scheme
+Haskell	:
+CAML	:
+Morpho	:

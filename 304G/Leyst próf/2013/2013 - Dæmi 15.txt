@@ -1,0 +1,18 @@
+Klárað: Nei
+
+Hef tvö mál
+(x(x(x(xy)*y)*y)*y)* 
+og
+S ::= x <S> y <S> | epsilon
+
+Sýni þrjá strengi sem eru í báðum málunum og þrjá strengi sem eru í öðru málinu
+en ekki í hinu
+
+!!!Ekki viss hvernig ég á að túlka fyrra málið!!!
+
+Seinna málið streng sem hefur n-fjölda af x-um og síðan n-fjölda af y-um
+Fyrra málið hefur einhvern fjölda af endurtekningunni xy, t.d xyxyxy, og síðan er xyxyxy endurtekið nokkrum sinnum með x og y utanum sig, t.d xxyxyxyyxxyxyxyy
+og aftur það sama, mögulega xxxyxyxyyyxxxyxyxyyy og einusinni enn
+
+Því hefur fyrra málið t.a.m xy, xxyy eða tóma strenginn og seinna málið hefur líka xy, xxyy eða tóma strengin
+Hinsvegar hefur fyrra málið t.a.m xxyxyy eða xxxyxyyy en seinna málið ekki

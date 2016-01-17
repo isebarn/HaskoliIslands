@@ -1,0 +1,50 @@
+c7
+
+1. Project risks can/cannot be eliminated if the project is carefully planned.
+	Explain.
+
+	There can always something occur that wasnt forseen. Additionally, not all risk
+		is eliminated, it may be reduced in terms of likelyhood or probability, transferred
+		or simply accepted
+
+2. The chances of risk events occurring and their respective costs increasing
+	change over the project life cycle. What is the significance of this phenomenon
+	to a project manager?
+
+	A project manager should be monitoring all risk events
+
+3. What is the difference between avoiding a risk and accepting a risk?
+
+	Avoiding a risk entails fx reducing its likelyhood or simply changing the plan
+		to avoiding it completely
+	Accepting it means that there is nothing that can be done, economically or virtually
+
+4. What is the difference between mitigating a risk and contingency planning?
+	
+	Mitigating is simply accepting, but a contingency plan is developed as a response that
+		will be executed when the risk event materializes
+
+
+5. Explain the difference between budget reserves and management reserves.
+	
+	Budget reserves are padding on a work packet budget to ensure a work package doesnt run
+		out of money if a small extra ammount is needed
+	Management reserves are to cover huge risks
+
+6. How are the work breakdown structure and change control connected?
+
+	Change control affects the work breakdown structure, as if a change occurs, the scope changes
+		and in turn the WBS also changes
+
+7. What are the likely outcomes if a change control process is not used? Why?
+	
+	The changes wont go through properly
+	If nobody is assigned to implement the changes, they wont be made
+	If info regarding the changes arent communicated, relevant stakeholders wont be aware of the 	changes
+	If the budget is not adjusted, there will be a discrepancy in the budget that might have
+		a negative effect
+
+8. What are the major differences between managing negative risks versus positive
+	risks (opportunities)?
+
+		There isnt

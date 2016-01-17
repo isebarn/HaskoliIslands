@@ -1,0 +1,2 @@
+Argue which HTTP request method you would use in order to transfer the
+	following data from a client to a server: [...]

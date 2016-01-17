@@ -1,0 +1,47 @@
+"play.mexe" = main in
+!
+{{
+
+main =
+	fun()
+	{
+
+		val y = god();
+		writeln(listMaker(y,5));
+		writeln(fromByTo(1,3,5));
+		
+	};
+
+god =
+	fun()
+	{
+		rec val heil = #[1 $ streamMap(fun(z){1+z},heil)];
+	};
+
+listMaker =
+	fun(x,n)
+	{
+		if(n > 0){
+			return streamHead(x) : listMaker(streamTail(x), n-1);
+		}
+	};
+
+fromByTo =
+	fun(i,j,k)
+	{
+	rec fun halp(i,delta,k)
+		{
+			if(i <= k)
+			{
+				return i : halp(i+delta,delta,k);
+			}
+		};
+	var delta = j-i;
+	halp(i,delta,k);
+	};
+
+
+}}
+*
+BASIS
+;

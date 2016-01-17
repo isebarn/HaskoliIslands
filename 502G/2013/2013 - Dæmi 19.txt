@@ -1,0 +1,18 @@
+Klárað: Já
+
+Lán
+18 milljónir
+1% lántökugjald
+1.5% stimpilgjald
+Þinglýsingargjald 2000
+Greiðsluseðilsgjald 350
+10 ára lán
+
+a) Hversu há greiðsla vaxta af láninu yfir lánstímann
+b) Hlutfallstala
+
+Nota TOTLOAN til að sjá hvert heildarlánið er, 18.463.589
+Nota JAFNAFB til að fara í gegnum allt lánið. Afb er 1.846.359 í hverri afborgun
+Heildarborgun er 26.587.568, svo kostnaður var 8.123.979
+
+Hlutfallstala fæst með  HLFLTALA og er 1%

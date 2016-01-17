@@ -1,0 +1,31 @@
+Klárað: Nei
+Dæmi 2
+A
+-----Hvað er stýrihlekkur*?-----
+Stýrihlekkur er bendir sem vísar á botninn á vakningafærslu
+Stýrihlekkir eru notaðir til að fá aðgang að óstaðværum breytum í dynamic forritunarmálum
+
+-----Hver er tilgangur stýrihlekks?------
+Ef vakningafærslur eru geymdar á hlaða, þá bendir stýrihlekkurinn á næstu vakningafærslu hlaðans,
+en sú vakningafærsla er sú sem að kallaði á fallið
+Halaendurkvæmni fæst með því að láta stýrihlekkinn benda á vakningafærsluna benda á það stef sem
+á að fá niðurstöðuna
+
+-----Hvernig keðju færðu ef þú gengur í gegnum þau minnissvæði 
+-----sem stýrihlekkir tengja saman í keðju?-----
+Stýrihlekkir tengja saman vakningafærslur, og slík keðja lýsir keyrslu forritsins
+Þ.e safn stýrihlekkja í hlaða kallast stýrikeðjan og 
+
+-----Hvaða minnissvæði og hversskona eru fremst í keðjunni, næstfremst og aftast?-----
+???????????? 10.3.2 í bók
+
+B
+-----Hvað er aðgangshlekkur*?-----
+Aðgangshlekkir/Tengihlekkir eru bendar sem benda neðst á vakningafærslu foreldris síns, þ.e fallið sem kallaði
+
+-----Hver er tilgangur aðgangshlekks?------
+Tilgangurinn er að ef fall A kallar á fall B, þá getur B notað breyturnar sem eru í A
+
+-----Hvernig keðju færðu ef þú gengur í gegnum þau minnissvæði 
+-----sem aðgangshlekkir tengja saman í keðju?-----
+10.4.2 í bók

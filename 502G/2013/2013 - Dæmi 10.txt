@@ -1,0 +1,11 @@
+Klárað: Já
+
+Krafa er um 6% raunávöxtun þar sem verðbólga er 5%. Hver er nafnávöxtunin?
+
+(1 + y) = (1 + yr ) · (1 + v)
+
+y eru nafnvextir
+yr eru raunávöxtun
+v er verðbólga
+
+y verður 11.3%

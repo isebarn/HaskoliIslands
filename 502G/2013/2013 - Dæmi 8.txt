@@ -1,0 +1,19 @@
+Klárað: Já
+
+Finn innri vexti verkefnis sem kostar 120 og gefur árlega 40 í 5 ár
+
+Nota IRR í casio
+
+1.1 +31
+1.2 -.37
+1.3 -22
+
+1.195 +
+1.197 +
+1.199 -
+
+1.1985 +
+1.1987 -
+1.1989 -
+
+1.1988 eða 19.8%

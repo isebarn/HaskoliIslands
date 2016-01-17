@@ -1,0 +1,32 @@
+Klárað: Já
+
+Útskýri eftirfarandi hugtök:
+a) PMBoK
+b) Product Backlog
+c) Fossalíkan
+d) Tæknivídd
+e) Samskiptaáætlun
+
+
+PMBoK
+Project Management Body of Knowledge. A guide that has all the accumulated knowledge
+	that is generally recognized as a good practice
+
+Product Backlog
+A prioritized list of project requirements with estimated time to turn them into 
+	complete product functionality. I.e a log that defines each feature and its cost
+
+Fossalíkan/Waterfall
+In the waterfall model the project is planned by defining all requirements up front, abd then
+	a design is initiated, a build, integration, testing and deployment
+
+Tæknivídd
+Tæknivídd er einn hæfnisþátta verkefnastjóra, sá þáttur sem að snýr að því að byrja verkefni,
+	stýra því og verklokum
+	Tæknivíddin telur upp vinnu í kringum hagsmunaaðilla, áhættu og tækifæri, gæði,
+	śtjórnskipulag, hópvinnu, úrlausn vandamála, greiningu verka, umfang, kostnað, tíma, 
+	aðföng, breytingar, samninga, upplýsingar, samskipti, ræs og lok verkefnis
+
+Samskiptaáætlun/Communication plan
+A plan that defines information to be collected and distributed to stakeholders based on 
+	their requirements

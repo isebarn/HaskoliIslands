@@ -1,0 +1,16 @@
+Klárað: Nei
+
+Fyrirtæki hefur 5 milljón hluta
+Markaðsvirði hvers hlut er 9ISK
+Útistandandi skuldir eru bundnar í 25.000 skuldabréfum 
+Hvert skuldabréf hefur virði 1.000 ISK
+Söluverð bréfa eru 1.100 ISK með gjalddaga eftir 12 ár
+Af bréfunum eru greiddir 8.5% vextir sem eru borgaðir árlega
+Beta er 1.4
+Áhættulaus ávöxtun er 5%
+Ávöxtunarkrafa markaðs er 14%
+Skattur er 14%
+
+Fæ að stock rate er 17.6% útfrá forriti Beta
+Fæ að WACC er 1.007878 útfrá forriti WACC
+

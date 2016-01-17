@@ -1,0 +1,6 @@
+Klárað: Já
+
+Smíða straum allra jákvæðra oddatalna í Scheme eða Morpho
+
+Scheme : 2012 - Dæmi 9.scm í möppunni Scheme
+Morpho : 

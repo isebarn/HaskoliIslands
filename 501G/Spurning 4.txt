@@ -1,0 +1,23 @@
+Klárað: Nei
+
+Explain the relationship of phases and activities in the Unified Process.
+
+ In the UP development is organized into a series of short mini-projects called iterations. Iterations
+	are done over different phases
+
+The UP organizes the project work and iterations into four phases
+1. Inception - Approximate vision, business case, scope and make ballpark estimates
+2. Elaboration - Refine the vision and iteratively implement the core architecture, resolute
+	high risk scenarios, identify most requirements and scope and further refine estimates
+3. Construction - Iterative implementation of the remaining lower risk and easier elements
+4. Transition - Beta testing and deployment
+
+These phases are then further broken down into iterations, f.x the Elaboration phase might have 3 iterations while
+	the construction phase could have 8 phases, and the transition phase only 2. The inception phase typically 
+	consists of a single iteration
+
+An activity of a specific worker is a unit of work that an individual in that role may be asked to perform
+
+An activity has a clear purpose, usually expressed in terms of creating or updating some artifacts like a 
+	model, plan, class etc
+	Every activity is assigned to a specific worker and is thought to take a few hours or a few days

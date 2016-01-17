@@ -1,0 +1,38 @@
+Explain the difference between internal and external quality attributes, and give
+	two examples of each.
+
+	External and Internal
+
+	External qualities are those users perceive when using the software, like performance and
+		efficiency, reliability, ease of use etc. All these qualities make up the groups "overall
+			functionality" and "relayability" and "usability"
+		These can be measured using a few experts or testers
+
+	Internal quality are qualities that developers would find by looking at the code itself
+	Cohesion, where objects/classes are responsible for a single thing and do that thing efficiently
+	Low coupling, meaning that there are, preferably but unrealistically, no interdependencies 
+		between objects
+	Clairity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Internal quality attributes: Efficiency, Modifiability, Portability, Reusability, Scalability, Verifiability
+External quality attributes: Availability, Installability, Integrity, Interoperability, Performance, Reliability, Robustness, Safety, Security, Usability

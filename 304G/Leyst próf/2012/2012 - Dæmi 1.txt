@@ -1,0 +1,25 @@
+Klárað: Já
+
+Lýsi hvernig vakningarfærrslur í bálkmótuðum forritunarmálum eru tengdar saman 
+	með stýrihlekkjum og aðgangshlekkjum.
+	Lýsi einnig hvernig hlekkir eru notaðir til að ná aðgangi við breytur í öðrum
+	földunarhæðum
+
+Ef að vakningarfærslur eru geymdar á hlaða (stack), þá bendir stýrihlekkurinn á næstu
+	vakningarfærslu á hlaða, sem er sú vakningarfærsla stefsins sem að kallaði
+	Tengihlekkurinn bendir á vakningarfærslu stefsins sem inniheldur stefið sem um ræðir
+	Þ.e.a.s tengihlekkurinn bendir á vakningarfærslu foreldris síns
+
+
+Ef vakningarfærslur eru í kös (heap) þá bendir stýrihlekkurinn á vakningarfærslu
+	þess stefs sem kallaði, en þá má einnig láta stýrihlekkinn benda á vakningarfærslu
+	þess stefs sem á að fá niðurstöðuna úr kallinu, sem gefur kost á halaendurkvæmni
+
+
+Í forritunarmálum sem eru EKKI bálkmótuð er ekki neinn tengihlekkur, enda ekkert 'foreldri'
+	til að benda á
+
+
+Tengihlekkir gera okkur kleyft að ná aðgangi við breytur í efri földunarhæðum, en eins og 
+	fyrr var nefnt þá vísar tengihlekkur stefs í foreldri sitt, sem hefur að auki sinn eigin
+	tengihlekk við sitt eigið foreldri o.s.f

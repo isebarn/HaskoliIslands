@@ -1,0 +1,25 @@
+Klárað: Nei
+
+Hef tvö mál
+
+(x(x(x(xy)*y)*y)*y)*
+
+og
+
+S ::= x <S> y <S> | epsilon
+
+a) Er þetta sama málið?
+b) Ef eki, lýsi málunum og sýni streng sem er í einu málinu sem er ekki í hinu
+c) Ef þau eru sama málið, lýsi því
+
+a)
+	Ekki sama málið.
+b) 
+	Fyrra málið lýsir einhverjum fjölda af endurtekningunni xy..., og utan um það
+		er x vinstra megin og y hægra meginn, og allt endurtekið eitvert sinnum, td
+		x xyxy y x xyxy y
+		Seinna þrepið er svo endurtekið einusinni í viðbót
+		x x xyxy y x xyxy y y 
+	Seinna málið hefur einhverja blöndu af ákveðnum fjölda x-a  og svo blöndu af y og x
+	Jafn mörg x og y
+

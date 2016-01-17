@@ -1,0 +1,28 @@
+Klárað: Nei
+
+Hef földunina
+
+P
+	Q
+
+	R
+		S
+
+Hver getur kallað á hvern og hver getur kallað á breytur hvers?
+
+Reglurnar eru:
+1. Fall getur kallað á barnið sitt, systkyni sín og á foreldri sitt og allt það sem
+	að foreldi þess getur kallað á
+2. Fall getur sótt breytur beint uppávið
+
+Það þýðir að:
+
+Hægt er að kalla á P frá P,Q,R,S
+Hægt er að kalla á Q frá P,Q,R,S
+Hægt er að kalla á R frá P,Q,R,S
+Hægt er að kalla á S frá R,S
+
+Hægt er að kalla á breytur P frá P,Q,R,S
+Hægt er að kalla á breytur Q frá Q
+Hægt er að kalla á breytur R frá R,S
+Hægt er að kalla á breytur S frá S

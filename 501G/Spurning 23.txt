@@ -1,0 +1,3 @@
+Assume you are asked to build a solution for the following scenario: [...] Draw a
+	UML class diagram (as part of a design model) illustrating your solution, using a
+	suitable design pattern.

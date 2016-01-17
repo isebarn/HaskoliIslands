@@ -1,0 +1,4 @@
+Klárað: Nei
+
+Skrifa hönnunarskjal fyrir fjölnota einingu í Morpho sem raðar lista gilda af óþekktri gerð.
+Úr einingunni skal verae útflutt aðgerð til að raða og innfluttar skulu vera aðgerðir til að bera gildi saman

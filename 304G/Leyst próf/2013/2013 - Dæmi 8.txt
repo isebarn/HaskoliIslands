@@ -1,0 +1,7 @@
+Klárað: Nei
+
+Gera fall sem pússlar saman föllum í nýtt
+
+Scheme	: 2013 - Dæmi 8.scm
+Haskell	:
+CAML	:

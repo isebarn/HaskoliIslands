@@ -1,0 +1,6 @@
+Klárað: Já
+
+Fyrirtæki gerir 130 fjarfestingu. Fyrirtækið gerir kröfu um 16% arðsemi
+	Hvert er framtíðarvirði eftir 10 ár?
+
+	130*1.16^10 = 573 

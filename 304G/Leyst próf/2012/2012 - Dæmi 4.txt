@@ -1,0 +1,18 @@
+Klárað: Já
+
+a) Hvaða upplýsingar eru geymdar í vakningarfærslum
+b) Hvaða hlutir eru/eru ekki í vakningarfærslum bálkmótaðra forritunarmála vs annara mála
+c) Nefni tvö forritunarmál sem geyma vakningarfærslur á hlaða og tvær sem geyma í kös
+
+Activation records include:
+-Local variables
+-Arguements
+-Control link
+-Return address
+
+Block structured languages also have an access link, which allows for tail recursiveness
+
+Scheme, Lisp, Haskell and ML keep their activation records in the heap, while they are in the
+	stack in Standard Pascal and CAML
+
+Having activatoin records on the heap enables them to return a function as a value from a function

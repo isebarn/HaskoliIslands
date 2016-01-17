@@ -1,0 +1,19 @@
+Klárað: Já
+
+Give arguements that support the statement that in order for a block-structured 
+	programming language to allow a function to be returned as a value from a function then activation records should be stored on the heap rather than on a stack.
+Describe the proglems that arise if activation records are on a stack
+
+Everything on the stack is considered to be "in use", so memory allocated to the
+	stack gets retured automatically when a method returns. The heap on the other
+	hand is structured in such a way that  instead of memory automatically being 
+	released, a garbage collectioning algorithm scans it to free up elements that
+	have no pointers (i.e not "in use" anymore)
+
+	If we store activation records on the stack, once a activation record returns it
+	is simply popped from the stack, as the "stack" consideres it having completed
+	its run, even though some other access link points to it
+
+	However, if we had our activation records on the heap, it would be easy to have
+	link in the stack point to activation records in the heap, to determine which ones
+	should be marked as "in use" and which ones not

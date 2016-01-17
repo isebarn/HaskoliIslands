@@ -1,0 +1,26 @@
+Klárað: Nei
+
+Tek 20.000 lán
+1 mánuð
+Kostnaður 570
+Seðilgjald 164
+Aukagjald fyrir flýtiþjónustu 5500
+
+a) Hver er árleg hlutfalstala kostnaðar fyrir smálánið?
+b) Hvaða rök getur smálánafyrirtækið fært fyrir því að hlutfalstala kostnaðar sé innan
+	marka um hámark 50% ársvexti sem lög kveða á um?
+
+a) Hlutfallstalan er reiknuð með því að
+	(Gjöld í lok tímabils)/(Gjöld í upphafi tímabils) - 1
+
+	Gjöld í lok tímabils:
+		Heildarupphæðin + vextir + greiðslugjald etc
+
+	Gjöld í upphafi tímabils:
+		Heildarupphæðin - lánsgjöld - stimpilgjald - (flýtigjöld ?)
+
+	I.e gjöld í lok tímabils er það sem lánsþeginn (þú) þarf að borga í peningum
+
+	I.e gjöld í upphafi tímabils eru öll bullgjöldin
+
+	Fæ 54% útúr þessu sem er örugglega ekki rétt fuufuu

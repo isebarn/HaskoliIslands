@@ -1,0 +1,56 @@
+c3
+
+1. What are the relative advantages and disadvantages of the functional, matrix,
+	and dedicated team approaches to managing projects?
+
+	Functional:
+		Requires no restructuring, staff is flexible, easy transition out of projects and
+			epertise on projects with a narrow scope
+		Lack of focus, poor integration, slow and lack of motivation
+
+	Dedicated teams:
+		Fast, high quality, cohesiveness, simple and memebers can be chosen more specifically
+		However, more expensivee, dificulties in transitioning back into everyday work once project
+			completes, limited tech knowledge
+	Matrix:
+		Efficient as there is never downtime for employees. Strong project focus and easy 
+			post-project transition
+		Stressfull, slow and dysfunctional conflicts between functional and project manager
+
+
+2. What distinguishes a weak matrix from a strong matrix?
+	In a weak matrix the functional manager has the final say in decisions but in strong
+		matrices the project manager calls the shots
+	Additionally, in a weak matrix there is not much difference from the functional organization
+		except that a dedicated manager is overseeing the project, otherwise the usual hierarchy
+		is in place, but in a strong matrix there is effort put into making if "feel" like there
+			is a dedicated team effort in progress
+
+3. Under what conditions would it be advisable to use a strong matrix instead of
+	a dedicated project team?
+
+	Where project integration is important and control over costs and the overall project is
+		more important than technical quality of the product 
+
+4. How can project management offices (POs) support effective project
+	management?
+
+	They monitor progress. Improve performance with consultation and trianing. They also provide
+		training for project managers to improve their skills 
+
+5. Why is it important to assess the culture of an organization before deciding
+	what project management structure should be used to complete a project?
+
+	Some organizational cultures cannot support some types of management
+
+6. Other than culture, what other organizational factors should be used to deter-
+	mine which project management structure should be used?
+
+	How much of work performed is project work
+
+
+7. What do you believe is more important for successfully completing a project—
+	the formal project management structure or the culture of the parent
+	organization?
+
+	Project management structure

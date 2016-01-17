@@ -1,0 +1,5 @@
+Klárað: Nei
+
+Samanburður á mark&sweep og stop&copy m.t.t tímagróðann sem fæst af því að stækka minnið sem notað er undir kös
+Er önnur betri en hin?
+

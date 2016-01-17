@@ -1,0 +1,35 @@
+c5
+
+1. Why are accurate estimates critical to effective project management?
+	They support good decisions, schedule work, cost and time. They help deciding wheter
+		a project should be accepted or not
+	During a project, estimates also help clairifying where a project should be at time, 
+		quality and budget wise
+
+2. How does the culture of an organization influence the quality of estimates?
+	
+	Some organizations may fx allow padding or at least tolerate it as a human factor
+		that cannot be circumvented
+		Other organizations might even encourage padding, while others may even
+			look strongly against it and prohibit it
+
+3. What are the differences between bottom-up and top-down estimating
+	approaches? Under what conditions would you prefer one over the other?
+
+	If a project has a loosely defined scope or if a project is small enough for 
+		top managers to accurately estimate it, they do. Consequently, projects that 
+		have huge uncertainty are handled by top managers
+	When projects have a fixed price or a tight schedule they must be estimated by the people
+		that will execute the plan. In addition, if customers want to be involved in decisions 
+		estimates are made on the work package level
+
+
+4. What are the major types of costs? Which costs are controllable by the project
+	manager?
+
+	General and administrative
+	Overhead
+	Direct costs
+
+	Project manager can control to some degree the direct cost by negotiating contracts, materials,
+		salary etc

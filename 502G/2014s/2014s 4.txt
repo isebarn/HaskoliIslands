@@ -1,0 +1,4 @@
+a) Hversu háir ársvextir jafngilda 1.2% veldisvöxtum á mánuði?
+b) Hversu hárir ársvextir jafngilda 1.2% samfeldum mánaðarvöxtum?
+
+1.012^12 og exp(0,012*12)

@@ -1,0 +1,1 @@
+Draw a UML state machine diagram modeling the following scenario: [...]

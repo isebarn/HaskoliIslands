@@ -1,0 +1,46 @@
+c9
+1. What are five common reasons for crashing a project?
+	Some contracts offer a reward for completing early
+	Delays can occur and getting the project back on schedule may be neccesary
+	Business survival is dependant on rapid innovation and delivery
+	Overhead costs and fixed costs can be significant
+	A promised deadline
+
+
+2. What are the advantages and disadvantages of reducing project scope to
+	accelerate a project? What can be done to reduce the disadvantages?
+
+	Reducing the scope is sugar talk for saying "making the product less good"
+	Its simply reducing functionality.
+	However that isnt necessarily such a bad thing. The scope can be re-evaluated to 
+		notice better the functionalities that are of true value, meanwhile finding 
+		functionalities that dont really add value to the project, or not significant enough
+
+3. Why is scheduling overtime a popular choice for getting projects back on
+	schedule? What are the potential problems for relying on this option?
+
+	Scheduling overtime increases performance significantly without adding terrible costs. 
+	If lucky, there will be many employees that would gladly accept some overtime.
+	Adding overtime does cost, but not as much as other alternatives. You can always hire new people, but hiring new personell mid-project wont increase productivity linearily, as new 
+	personell wont show up and become 100% eficient, they need time to catch up on the project, while workers doing overtime will simply begin (or rather continue) working
+
+	The drawback of overtime is obvious, there can only be a certain amount of overtime before 
+	workers become tired, decreasing overall productivity
+
+4. Identify four indirect costs you might find on a moderately complex project.
+	Why are these costs classified as indirect?
+
+	Management. Housing. Accounting. Interests. Consultants. 
+
+5. How can a cost–duration graph be used by the project manager? Explain.
+
+	Helps him manage costs so they dont overrun, fx by having gone through 75% percent of the budget when the project is only 50% complete
+
+6. Reducing the project duration increases the risk of being late. Explain.
+
+
+
+7. It is possible to shorten the critical path and save money. Explain how.
+
+	Crashing a task on the critical path might cost 100$, and shorten the total project duration
+		by 1 week, and 1 week's housing rent, in addition to overhead, salary etc may cost 300$, saving 200$ and being faster

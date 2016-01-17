@@ -1,0 +1,10 @@
+Point out issues with the following use cases: [...]
+
+2-1
+Consider an ATM system. Identify at least three different actors that interact with this system.
+
+Customer
+ATM maintainer
+Central bank computer
+Thief (a misactor)
+

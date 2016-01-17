@@ -1,0 +1,7 @@
+Assume that an online store sells a variety of items that users can customize
+	(e.g. t-shirts in different sizes; coffee mugs with custom lettering etc.). 
+
+Draw a UML class diagram (as part of a domain model) showing how these items are
+	listed in the store’s inventory and in a customer’s order.
+
+	

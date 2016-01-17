@@ -1,0 +1,6 @@
+Klárað: Nei
+
+Skrifa hönnunarskjal fyrir fjölnota biðröð í Java eða Morpho
+
+Java	: queue.java í möppunni Java
+Morpho	: 

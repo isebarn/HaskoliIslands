@@ -1,0 +1,6 @@
+Klárað: Já
+
+Sýni BNF, EBNF eða málrit fyrir mál lambda-segða með svigum, a,b og c og lambda-segðum
+
+E ::= ( E ) | E E | V | LV.E
+V ::= x | y | z

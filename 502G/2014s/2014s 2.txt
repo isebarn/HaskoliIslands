@@ -1,0 +1,8 @@
+Sjóður fór úr 17 í 81.3 á 15 árum
+Hverjir eru vextirnir?
+
+A = P(1+r)^15
+
+r = (A/P)^(1/15)-1
+
+11%

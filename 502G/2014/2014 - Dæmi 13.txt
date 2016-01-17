@@ -1,0 +1,26 @@
+Klárað: Nei
+
+Tveir fjárfestingakostir, A og B
+Covariance verkefna er pAB = 0.1
+
+	A
+		Vænt ávöxtun: xA = 12%
+		Staðalfrávik: xA = 14%
+
+	B
+		Vænt ávöxtun: xB = 20%
+		Staðalfrávik: xB = 28%
+
+a) Hver er vænt ávöxtun safns með fjárfestingahlutfall wA = 0.8 og wB = 0.2
+b) Hver er dreifnin fyrir fjárfestingarsafnið?
+c) Á hvaða meginþáttum byggir óvissan í niðurstöðunni um ávöxtum og áhættu
+	í dæminu? 
+
+a)
+	Jafnan fyrir vænta ávöxtun er S = (xA pA) + (xB pB) + (2 xA xB pAB)
+
+b)
+
+
+
+c) Greiðsluáhættu, tapsáhættu og verðbreytingaáhættu

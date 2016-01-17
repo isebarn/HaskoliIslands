@@ -1,0 +1,4 @@
+ Discuss advantages and limitations of using category lists to identify conceptual
+	classes.
+
+	It is more complex than noun phrase identification and takes more time

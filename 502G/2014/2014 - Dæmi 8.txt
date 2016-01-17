@@ -1,0 +1,54 @@
+Klárað: Já
+
+Nota NPV
+
+Björn getur keypt aðra af tvem vélum, vil finna NPV á þeim og skera úr hvor er betri 
+
+Ath Hrakvirði þýðir að þú selur vélina 
+
+Vél A
+	Virkar í 3 ár
+
+	Kaup á vél			= [6.7 0 0 0]
+	Viðhaldskostnaður 	= [0 1.5 1.5]
+	Tekjur 				= [0 4 4 4]
+	Sala á vél 			= [0 0 0 1]
+
+	10% vextir svo 
+
+	vaxtadeilari 		= [r^0 r^1 r^2 r^3]
+
+	þar sem r = 1.1
+
+	Þá er ekkert eftir nema ( Tekjur + Sala - Kaup á vél - Viðhald ) / Vaxtadeilari 
+
+	og leggja saman tölurnar sem fást
+
+	Út kemur 			= [-6,700    2,2727    2,0661    2,6296 ]
+
+	og samanlagt er þetta .268
+
+Vél B
+Virkar í 3 ár
+	Virkar í 3 ár
+
+	Kaup á vél			= [16.9 0 0 0 0 0]
+	Viðhaldskostnaður 	= [0 1.2 1.2 1.2 1.2 1.2]
+	Tekjur 				= [0 4.5 4.5 4.5 4.5 4.5]
+	Sala á vél 			= [0 0 0 0 0 3.5]
+
+	10% vextir svo 
+
+	vaxtadeilari 		= [r^0 r^1 r^2 r^3 r^4 r^5 r^6]
+
+	þar sem r = 1.1
+
+	Þá er ekkert eftir nema ( Tekjur + Sala - Kaup á vél - Viðhald ) / Vaxtadeilari 
+
+	og leggja saman tölurnar sem fást
+
+	Út kemur 			= [-6,700    3,0000    2,7273    2,4793    2,2539    4,2223]
+
+	og samanlagt er þetta -551
+
+Vél A er betri

@@ -1,0 +1,10 @@
+Explain how a risk-value matrix helps to prioritize risks.
+	A risk matrix is a x-y grid showing impact on the y-axis and probability on the x-axis
+	The grid could be sectioned into 5x5 parts, where 1 means little and 5 means alot
+	So a risk that is sectioned in the 5x5 position is high probability and high impact
+
+	All risk factors may be evaluated neatly using this grid and the result is a list
+		of risk events that can be prioritized by their position on the grid
+	Top priorities would obviously be the ones that score 5x5
+	High priority those who score 3x5,4x5,4x4,5x4 and 5x3 
+	Medium and low follow

@@ -1,0 +1,15 @@
+Explain the different meanings of arrows in UML sequence diagrams in a
+	domain model vs. in a design model.
+
+	In a domain model there are messages from actors to systems and responses back
+	Messages from actors to the system are represented by solid, closed arrows with a solid 
+		line and labeled with some pseudo method 
+	Responses from the system to an actor are drawn with dotted lines and an open arrow
+
+	In the design model there are more arrows. Arrows from actors to the system that are messages
+		just like in the domain model, filled arrowheads with solid lines
+	Also like the domain model, the return messages are dotted lines with open arrowheads
+	However there are additionally, solid lines with open headed arrowheads that represent the
+		creation of a lifeline
+	There is another type of arrows that represent the duration constraint but there is some
+		discrepancy in which these are written

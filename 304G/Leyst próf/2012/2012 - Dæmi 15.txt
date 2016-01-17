@@ -1,0 +1,16 @@
+Reference counting reclames storage by maintaining in every cell a counter which stores the number
+	of pointers that are currently pointing to the cell
+Inside the "decrement" method which fires whenever a pointer is disconnected, is a check
+	for 0. If the counter is indeed zero, no pointer is pointing to it and the cell is returned
+	to the list of available spaces
+
+Three problems are associated with this method
+	1. If storage cells are relatively small, the space allocated for the counters is significant
+	2. Huge overhead, as the algorithm activates every time a pointer is changed
+	3. If cells are connected circularly, each cell always has at least one pointer
+
+The advantage of this mehod is that its incremental, meaning that, due to the fact that
+	the algorithm runs every time a pointer changes, the free space is always optimized
+	and the program never needs to halt execution to free up space, making reference
+	counting a suitable garbage collection algorithm for programs that need to be
+	responsive

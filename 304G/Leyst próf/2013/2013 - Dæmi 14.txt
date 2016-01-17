@@ -1,0 +1,40 @@
+Klárað: Já
+
+Hef BNF mállýsingu
+
+1 <E>  ::= <E> <OP> <E>
+2 <E>  ::= <E> *
+3 <E>  ::= ( <E> )
+4 <E>  ::= a
+5 <E>  ::= b
+6 <OP> ::= +
+7 <OP> ::= epsilon (tómi strengurinn)
+
+Hverjir eftirfarandi strengja eru í málinu?
+
+ATH: Ég er ekki viss hvort að lína 7 eigi að loka segðinni eða hvort það sé
+		til þess að setja ekkert
+
+:: a + b
+Ef teknar eru línur 1-4-6-5 fæst a + b:
+
+:: ab
+Ef teknar eru línur 1-4-7-5 fæst ab
+
+:: a * b
+Ef teknar eru línur 1-2-4-7-5 fæst a * b
+
+:: * a b
+Ekki hægt
+
+:: a b *
+Ekki hægt
+
+:: ( a ) * b
+Ef teknar eru línur 1-2-3-4-7-5 fæst ( a ) * b
+
+:: (a * ) b
+Ef teknar eru línur 1-3-2-4-7-5 fæst (a * ) b
+
+(a * b)
+Ef teknar eru línur 3-1-2-4-7-5 fæst (a * b)

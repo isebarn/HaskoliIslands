@@ -1,0 +1,36 @@
+Klárað: Já
+
+Sjóður 9
+Kröfur 17.5
+Birgðir 21
+Fyrirfram greiddur kostnaður næsta árs .6
+Skammtímaskuld 32.2
+Langtímaskuld 8.7
+
+Finn current ratio og quick acid test
+
+Forrit KT R
+
+
+Current ratio
+	Current ratio = Veltufjárhlutfall
+	Veltufjárhlutfall er Veltufjármunir/Skammtímaskuld
+
+	Veltufjármunir er allt sem þú getur breytt í peninga fljótlega
+
+	Þ.e sjóður, kröfur og birgðir
+
+	Svo veltufjármunir eru 9+17.5+21 = 37.5
+
+	Þá er current ratio 37.5/32.2 = 1.16
+
+Acid test
+	Quick acid test eru (Veltufjármunir - Birgðir)/Skammtímaskuld  = 0.51
+
+
+
+
+
+
+
+

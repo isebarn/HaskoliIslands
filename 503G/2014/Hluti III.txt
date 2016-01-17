@@ -1,0 +1,120 @@
+Þú hefur verið ráðinn verkefnastjóri í ungu nýsköpunarfyrirtæki þar sem 15 manns starfa við 		vöruþróun. Fyrirtækið hefur vaxið hratt undanfarin þrjú ár og þar sem þetta er í fyrsta skipti 	   sem sérstakur verkefnastjóri er ráðin þá er horft til þess að þú setjir tóninn hvernig
+	verkefni séu undirbúin og framkvæmd
+
+a)
+Gefið stutta lýsingu á því hverjar séu þínar helstu áherslur við stjórnun verkefna til að 
+	tryggja hámarks árangur (high performance)
+
+	Það sem stuðlar hvað best að góðum hóp er utanaðkomandi samskipti frá fyrirtækinu við verkefnahópa
+	Ambassador-verkefni auglýsa hópinn fyrir öðrum hlutum fyrirtækis
+	Task-coordinator-verkefni samræma verkefni hópsins við fyrirtækið og verkefni annara hópa
+	Scouts  afla upplýsinga um hvað er að gerast í fyrirtækinu utan þeirra verkefna
+	Guard-verkefni passa uppá að halda upplýsingum og aðföngum inni í hópnum
+
+	Þegar búið er til verkefnisteymi, þá er líkan sem aðstoðar okkur við skrefin í því verkefni
+	1. Mynda hóp og leyfa hópmeðlimum að kynnast og hjálpa þeim að skilja verkefnið sem þeir 
+		vinna saman við
+	2. Skref tvö nefnis "storming" því þá eru allir ágreiningar leystir, en hér hafa hópmeðlimir
+		lært að þeir eru í hóp, en eru ekki sammála hvor öðrum með ýmis málefni. Verkefnastjórinn
+		leysir þessa ágreininga og ljóst er að verkefnastjórinn, er verkefnastjórinn
+	3. Þetta stig nefnist "norming" en hér myndast nánari vináttur og hópurinn verður 
+		samheldnari og allir vinna saman í átt að einhverju markmiði
+	4. Performing. Hér er hópurinn kominn á fullt og vinnur á fullum hraða að verkefninu
+	4. Kveðjustigið. Hér byrjar hópurinn að losna í sundur því sumir hafa ekki lengur
+		hlutverk og fara í aðra hópa og verkefni klárast smátt og smátt
+
+	Rannsóknir hafa sýnt að hópar sem hafa hámarks árangur hafa eftirfarandi eiginleika
+	-10 eða færri hópmeðlimir
+	-Hópmeðlimir bjóðast til að taka þátt í verkefninu frekar en að vera settir í verkefni
+	-Hópmeðlimir eru frá byrjun til loka í verkefni
+	-Hópmeðlimir eru full-time í verkefninu
+	-Hópmeðlimir svara einungis til verkefnastjórans
+	-Hópmeðlimir finna að þeir eru inni í menningu fyrirtækisins
+	-Hópmeðlimir vinna nógu nálægt hvor öðrum til að geta talað saman
+	-Verkefnið er skemmtilegt
+
+	Verkefnastjórar ráða hópmeðlimi, stýra fundum, gefa hópnum "identity", gefa öllum tilgang
+		í hópnum, umbuna, taka góðar ákvarðannir, leysa ágreininga og peppa liðið áfram
+
+	Þegar verkefnastjóri velur fólk þá velur hann fólk með eftirfarandi eiginleika:
+		Hæfileika í problem solving. Availability. Technical expertise. Cretibility (winners)
+		political connections og ambition
+
+	Hópar sem skila hámarks árangri hafa eftirfarandi eiginleika þegar kemur að fundargerðum:
+		Confidentiality ákvarðanna. Acceptable að klúðra. Zero tolerance fyrir bullying
+		Agreeing to disagree. Má líka vera gaman
+
+	Mikilvægt er að hafa gott information system. Hvenær á að senda hverjum email. Hvenær
+		á að hringja. Hvenær á að nota skype o.s.f
+
+b)
+Fljótlega eftir að þú tekur til starfa þá verður þér ljóst að starfsfólks sem vinnur að
+	vöruþróun er að vinna í fjöldan öllum af verkefnum og það gengur illa að klára þau.
+	Bæði virðist óljóst hver stjórni verkefnum og hvað eigi að stýra forgangsröðun þeirra.
+	Þú minnist á þetta við forstjóra fyrirtækisins og hann felur þér að gera tillögu að
+	því hvernig eigi að velja ný verkefni og forgangsraða þeim sem þegar eru í gangi
+	Hvað myndir þú leggja áherslu á í slíkri tillögu?
+
+	Nú viljum við vita hvað skal gera þegar ekki gefst nægur tími til að klára verkefni
+
+	Til þess að verkefni dragist ekki afturúr þá þarf verkefnastjórinn að fylgjast með 
+		framgangi þeirra reglulega, með nokkura vikna millibili, 1-4 vikur
+		Best væri að forgangsraða fyrst þeim verkefnum sem illa gengur, sem hafa minnstann slaka til þess að reyna að standast áætlun.
+		Ef að það virðist ekki munu nægja til, þá er hægt að gera ýmislegt til að reyna
+		að flýta ennþá meira fyrir. Hægt er að 'crasha' þau verkefni sem eru á bundnu
+		leiðinni, eða setja meiri mannskap í þau, leyfa yfirvinnu.
+		Svo ef það er ásættanlegt, er hægt að draga úr gæðum verkefnana
+
+		Allt eru þetta ráð til þess að sjá til þess að bundna leiðin standist, en líka
+		til að nýjar bundnar leiðir verði ekki til, því að áætlunin dregst jafn mikið
+		og bundna leiðin tefst
+
+c)
+Þú hefur stýrt verkefni í sex vikur þegar þú tekur eftir því að tveir þáttakendur eru 
+	mjög ósammála um útfærslu á hönnun vörunnar og ágreiningurinn verður persónulegri með degi hverjum
+	Báðir þátttakendur eru mikilvægir fyrir verkefnið. Annar hefur mikla reynslu af vörum af þessu
+	tagi og hinn er sérfræðingur í lykiltækni sem notuð er til að þróa vöruna.
+	Hvernig tekur þú á þessum vanda?
+
+	Því er ekki auðsvarað nema vita meiri upplýsingar. 
+	Í fyrsta lagi þá er þeirra álit á útfærslu hönnunar ekki 'relevant' heldur viðskiptavinar
+	Það er verkefnið sem gengur fyrir en ekki þeirra persónulega túlkun eða álit
+	Besta lausnin fyrir alla, báða starfsmennina, mig og restina af starfsfólkinu og 
+	fyrir verkefnið væri að reyna að tala við þá báða og komast að málamiðlun svo allir
+	séu ánægðir frekar en að annar þeirra 'vinni' rifrildið en hinn 'tapi'
+
+	Ef að verkefnið er þess eðlis að þeir áttu í sameiningu að samþykkja hönnun til að
+	bera undir verkkaupa þá er vandamálið ögn öðruvísi. En þá myndi ég taka þá báða á fund
+	í sitthvoru lagi og hlusta á þá, og finna sjálfur málamiðlun og kynna þá henni
+
+	Ef hvorugt heppnast þá annaðhvort stía ég þeim í sundur eða læt rifrildið eiga sig
+	ef það er svo alvarlegt að það bitni á framgöngu verkefnisins
+	Ef að það gengur ekki þá segi ég öðrum eða báðum upp, eftir því hvort er sangjarnara
+
+	Að sjálfsögðu væri uppsögn starfsmanns sem er reyndur og vel liðin þó algjört lokaráð
+	en það er ekki gott að vera nýji verkefnastjórinn í fyrirtækinu og segja einhverjum upp
+	ef ímynd þín á að vera jákvæð
+	Sumir vilja þó vera algjörir 'hard ass' yfirmenn en mér persónulega líkar ekki að vera
+	þannig
+
+d)
+Forstjóri fyrirtækisins er nýkominn heim af ráðstefnu um verkefnastjórnun. Þar fékk 
+	hann uppljómun um að nota verkefnastjórnun sem alhliða stjórntæki í fyrirtækinu 
+	og vill að þú drífir í því að stofna verkefnastofu sem allra fyrst. 
+	Hvernig myndir þú svara honum
+
+	Sjálfsagt mál. En ég myndi líka vera viss að það sé góð ástæða til að gera það sem
+	hann er að biðja um
+	Við komum á fót verkefnastjórnun sem stjórntæki ef að mikið er um tafir, ílla nýtt
+	aðföng eða flöskuhálsar í aðföngum.
+	Þar sem verkefni hafa verið að tefjast í fyrirtækinu skv fyrri liðum þá er hugsanlega
+	góð hugmynd að koma af stað Project Office
+
+
+
+
+
+
+
+
+

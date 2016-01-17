@@ -1,0 +1,16 @@
+Klárað: Nei
+
+Fyrirtækið ABC gaf út skuldabréf til 10 ára.
+Af þeim eru greiddir 8.5% vextir árlega
+Nafnvirði bréfanna er 1000 og er það greitt út á gjalddaga
+Ávöxtunarkrafa bréfanna á markaði er 9.5%
+
+Hvað er núverandi markaðsvirði bréfanna?
+
+	Hér er:
+	Kostnaður		: [0 0 0 0 0 0 0 0 0 0 0]
+	Gróði    		: [0 85 85 85 85 85 85 85 85 85 1085]
+	Ávöxtunarkrafa	: 1.095
+	Deilir			: [r^0 ........... r^10]
+
+	sum{(Gróði - Kostnaður)/Deilir} = 937

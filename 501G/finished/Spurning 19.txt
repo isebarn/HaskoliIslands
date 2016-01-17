@@ -1,0 +1,7 @@
+Explain the difference between a decision node and a fork node in a UML
+	activity diagram
+
+	A decision node splits a flow into two or more available flows to indicate a decision
+		to follow path A or path B etc
+	A fork node is similar but not really. A fork node does split a flow but into concurrently
+		running flows, i.e things that are done in parallel

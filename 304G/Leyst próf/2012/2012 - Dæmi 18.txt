@@ -1,0 +1,7 @@
+Klárað: Já-ish
+
+Fyrra málið hefur NcNbMa, þ.e jafn mörg c og b og svo jafnmörg a og hægt er td cccbbba eða 
+	cccbbbaaaaaaa
+Seinna málið hefur NcMbMa, einhvern fjölda c og svo jafnmörg b og a, td cccba eða cccbbbbaaaa
+
+Sniðmengið er því málið sem hefur einhvern fjölda c, síðan jafnmörg b og það voru c og jafnmörg a og það voru c, t.d cba eða ccbbaa eða cccccbbbbbaaaaa

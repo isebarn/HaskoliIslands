@@ -1,0 +1,9 @@
+Klárað: Já
+
+Forrita straum í Scheme, Haskell eða Morpho
+
+
+Scheme	: 2014 - Dæmi 11.scm í möppunni Scheme
+CAML	: 
+Haskell	: 
+Morpho	: 

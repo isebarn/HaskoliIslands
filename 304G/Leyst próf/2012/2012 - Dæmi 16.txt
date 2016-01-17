@@ -1,0 +1,102 @@
+Klárað: Já
+
+Hef mál
+
+E  = T Em
+Em = + T Em
+Em = ''
+T  = F T
+T  = ''
+F  = F ! 
+F  =  ( E )
+F  =  t
+F  =  f
+
+Hverja eftirfarandi strengja get ég skrifað?
+
+a) f+t
+	E = T Em
+		T + T Em
+		F T + T Em
+		F T + F T Em
+		F + F
+		f + t
+b) !f+t
+	Nope get ekki komið ! fremst á neinn hátt því F getur ekki orðið ''
+c) f! + t
+	E = T Em
+		T + T Em
+		F ! + T Em
+		F ! + F T Em
+		F ! + F
+		f ! + t
+d) f + !t
+	Nope
+e) f+t!
+	E = T Em
+		T + T Em
+		F T + T Em
+		F T + F ! Em
+		F + F !
+		f + t !
+f) ft
+	E = T Em
+		F T Em
+		F F T Em
+		F F
+		f t
+g) !ft*t
+	Nei
+h) ft!*t
+	Get ekki sett *
+i) f!t
+	E = T Em
+		F T Em
+		F ! T Em
+		F ! F T Em
+		F ! F
+		f!t
+j) ft!
+	E = T Em
+		F T Em
+		F F T Em
+		F F ! T Em
+		F F !
+		f t !
+k) (ft)
+	E = T Em
+		F T Em
+		( E ) T Em
+		( E )
+		( T Em )
+		( F T Em )
+		( F F T Em )
+		( F F )
+		( f t )
+
+l) (f + t)!
+	E = T Em
+		F T Em
+		F ! T Em
+		( E ) ! T Em
+		( T Em ) ! T Em
+		( T Em ) !
+		( T + T Em )!
+		(F + T Em )!
+		(F + F T Em )!
+		(F + F )!
+		( f + t )!
+
+m) (f + tf)!
+	E = T Em
+		F T Em
+		F ! T Em
+		( E )! T Em
+		( E )!
+		( T Em )!
+		( T + T Em )!
+		( T + F T Em )!
+		( T + F F T Em )!
+		( F T + F F T Em )!
+		( F + F F )!
+		( f + t f )!

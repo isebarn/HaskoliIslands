@@ -1,0 +1,48 @@
+c1
+
+1. Define a project. What are five characteristics that help differentiate projects
+	from other functions carried out in the daily operations of the organization?
+
+	A project is a temporary endeavour to deliver a product/service/result that is
+		in some sence, unique
+
+	A project is different from the typical organizational tasks in a few ways:
+	A project has some defined time, a begining and end
+	A project has interplay by numerous different departments and specialists
+	A project is composed of many diferent tasks towards some defined objective
+	A project has defined some specifications considering time, cost and quality
+	A project is unique and at least in some sence, is new
+
+
+2. What are some of the key environmental forces that have changed the 
+	way projects are managed? What has been the effect of these forces 
+	on the management of projects?
+
+	Compression of the prodt lifecyc, as technogical advances allow for more rapid
+		throughput of new tech
+	Knowledge explosion. Projects have become more complex as technological advances
+		require projects to be completed better but in a more complex way
+	Tripple bottom line. This stands for the fact that an organization cannot do whatever
+		it takes to maximize profits. They have to follow regulations, pollute less etc
+	Increased customer focus. As competition has increased, delivering with more emphasis
+		on presicely what the customer wants has become a premium
+
+
+3. Why is the implementation of projects important to strategic planning and the
+project manager?
+	
+	Strategic planning refers to the way in which projects are chosen strategically
+		best fit for the organization and the project manager needs to be able to implement
+		projects sucessfully 
+	
+
+4. The technical and sociocultural dimensions of project management are two
+sides to the same coin. Explain.
+
+	These dimensions of a project, although different in nature, both serve as to implement
+		a project sucessfully as both are necessary for good teamwork
+
+5. What is meant by an integrative approach to project management? Why is this
+approach important in today’s environment?
+
+	Projects need to be integrated into the organziations strategy

@@ -1,0 +1,11 @@
+Klárað: Já
+
+Cost
+C0 = 10
+C1 = 15
+
+Income
+I2-I10 = 3
+
+Nota NPV
+Fæ út -5.75 

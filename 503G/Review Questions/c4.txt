@@ -1,0 +1,41 @@
+c4
+1. What are the six elements of a typical scope statement?
+	Objective
+	Deliverables
+	Milestones
+	Technical requirements
+	Limits and exclusions
+	Reviews with the customer
+
+2. What questions does a project objective answer? What would be an example office
+	a good project objective?
+
+	The project objective describes what the customer wants in his end product
+
+3. What does it mean if the priorities of a project include: Time-constrain, Scope-
+	accept, and Cost-enhance?
+
+	It means:
+	Time-constrain	: The project must be delivered on time
+	Scope-accept	: If anything needs to be scaled back, its the functionality, i.e the scope
+	Cost-enhance	: If possible, try to be under budget
+
+4. What kinds of information are included in a work package?
+
+	1. What needs to be done
+	2. Who is responsible
+	3. When is should be complete
+	4. Budget
+	5. Monitoring points to keep on schedule
+	6. Resources necessary
+
+5. When would it be appropriate to create a responsibility matrix rather than a
+	full-blown WBS?
+
+	When projects are small enough that there will be no significant benefit to decomposing the
+		project into multiple work packages
+
+6. How does a communication plan benefit management of projects?
+	
+	It helps everyone have the information necessary to do their jobs effectively
+

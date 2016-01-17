@@ -1,0 +1,6 @@
+(define (powerList x)
+	(if (null? x)
+	(list (list ))
+	(let ((head (car x)) (pList (powerList (cdr x))))
+	(append pList (map (lambda (y) (cons head y)) pList))))
+)

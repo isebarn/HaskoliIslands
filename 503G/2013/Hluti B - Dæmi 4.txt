@@ -1,0 +1,33 @@
+Klárað: Já
+
+Bruce Tuckman lýsti hvernig verkefnishópar fara í gegnum ákveðin þroskaferli eða stig
+
+Nefni þessi ferli og lýsi stuttlega
+
+Þrepin eru:
+	Forming
+	Storming
+	Norming
+	Performing
+	Adjourning
+
+	Forming:
+	Team acquaints and establishes ground rules. Formalities are preserved and members
+		are treated as strangers
+
+	Storming:
+	Members start to communicate their feelings but still view themselves as individuals rather
+		than part of the team
+		They resist control by group leaders and show hostility
+
+	Norming:
+	People feel part of the team and realize that they can acheive work if they accept other
+		viewpoints
+
+	Performing:
+	The team works in an open and trusting atmosphere where flexibility is the key and
+		hierarchy is of little importance
+
+	Adjourning:
+	The team conducts an assessment of the year and implements a plan for transitioning
+		roles and recognizing members contributions

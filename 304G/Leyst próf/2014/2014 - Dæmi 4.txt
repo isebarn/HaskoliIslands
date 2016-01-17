@@ -1,0 +1,19 @@
+Klárað: Já
+
+// Útflutt:
+//
+//	Notkun	: pQueue a = new pQueue();
+//  Eftir	: tóm forgangsbiðröð a sem tekur inn gildi af tagi X
+//
+//  Notkun	: a.add(x)
+//  Fyrir 	: a er forgangsbiðröð og x er gildi af tagi T
+// 	Eftir 	: búið er að setja x inní a á réttann stað
+//
+//  Notkun	: T value = a.remove()
+//  Fyrir 	: a er forgangsbiðröð
+// 	Eftir 	: Búið er að fjarlægja fremsta gildið úr a og setja sem gildi value
+//
+//  Notkun	: boolean m = a.isEmpty()
+//  Fyrir 	: a er forgangsbiðröð
+// 	Eftir 	: m er true ef a er tóm forgangsbiðröð, false annars
+//

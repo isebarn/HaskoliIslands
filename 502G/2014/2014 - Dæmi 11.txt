@@ -1,0 +1,12 @@
+Klárað: Já
+
+Hef verðtryggt skuldabréf fyrir 10, í 3 ár og hefur 12% árlega nafnvexti
+Vextir og verðbætur eru greiddar árlega af bréfiniu
+Í lok tímabilsins fær hann höfuðstólinn endurgreiddann
+Fjármagnstekjuskattur er 20% og verðbólga er 7%
+
+a) Hver er útgreiðsla hvers árs fyrir skatta?
+b) Hver er útgreiðsla hvers árs eftir skatt?
+c) Hver er útgreiðsla hvers árs eftir skatt og verðbólgu?
+
+Sjá google docs

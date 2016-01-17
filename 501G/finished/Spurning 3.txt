@@ -1,0 +1,24 @@
+Discuss how Eisenhower’s statement “I have always found that plans 
+	are useless, but planning is indispensable” could be interpreted in 
+	the context of software engineering.
+
+	The activity of "planning" enables the developing team to define the overall
+		goals. Doing that is not the same thing as writing up a physical plan
+	Planning decides the management and technical practices that enables the 
+		team todefine a road map to follow
+
+	Planning with the customer helps decide the scope. Meeting  again and again
+		creates an interated plan, adjusting priorities, risks, quality etc
+
+	In conclusion, written down plans are rarely followed, it is the planning process
+		itself that helps everyone on the team to move in sync towards a goal
+
+	As an example I could think of a software factory with a foreman, who decides
+		in his own head what needs to be done and how, an gives out instructions and
+		expects his final product within the time frame he has calculated
+
+	In contrast, there is a 5 person team that discusses how things should be done
+		to reach an engoal. This team meets weekly or bi-weekly and rethinks  up
+		a plan
+
+The important part is actually doing the plan, when it comes to executing it a lot of things will change that you cannot predict. The importance is that only through planning you will really understand what you are trying to do, how you will do it, what resources you will need, etc.u

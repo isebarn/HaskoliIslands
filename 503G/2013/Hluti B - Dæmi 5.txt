@@ -1,0 +1,24 @@
+Klárað: Já
+
+WBS fyrir brúðkaup. Inniheldur "gestir", "matur" og "salur"
+
+Amk 3 undirþættir fyrir hvern lið
+
+Brúðkaup
+	Gestir
+		Búa til gestalista
+		Búa til boðskort
+		Senda boðskort
+		Skrá niður þá sem segja "Já"
+	Matur
+		Skoða veitingamenn
+		Skoða mögulega matseðla
+		Ákveða matseðil
+		Ráða veitingamann m.t.t fjölda gesta
+	Salur
+		Skoða mögulega sali m.t.t fjölda gesta
+		Leigja sal
+		Ákveða skreytingar
+		Skreyta
+		Stilla upp borðum m.t.t fjölda gesta og staðsetningu gesta
+

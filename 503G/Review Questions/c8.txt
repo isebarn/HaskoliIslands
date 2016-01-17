@@ -1,0 +1,46 @@
+c8
+1 How does resource scheduling tie to project priority?
+	
+	A project can have two leading priorities, either the project needs to complete on a set
+		date, or it needs to complete on a specific budget
+	If a project is time constrained, properly allocating resources to make the most of them
+		will result in earlier completion in the project
+	If the priority is to complete a project on cash budget rather than a time budget, fully 	
+		utilizing resources is not the priority, rather making due with what there already is 
+		at hand instead of aquiring more. This is accomplished by strategically delaying the
+		right projects
+
+2 How does resource scheduling reduce flexibility in managing projects?
+
+	When scheduling resources by either delaying tasks or smoothing resource usage we are
+		drawing out from the slack of tasks. Delaying a task by a single time unit will
+			reduce its slack by a single time unit
+		This in turn introduces, eventually, new critical paths
+
+3 Present six reasons scheduling resources is an important task.
+	Resource scheduling helps prepare a time-phased budget. It helps dealing with delays or
+		prevent delays. Displays how much flexibility a project. Resource problems will arize if 
+		they exists and can be avoided. If mangers from other departments need resources you have you might be able to reschedule to help him.
+	
+
+4 How can outsourcing project work alleviate the three most common problems
+associated with multiproject resource scheduling?
+
+	In a multiproject enviroment, there will be need to schedule resources both inside your project
+		and also in terms of other projects that might need the same resources at the same time as your project. Outsourcing a task can help with that
+	If there is schedule slippage, i.e delays, outsourzing to a contractor can help get back on 	track
+	If there arent proper resources to finish a time constrained project on time, contractors can
+		help with the outstanding tasks
+
+
+5. Explain the risks associated with leveling resources, compressing or crash-
+	ing projects, and imposed durations or “catch-up” as the project is being
+	implemented.
+
+	Leveling reduces slack, which can create new critical paths
+	Compressing/crashing increases the cost and may create a new critical path into the bargain
+
+6. Why is it critical to develop a time-phased baseline?
+	To ensure that the project is on track budget wise. A project manager needs to be able
+		to track costs so they dont overrun the allocated budget so the project doesnt run out
+		of money, rendering it unable to complete when there might be little work left

@@ -1,0 +1,23 @@
+Klárað: Já
+
+Kaup á vél fyrir 35
+Líftími 5 ár
+Rekstrartekjur á ári 15 
+Sala vélar 8.2 
+Ávöxtunarkrafa 12%
+
+Finn endurgreiðslutímann, núvirði og innri vexti
+
+Endurgreiðslutíminn er sá tími sem það tekur rekstrartekjurnar að leggjast saman og verða
+	jafnar kaupum á vél
+	Fyrsta ár 15 
+	Annað ár 15, samtals 30 komið
+	Þriðja ár 15, samtals 45 komið
+	45 er meðra en 35 (vélin kostaði 35)
+	Eftir 2 ár voru 30 komnar svo það vantar 5 uppá, en á 1/3 af ári 3 komu inn 5 mil
+	Endurgreiðslutíminn er því 2 ár + 1/3 af ári, 2,33333333333333333333333333333333333
+
+Núvirði er [-35 15 15 15 15 23.2]/[1.12^0 1.12^1 1.12^2...1.12^5]
+	= 23.72
+
+IRR er 35.2%

@@ -1,0 +1,35 @@
+Name two categories of project risks, and give two examples for each of them.
+	There are schedule risks, budget risks, operational risks, technical risks and programmatic risks
+
+	Schedule risks are just what they sound like, the risk of running late. Obviously, running late
+		occurs when estimates are significantly off. But projects get delayed as the scope expands,
+		when some functionalities are shown to be more complex to implement than initially expected.
+		In addition, if resources are tracked improperly, they cannot be expected to be fully utilized, and estimates for delivery are made assuming optimal utilization of resources
+
+	Budget risks, like schedule risks, are also just what they sound like. Improper budget estimates
+		and huge expansion in scope may avalanche the budget
+		Frequent delays will cause budget overruns aswell as there is may be overhead costs that 
+			are proportional to the direct costs of the project
+		Underutilization of resources breeds the same budget overrun, as individual tasks may not
+			necessarily be delayed, but simply not worked as resources arent utilized properly, delaying the project, creating overhead costs that do not serve to directly complete the
+			project, just to house it and manage it
+
+	Operational risks are in a sense the "root" of most of the reasons above. These are the effects
+		of improper management or simply a bad company. Insufficient resources can overrun the budget of the project and delay it as a bonus. Even if there is enough resources to complete
+			a project on time and budget, they may be managed poorly enough so that these resources
+			might just as well not be present
+		Unmentioned risks are badly managed conflicts that create a bad atmosphere and in turn, worse teamwork
+		Failiure to assign responsibilities properly can greatly reduce the progression of a project
+			when nobody seems to be in charge of anything
+
+	Technical risks may sound like problems with coding, but they arent. Technical risks are 
+		too frequent requirement changes or inadequate technology to implement program sucessfully
+		or simply too complex
+
+	Programmatic risks, more like technical risks, sound like problems with coding, but secretly, 		are	the risk factors that are out of reach for the project. Goverment rules may change
+		as many programs are in some way fx responsible for money in some way, and in turn, taxes
+		Worse yet is a software that unexpectedly became obsolete before it came out to the market
+
+		Another risk is running out of funds without actually running out of funds. Senior management might reconsider the project and decide to cut its funding so severly that the 
+		project must be cancelled. Or they might go bankrupt. Either way, the team is not at fault
+		and could anticipate, but not migitate in any way, only accept

@@ -1,0 +1,25 @@
+Explain how software can be both a product and a vehicle that delivers a
+	product, and argue what that means for its creation process.
+
+Software is a product built and supported by developers, using an agile process aimed at
+	creating a product people will want
+	
+	Software as a product is some behaviour that when deconstructed is a calculator, as
+	software takes information and uses that info to produce new information, display it, modify it etc.
+
+	Software is also a vehicle that delivers a product. Software controlls the computer that
+	in turn runs more software, communicating the information passed by software to other
+	software, controlling software and ofcourse, creating more software
+
+	As software is logical but not a physical thing (but secretly it is, but not in the sence we're interested in), it has characteristics that physical things dont have.
+	Software is developed but not manufactured
+
+	Creating software, is therefore, always the same task, as all software does the same
+	thing, but with different functionality and complexity. Every software boots, finds
+	the information it needs, transforms that information as needed, and then applies the
+	transformed information to acheive the result its described to do
+
+	So creating software will always be the same category of tasks that need to be specified
+	differently each time
+
+	This process is usually the unified process I suppose.

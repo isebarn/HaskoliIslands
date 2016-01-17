@@ -1,0 +1,55 @@
+Klárað: Nei
+Dæmi 3
+-----Innihalda lokanir* tengihlekk?-----
+Tengihlekkir/Aðgangshlekkir eru í lokunum. Já
+
+-----Innihalda lokanir stýrihlekk?-----
+Nei
+
+-----Innihalda lokanir vakningarfærslu?-----
+Nei
+
+-----Innihalda lokanir bendi á vakningarfærslu?-----
+Lokanir innihalda Aðgangshlekk sem bendir á viðeigandi vakningarfærslu þess stefs sem inniheldur fallið
+
+-----Innihalda lokanir bendi á stef/fall?-----
+Lokanir innihalda Fallsbendi á vélarmálsþulu viðkomandi falls
+
+-----Eru lokanir sveigjanlegri í Scheme heldur en Pascal vegna þess að í Scheme má geyma lokanir -----í kös?-----
+
+Í flestum forritunarmálum eru vakningarfærslur geymdar á hlaða. En, í Scheme, Haskell og Morpho  eru vakningafærslur geymdar í kös
+
+Þegar vakningarfærslur eru á hlaða þá bendir stýrihlekkurinn alltaf á næstu vakningarfærslu í hlaðanum.
+Ef vakningarfærslur eru í kösinni, þá má bæði láta vakningarfærsluna benda á vakningafærsluna sem kallaði eða þá á þá vakningarfærslu sem á að fá niðurstöðuna úr kallinu
+
+En Tenglihlekkirnir benda alltaf á viðeigandi vakningarfærsrlu þess stefs sem inniheldur viðkomandi stef, þ.e, sú vakningarfærsla sem inniheldur breyturnar í næstu földunarhæð
+
+Í Standard Pascal er einungis hægt að senda lokanir niður sem viðfang í kall, en ekki er hægt að skila lokun sem niðurstöðu úr kalli né vista lokunina í breytu
+
+???? ekki fullsvarað
+
+-----Eru lokanir sveigjanlegri í Scheme heldur en Pascal vegna þess að í Scheme má geyma          
+-----vakningarfærslur í kös?-----
+?????
+
+-----Mega lokanir vera skilagildi úr falli í Scheme en ekki í Standard Pascal?-----
+
+Lokannir geta ekki verið skilagildi úr falli í Standard Pascal vegna þess að aðgangshlekkurinn í lokuninni inniheldur tilvísun á vakningafærslu, en mögulega verður þeirri vakningafærslu eytt þegar bálkurinn sem inniheldur lokunina lýkur keyrslu
+
+Afturámóti þá geta sannarlega verið skilagildi falla í Scheme vegna þess að Scheme hefur ruslasöfnun
+Það þýðir að þegar bálkur vakningafærslu klárast þá eyðist vakningafærslan ekki á meðan til er einhver tilvísun í hana
+
+-----Hefur CAML lokanir?-----
+Já held það, því það er bálkmótað
+
+-----Hefur C++ lokanir?-----
+Nýjasta C++, C++11 hefur lokannir. Í bókinni stendur að í C++ sé ekki hægt að láta föll vera tilviksbreytur (arguements)
+
+-----Hefur Morpho lokanir?-----
+Já
+
+-----Hefur Haskell lokanir-----
+Já, skv wiki.haskell 
+
+-----Hefur Java lokanir?-----
+Já

@@ -1,0 +1,17 @@
+Argue which of the following quality scenarios have no architectural impact: [...]
+	Fuufuu
+
+	Architectural model factors are
+		Resource consumption
+		Security
+		Availability & reliability
+		Data quality
+		Real time performance
+
+table should include
+architechtural driver
+quality attribute scenario
+product feature
+constraint
+importance
+difficulty

@@ -1,0 +1,26 @@
+ Give an example of a vision statement that could appear in a RUP Vision 
+	and Scope Document.
+
+	Vision:
+		Features
+			FE-1: Order meals from cafeteria
+			FE-2: Order meals from local restaurant
+			FE-3: Create, view, modify and delete meal service subscription
+			FE-4: Request meal delivery
+			FE-5: Order custom meal
+		Assumptions
+			AS-1: Internet enabled computers in the cafeteria
+			AS-2: Staff will be able to deliver
+		Dependancies
+			DE-1: If a restaurant has its own system, the new system will need to 
+				communicate with it
+
+	Scope:
+		Releases
+			FE-1 Release 1: Standard meals from lunch menu. Delivery must be paid cash
+			FE-2 Release 2: Meals from all menus. Accept credit and debit payments
+		Limitations
+			LI-1: Some vefeteria menu items wont be available for delivery
+			LI-2: Delivery will only be available within some proximity to a restaurant
+		Exclusions
+			EX-1: Wont accept a certain credit card, like AMEX

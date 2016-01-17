@@ -1,0 +1,14 @@
+Discuss if user interface descriptions should be part of a use case.
+
+	No they shouldnt, they mainly introduce three things that simply speaking, contradict the 
+		reason we want use cases when figuring out requirements
+
+		1. They introduce some ambiguity, fx "User click create the new account button" instead
+			of "User creates a new account"
+
+		2. Makes use cases more complex. Related to reason 1, writing "user creates a new account"
+			is more simple than "user clicks the create new account button and is redirected to ..."
+
+		3. Use cases are supposed to be solution independent, i.e "what" but not "how"
+
+	In short, use cases are supposed to cover functional requirements

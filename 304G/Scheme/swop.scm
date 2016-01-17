@@ -1,0 +1,10 @@
+(define (swop n)
+	(define (help m newList)
+		(if (= m n)
+		(cons (expt 2 m) newList)
+		(help (+ m 1) (cons (expt 2 m) newList)))
+	)
+	(help 0 (list ))
+)
+
+(swop 4)

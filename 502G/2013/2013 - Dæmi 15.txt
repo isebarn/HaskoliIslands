@@ -1,0 +1,14 @@
+Klárað: Já
+
+Hef 20.4% áætlaða ávöxtun og beta 1.6
+Ávöxtun á markaði er 15%
+Hver er áhættulausa ávöxtunin?
+
+S = Stock rate of return
+R = Risk free
+M = Market rate of return
+B = Beta
+
+B = (S-R)/(M-R)
+
+Ef leyst er út fyrir R fæst 6%

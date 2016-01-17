@@ -1,0 +1,33 @@
+Klárað: Já
+
+Skrifa hönnunarskjal fyrir fjölnota einingu fyrir forgangsbiðraðir í Java eða Morpho
+Líka fastayrðingu gagna
+
+
+// Útflutt:
+// --------
+// 		Notkun 	 : pQueue a = new pQueue();
+// 		Eftir	 : forgangsbiðröðin a sem tekur inn gildi af tagi T
+// 
+// 		Notkun 	 : a.add(T x);
+// 		Fyrir 	 : a er forgangsbiðröð, tóm eða með hluti af tagi T
+// 				   x er hlutur af tagi T
+// 	 	Eftir 	 : x hefur verið bætt á réttann stað í a, stærstu gildin eru
+//				   fremst
+// 
+// 		Notkun 	 : T x = a.remove()
+// 		Fyrir 	 : a er forgangsbiðröð
+// 	 	Eftir 	 : x hefur fengið fremsta gildið í a, og þetta fremsta gildi fjarlægt úr a
+// 
+// 		Notkun 	 : boolean m = a.isEmpty()
+// 		Fyrir 	 : a er forgangsbiðröð
+// 	 	Eftir 	 : m er true ef að engin gildi eru í a, annars false
+// 
+// 
+// Fastayrðing gagna:
+// ------------------
+// Stök forgangsbiðraðarinnar eru í biðröðinni mainQueue
+// í vaxandi röð frá fremsta hlekk til aftasta hlekks
+
+Java	: pQueue.java í möppunni Java
+Morpho	:

@@ -1,0 +1,11 @@
+Klárað: Já
+
+Fyrirtæki fær 2 mil lán í 4 ár og vill greiða af láninu árlega, þ.e í 4 greiðslum
+	þ.a greiðsla hvers árs verður tvöfalt hærri en árið á undan
+
+	Hversu há verður fyrsta greiðslan?
+
+	Ef að fyrsta greiðslan er p, þá er greiðsla 2 2p, 3ja greiðsla 4p og 4 greiðsla 8p
+
+	Jafnan er s.s 2.000.000 = 15p
+	p = 133.333

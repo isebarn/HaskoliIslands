@@ -1,0 +1,2 @@
+Argue which of the following quality scenarios have no architectural impact: [...]
+	Fuufuu

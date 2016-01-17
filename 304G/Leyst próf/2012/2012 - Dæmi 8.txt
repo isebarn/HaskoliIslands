@@ -1,0 +1,8 @@
+Klárað: Já
+
+Geri halaendurkvæmt fall í Scheme, CAML eða Morpho sem tekur inn heiltölu n og smíðar
+	listann [1..n] og líka [n..1]
+
+Scheme  : 2012 - Dæmi 8.scm í möppunni Scheme
+CAML	:
+Morpho	:

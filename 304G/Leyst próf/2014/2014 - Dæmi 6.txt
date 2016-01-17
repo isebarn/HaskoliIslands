@@ -1,0 +1,31 @@
+Klárað: Já
+a) Hvaða upplýsingar eru geymdar í vakningarfærslum forritunarmála
+	Viðföng
+	Staðværar breytur
+	Tengihlekk
+	Stýrihlekk
+	Vendisvistfang
+
+b) Hverjar þessara upplýsinga eru aðeins í bálkmótuðum forritunarmálum og hversvegna?
+	Tengihlekkir eru einungis í bálkmótuðum, vegna þess að þar þarf að komast í breytur 
+	efri földunarhæða
+
+c) Nefnið tvö forritunarmál þar sem vakningarfærslur eru yfirleitt geymdar á hlaða og
+   	tvö þar sem þær verða að vera geymdar í kös
+
+   	Í C og Java eru vakningarfærslur geymdar á hlaða
+   	Í Scheme, Haskell og Morpho eru vakningarfærslur geymdar í kös
+
+d) Rökstyðjið að í síðarnefndu tveimur forritunarmálunum sé nauðsynlegt að 
+	vakningarfærslur séu í kös með því að tiltaka eithvað sem er hægt að gera í öðru
+	forritunarmálinu með vakningarfærslur í kös, sem ekki væri hægt að gera ef
+	vakningarfærslurnar væru ekki í kös
+
+	Lokanir ganga ekki á hlaða vegna LIFO röðunnar, en í kös eru vakningarfærslur settar
+	í kösina og í stað þess að láta minni sjá um að hreinsa sig sjálfkrafa (eins og með LIFO)
+	þá er ruslsöfnun notuð
+
+	i.e ef að við notum hlaða, þá gætum við tapað vakningarfærslunni og lokannir verða 
+	ómögulegar
+	Svo ef við viljum búa til nafnlaus föll sem hverfa ekki áður en þau eru nýtt þá notum
+	við kös

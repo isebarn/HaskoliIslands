@@ -1,0 +1,2 @@
+Explain which design pattern has been used in the following model, and argue
+	whether you would have made the same choice: [...]

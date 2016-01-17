@@ -1,0 +1,9 @@
+Klárað: Já
+
+Skrifa fall í Scheme, Morpho, CAML eða Haskell sem að smíðar lista n n-1...0
+Halaendurkvæmt
+
+Scheme	:  2012 - Dæmi 7.scm í möppunni Scheme
+Haskell	:
+CAML	:
+Morpho	:

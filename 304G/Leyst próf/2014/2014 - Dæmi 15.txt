@@ -1,0 +1,32 @@
+Klárað: 
+
+Mark & Sweep vs Stop & Copy
+
+Mark & Sweep
+	Mark & Sweep hefur tímaflækjuna O(n) þar sem n er stærð hlaðast
+	Því er hægt að velja milli þess að hafa lítinn hlaða og hreinsa reglulega til
+	og vera fljótur að því, eða þá að hafa stórann hlaða og þurfa sjaldnar að hreinsa, en
+	vera öllu þess lengur að hreinsa þegar það er loksins gert
+	Það hefur þó sannast að stór hlaði er betri en lítill vegna þess að þessi aukavinna
+	við hverja ruslasöfnun er mun betri heldur en að þurfa oftar að keyra ruslasöfnunina
+	Það takmarkast þó við stærð vinnsluminnisins, ef að hlaðinn fer yfir vinnsluminnið sem
+	er í boði þá þarf að skrifa á disk til að koma afgang fyrir og þá er stærðin orðin
+	til vandræða
+
+	M&S leyfir rusli að safnast upp þangað til að allt minni er klárað. Þá hættir keyrsla
+	forrits og M&S safnar rusli. M&S er kallaður tracing því hann finnur allar rætur og merkir þær
+	og allt sem þær fara í. Fyrst öll svæði merkt sem ónotuð, síðan er hver einasta rót heimsótt og hlaupið í gegnum öll gildi sem þær heimsækja og merkt 1. Síðan er aftur farið í gegn og tekið út úr hlaðanum það sem er ekki merkt 1
+
+Stop & Copy
+	Stop & Copy hefur tímaflækjuna O(m) þar sem m er fjöldi lifandi hluta
+	Það er því bæði kostur og galli því ef lítið er eftir af lifandi hlutum
+	þá stendur Stop & Copy sig mjög vel, en ef að mikið er eftir af lifandi hlutum
+	þá þarf að hlaupa yfir allann hlaðan en líka standast í því að afrita hvern einasta
+	hlut ásamt bendum þess. Þá er alltaf ekkert fragmentation eftir að söfnunin hefur keyrt
+
+Reference count
+	Þessi aðferð felst í því að í hverju minnissvæði er teljari sem er sífelt viðhaldið eftir því ef bætt er við eða tekinn í burtu bendir. Þegar teljarinn fer í 0 þá er svæðið losað
+	Þrír ókostir. Ef að nauðsynlegt minnissvæði forritsins er lítið, þá er hlutfallslega mikið sem fer í teljarana. Mikið overhead en reikniritið fer í gang í hvert skipti sem bendir skapast/eyðist. Ef að minnissvæði eru tengd í hring þá er hvert minnissvæði alltaf með a.m.k einn bendi
+
+Afritunarsöfnun græðir meira á því að stækka minnið undir kösina vegna þess að í afritunarsöfnun tekur hver ruslasöfnun sama tíma fyrir litla kös og fyrir stóra kös en með merkja og sópa aðferðinni veldur stækkun kasar því að hver ruslasöfnun tekur meiri tíma. Ástæðan er sú að með
+merkja og sópa aðferðinni þarf að fara eina umferð í gegnum alla kösina í sópa skrefinu, en það þarf ekki í afritunarsöfnun.

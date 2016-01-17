@@ -1,0 +1,9 @@
+Klárað: Nei
+
+Skrifa halaendurkvæmt fall í Scheme, CAML, Haskell eða Morpho sem tekur inn heiltölu stærri en 0
+	og skilar listanum [n, n-1,...,1]
+
+Scheme	: 2014 - Dæmi 10.scm í möppunni Scheme
+CAML	:
+Haskell	:
+Morpho	:

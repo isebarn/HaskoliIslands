@@ -1,0 +1,11 @@
+Klárað: Já
+
+Teikna endanlega stöðuvél fyrir málið yfir stafrófið {(,)} sem inniheldur þá
+	strengi sem hafa sviga í jafnvægi og dýpt sviga er í mesta lagi 3
+
+
+-------
+---------------- ( ---------------- (  ---------------- ( -----------
+|| 1 ||					| 2 |				| 3 | 				| 4 |   
+---------------- ) ---------------- )  ---------------- ) -----------
+-------

@@ -1,0 +1,14 @@
+Klárað: Já
+
+2 mil Lán tekið
+10% vextir
+5 ár
+Jafnar árlegar greiðslur
+
+a) Eftirstöðvar eftir 2 greiðslur
+b) Heildargreiðsla láns
+
+Nota forritið JAFNGREID
+
+a) 1.312.050
+b) 2.637.974

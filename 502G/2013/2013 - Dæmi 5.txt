@@ -1,0 +1,30 @@
+Klárað: Nei
+
+Rekstrartekjur		: 95.560.895
+Rekstrarkostnaður	:  9.658.945
+Birgðarkostnaður 	: 66.120.305
+Skattar 			:  3.525.628
+Fjármagnskostnaður 	:  3.018.504
+
+a) Hver er rekstrarafgangur fyrirtækisins
+b) Hver er skattaprósentan í dæminu
+
+Rekstrarreikningur:
+
++ Rekstrartekjur
+- Rekstrarkostnaður
+- Birgðarkostnaður
+-----------------
+= EBIDTA
+  19.781.645
+- Fjármagnskostnaður
+-----------------
+= EBIT
+  16.763.141
+- Skattar (3.525.568)
+-----------------
+Hagn. e. skatt 
+  13.237.573
+
+
+Skattar : 21%

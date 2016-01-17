@@ -1,0 +1,13 @@
+Klárað: Já
+
+Hef 2 verðbréf, A og B
+
+A hefur vænta ávöxtun 6% og staðalfrávik 0.09
+B hefur vænta ávöxtun 16% og staðalfrávik 0.03
+
+Í hvaða hlutföllum á að fjárfesta í A og B til að fá lægsta dreifni?
+
+Hlutfall A er (staðalfrávik B)^2 / [(staðalfrávik A^2) + (staðalfrávik B^2)] og hlutfall
+B er 1 - Hlufall A
+
+Út kemur að hlutfall A er 91% og hlutfall B er 8.2%

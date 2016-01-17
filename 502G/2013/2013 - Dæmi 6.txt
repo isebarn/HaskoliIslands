@@ -1,0 +1,10 @@
+Klárað: Já
+
+10.000 Lán
+1000 vextir
+Vika
+
+a) Nafnvextir
+b) Árlegir vextir af láninu reiknaðir útfrá vaxtatímabilum
+
+Jafnan er ((1000/10000)ö1)^52 og vextirnir eru því 1410% og eftir eitt ár er höfuðstóllin því kominn upp í 1.420.000

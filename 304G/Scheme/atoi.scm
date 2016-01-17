@@ -1,0 +1,10 @@
+(define (atoi n)
+	(define (help m newList)
+		(if (= n m)
+		(cons m newList)
+		(help (+ m 1) (cons m newList)))
+	)
+	(help 1 (list ))
+)
+
+(atoi 5)

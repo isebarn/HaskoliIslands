@@ -1,0 +1,5 @@
+Ársfjórðungsvextir, 8% ársvextir
+5 milljónir í 12 ár
+7 í 7 ár
+
+5*(1.8%/4)^(12*4) + 7*(1.8%/4)^7*4) = 25.112 

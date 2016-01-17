@@ -1,0 +1,8 @@
+Klárað: Nei
+
+Skrifa insert-left og insert-right í Scheme, CAML, Morpho eða Haskell
+
+Scheme 	: 2012 - Dæmi 10.scm í möppunin Scheme
+CAML 	:
+Morpho	:
+Haskell	:

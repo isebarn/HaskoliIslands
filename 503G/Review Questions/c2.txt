@@ -1,0 +1,44 @@
+c2
+1. Describe the major components of the strategic management process.
+	Review and define the organisational mission. 
+		This is simply deciding what the organization wants to be
+	Set long range goals and objectives
+		Breaking the mission down into objectives
+	Analyzing and formulating strategies to reach objectives
+		Create plans to accomplish the objectives
+	Implementing strategies through projects
+		Choosing projects and completing them to move closer to the organizational mission
+
+2. Explain the role projects play in the strategic management process.
+	Implementing strategies to move closer to the organisational mission, is completing 
+		projects
+
+3. How are projects linked to the strategic plan?
+	Completing a set of projects is completing the strategic plan
+
+4. The portfolio of projects is typically represented by compliance, 
+	strategic, and operations projects. What impact can this classification 
+	have on project selection?
+
+	Compliance are those that need to be completed, possibly with a deadline
+	Operations projects support the organization, like reducing costs, improving
+		performance, setting up a new office
+	Strategic are those directly aimed at mhe organization closer to completing its "mission"
+		to become what it wants to be
+
+5. Why does the priority system described in this chapter require that it be open
+	and published? Does the process encourage bottom-up initiation of projects?
+	Does it discourage some projects? Why?
+
+	So every member of the organization can understand why projects are chosen the way they are
+
+6. Why should an organization not rely only on ROI to select projects?
+
+	ROI or return on investment only addresses the financial factor
+
+7. Discuss the pros and cons of the checklist versus the weighted factor 
+	method of selecting projects.
+
+	Checklist enables great precision as there can be a ton of questions in a checklist, however
+		they arent that good in measuring projects against each other
+	To measure projects a weighed method handles better 

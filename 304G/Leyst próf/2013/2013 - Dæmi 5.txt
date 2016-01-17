@@ -1,0 +1,9 @@
+Klárað: Nei
+Skrifa halaendurkvæmt fall
+inn: n >= 0
+út : [2^n....4 2 1]
+
+Scheme	: 2013 - Dæmi 5 
+Haskell	:
+CAML	:
+Morpho	:

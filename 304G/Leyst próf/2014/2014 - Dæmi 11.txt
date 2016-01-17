@@ -1,0 +1,5 @@
+Forrita straum í Scheme, Haskell eða Morpho sem inniheldur óendanlegan straum Fibonacci talna
+
+Scheme 	: 2014 - Dæmi 11.scm í möppunni Scheme
+Haskell	:
+Morpho	:

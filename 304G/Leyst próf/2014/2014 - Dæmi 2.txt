@@ -1,0 +1,37 @@
+Klárað: Já
+
+Hef földun í bálkmótuðu forritunarmáli
+
+A
+	B
+		C
+	D
+
+Verkefnið er að finna hvaða fall X má kalla á hvaða fall Y og
+hvaða fall X má kalla á staðværar breytur* falls Y
+
+Regla 1: Kalla á Y frá X
+1.1 X má kalla á sjálft sig
+1.2 X má kalla á börnin sín, en ekki neðar, þ.e barnabörn etc
+1.3 X má kalla á systkyni sín
+1.4 X má kalla á föður sinn
+1.5 X má kalla á allt sem að faðir sinn má kalla á
+
+Regla 2: Kalla á breytur Y frá X
+2.1 X má kalla á sínar eigin breytur
+2.2 X má kalla á breytur föðurs síns
+2.3 X má kalla á það sem faðir X má kalla á
+Simple version: X má kalla á eigin breytur og beint upp
+
+Föll kalla á föll:
+A,B,C,D 	kalla á A reglur: 1.1 - 1.4 - (1.5 og 1.4) - 1.4
+A,B,C,D 	kalla á B reglur: 1.2 - 1.1 - 1.4 - 1.3
+B,C 		kalla á C reglur: 1.2 - 1.1
+A,B,C,D 	kalla á D reglur: 1.2 - 1.3 - (1.5 og 1.3) - 1.1
+
+Föll kalla á staðværar breytur annara falla:
+A,B,C,D 	kallar á breytur A reglur: 2.1 - 2.2 - (2.3 - 2.2) - 2.2
+B,C 		kallar á breytur B reglur: 2.1 - 2.2
+C 			kallar á breytur C reglur: 2.1
+D 			kallar á breytur D reglur: 2.1
+

@@ -1,0 +1,8 @@
+Klárað: Já
+
+Skrifa hönnunarskjal fyrir fjölnota forgangsbiðröð í Java eða Morpho
+
+Java	: pQueue.java í Möppunni Java...Note: Það á bara að vera <X> í 
+	klasaskilgreiningu hlekkja
+
+Morpho	: 

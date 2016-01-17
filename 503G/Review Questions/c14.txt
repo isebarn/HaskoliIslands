@@ -1,0 +1,33 @@
+c14
+
+1. How does the project closure review differ from the performance measurement
+	control system discussed in Chapter 13?
+
+	Performance measurement is an ongoing activity to keep track. The review is more
+		of a final one, and more thorough
+
+2. What major information would you expect to find in a project review?
+
+	A summary, reiews, analysis, reccomaendations, lessons learned and an appendix
+
+
+3. Why is it difficult to perform a truly independent, objective review?
+
+	Becouse everyone is at least a tiny bit, biased
+
+4. Comment on the following statement: “We cannot afford to terminate the proj-
+	ect now. We have already spent more than 50 percent of the project budget.”
+
+	If the expected return from the project is less than the other 50% that we need to
+		spend to finish, we wont finish it
+
+5. Why should you separate performance reviews from pay reviews? How do you
+	do this?
+
+	The pay review is usually outside the juristiction of the project manager
+
+6. Advocates of retrospective methodology claim there are distinguishing charac-
+	teristics that increase its value over past lessons learned methods. What are
+	they? How does each characteristic enhance project closure and review?
+
+	idc

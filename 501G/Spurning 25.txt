@@ -1,0 +1,2 @@
+Modify the following implementation of a Java class so it can function as a
+controller in the Spring Web MVC framework: [...]

@@ -1,0 +1,20 @@
+Klárað: Já
+
+
+		200
+100		 |							
+ |		 |
+ 0-------1-------2-------3-------4-------5
+ 								 |	     |
+ 								100		 |
+ 										 F
+
+Nota forrit FUTR VAL
+
+Hvert er gildi F m.v 12% ávöxtunarkröfu?
+
+Framtíðarvirði er eins og öfug núvirði
+
+100r^5 + 200r^4 + 0r^3 + 0r^2 - 100r = F 										 
+
+F = 378.9

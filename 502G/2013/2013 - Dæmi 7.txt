@@ -1,0 +1,22 @@
+Klárað: Já
+
+Fjármagnskostnaður eiginfjár fyrirtækis er 18%
+Fjármagnskostnaður fyrir skatta er 8%
+Debt ratio er .375
+Skattaprósenta 35%
+
+Finn WACC
+
+Jafnan fyrir WACC er
+	
+	[Er_e + Sr_s(1-T)]/C
+
+	E er eignahlutafé
+	S eru skuldir
+	C = E+S
+	r_e er ávöxtunarkrafa eigiðs fé
+	r_s eru vextir skulda
+	T er skattur
+
+Hér er sagt að skuldahlutfallið sé .375, það þýðir að S/C = .375 og E/C = .625
+Þá fæst að WACC er .132 eða 13.2%
