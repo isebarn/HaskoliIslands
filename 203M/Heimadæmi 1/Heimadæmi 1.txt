@@ -1,0 +1,28 @@
+
+
+Dæmi 1
+
+LINK HERE DONT FORGET
+
+Línur 73-121 tilheyra mér, restin koma frá Diego Cantor og Brandon Jones
+
+Ég las upphaflega dæmið vitlaust og hélt að ég ætti að teikna þetta í WebGL. Þetta eru mistök sem 	ég geri í hverri einustu viku
+
+Mér tókst ekki að finna útúr því hvernig ég bý til mismunandi 'instance' til að teikna í sitthvoru 
+	lagi longitude-línur og latitude-línur
+
+Það var þó gaman að þessu og eins og sést á myndunum (ég teiknaði kúluhvelið frá nokkrum 	       sjónarhornum), þá sést frá 'norðurpól' og 'suðurpól' að það þýðir ekki að nota fjórhliðunga heldur verður að nota þríhliðungum
+
+Restina má bæði teikna með þríhliðungum eða fjólhliðunum, en að sjálfsögðu má líka teikna 			  fjórhliðunganna með þríhyrningum (en ekki öfugt)
+
+Það sem ég geri, er að ég læt WebGL teikna latitude-línur utanum miðpunktinn (0,0,0) með radíus R 		og longitude línur utanum miðpunktinn (0,0,0) sem allar mætast í (0,1,0) og í (0,-1,0)
+
+
+
+
+Dæmi 2
+	a. Ég 1920*1080 *(72 1/s) *(3 byte) = 447.9  megaebyte/s
+	b. usb 2.0 transfer speed er 480 megabits/s ~= 60 megabyte/s
+	   usb 3.0 transfer speed er 'more than 10 times as fast', 640 megabyte/s
+	   Note: Þetta eru maximum tölur á hraða
+
