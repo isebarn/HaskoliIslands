@@ -1,10 +1,11 @@
-
+https://github.com/isebarn/HaskoliIslands/tree/master/203M/Heimad%C3%A6mi%201
+Mér tekst ekki að hlaða neinu upp á notendur.hi.is/dia2 því miður, ég reyni að finna útúr því fyrir
+	næstu skil
 
 Dæmi 1
+Í möppunni Dæmi 1 er skjalið Sphere.html
 
-LINK HERE DONT FORGET
-
-Línur 73-121 tilheyra mér, restin koma frá Diego Cantor og Brandon Jones
+Línur 73-121 í Sphere.html tilheyra mér, restin koma frá Diego Cantor og Brandon Jones
 
 Ég las upphaflega dæmið vitlaust og hélt að ég ætti að teikna þetta í WebGL. Þetta eru mistök sem 	ég geri í hverri einustu viku
 
@@ -17,7 +18,7 @@ Restina má bæði teikna með þríhliðungum eða fjólhliðunum, en að sjál
 
 Það sem ég geri, er að ég læt WebGL teikna latitude-línur utanum miðpunktinn (0,0,0) með radíus R 		og longitude línur utanum miðpunktinn (0,0,0) sem allar mætast í (0,1,0) og í (0,-1,0)
 
-
+Sjá myndi 1-5
 
 
 Dæmi 2
@@ -26,3 +27,34 @@ Dæmi 2
 	   usb 3.0 transfer speed er 'more than 10 times as fast', 640 megabyte/s
 	   Note: Þetta eru maximum tölur á hraða
 
+
+Dæmi 3
+Kynnið ykkur eitt af öflugustu grafíkkortunum í dag, Nvidia GeForce GTX TITAN X og finnið út eftifarandi gildi:
+
+    Innri bandvídd (memory bandwidth) 
+    	336.5
+
+    Litahraði skjápunkta (texture fill rate)
+    	192 GigaTexels/sec
+
+    Ytri bandvídd (interface bandwidth), þ.e. bandvídd tengibrautar (hver er tengibrautin?)
+    	384-bit á GDDR5 tengibraut
+
+    Fjöldi smára (transistors) 
+    	8 billion
+
+Dæmi 4
+	Mynd 1 - Virkar
+	a. var NumPoints 5000 -> 20000, Mynd 2
+	   var NumPoints 20000 -> 100000, Mynd 3
+	b. 
+		
+													var p = [];
+		var p = scale( 0.25, add( u, v) );     ->	p.push(2.5);
+													p.push(0);
+
+		Þá byrja punktarnir fyir utan einhverja af þremur hliðum þríhyrningsins
+		Á Mynd 4 má sjá, óskýrt, punkta fyrir utan hægri hliðina
+
+Dæmi 5
+	
