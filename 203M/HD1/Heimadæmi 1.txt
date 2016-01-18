@@ -1,7 +1,10 @@
 Dæmin eru öll inná:
 
-https://github.com/isebarn/HaskoliIslands/tree/master/203M/Heimad%C3%A6mi%201
-Líka inná notendur.hi.is/dia2/203M/HD/ 
+https://github.com/isebarn/HaskoliIslands/tree/master/203M/HD1
+
+og
+
+notendur.hi.is/dia2/203M/HD/ 
 
 
 
