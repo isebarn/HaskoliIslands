@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html><head><script id="vertex-shader" type="x-shader/x-vertex">
+
+attribute vec4 vPosition;
+uniform float x;
+void
+main()
+{
+    gl_PointSize = 1.0;
+    gl_Position = vPosition;
+}
+</script>
+
+<script id="fragment-shader" type="x-shader/x-fragment">
+
+precision mediump float;
+
+void
+main()
+{
+    gl_FragColor = vec4( 1.0, 0.0, 0.0, 1.0 );
+}
+</script>
+
+<script type="text/javascript" src="./files/webgl-utils.js"></script>
+<script type="text/javascript" src="./files/initShaders.js"></script>
+<script type="text/javascript" src="./files/MV.js"></script>
+<script>
+var canvas;
+var gl;
+var numCirclePoints = 60;
+var radius = 0.5;
+var small = 0.002;
+var angle = toDegrees(getRandomInRange(-1,1));
+var center = vec2(0,0);
+var points = [];
+var maxx = 0;
+var maxy = 0;
+var minx = 0;
+var miny = 0;
+
+
+// used to get a random number
+function getRandomInRange(min,max) {
+    return Math.random() * (max - min) + min;
+}
+
+// it should be called toRadians. I use this becouse Math.cos/sin
+// takes radians as inputs
+function toDegrees (angle) {
+  return angle * 0.0174533;
+} 
+
+// creates a increment along the x-axis
+function xDirection(){
+    return Math.cos(angle);
+}
+
+// creates a increment along the y-axis
+function yDirection(){
+    return Math.sin(angle);
+}
+
+
+setInterval(function () {
+    if(Math.random() > 0.5) dry = -Math.random()*0.005;     
+    else dry = Math.random()*0.005;                         
+    if(Math.random() > 0.5) drx = -Math.random()*0.005;         
+    else drx = Math.random()*0.005;                        
+}, 2000);  
+
+// all the standard stuff
+window.onload = function init() {
+    canvas = document.getElementById( "gl-canvas" );  
+    gl = WebGLUtils.setupWebGL( canvas );
+    if ( !gl ) { alert( "WebGL isn't available" ); }   
+    gl.viewport( 0, 0, canvas.width, canvas.height );
+    gl.clearColor( 0.0, 1.0, 1.0, 1.0 );
+    var program = initShaders( gl, "vertex-shader", "fragment-shader" );
+    gl.useProgram( program );
+    points.push( center );
+    createCirclePoints( center, radius, numCirclePoints );
+    var vBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, vBuffer);
+    gl.bufferData(gl.ARRAY_BUFFER, flatten(points), gl.STATIC_DRAW);
+    var vPosition = gl.getAttribLocation(program, "vPosition");
+    gl.vertexAttribPointer(vPosition, 2, gl.FLOAT, false, 0, 0);
+    gl.enableVertexAttribArray(vPosition);
+    render();
+}
+
+
+function createCirclePoints( cent, rad, k )
+{
+    var dAngle = 2*Math.PI/k;
+    for( i=k; i>=0; i-- ) {
+        a = i*dAngle;
+        var p = vec2( rad*Math.sin(a) + cent[0], rad*Math.cos(a) + cent[1] );
+        points.push(p);
+    }
+}
+
+// quatruples the CPU usage to find the largest value in the 'points' array 
+function arrayMax(){
+    for (var i = 0 ; i < points.length; i++) {
+        if (points[i][0] > maxx) {maxx = points[i][0]};
+        if (points[i][1] > maxy) {maxy = points[i][1]};
+    };
+}
+
+// quatruples the CPU usage to find the smallest value in the 'points' array 
+function arrayMin(){
+    for (var i = 0 ; i < points.length; i++) {
+        if (points[i][0] < minx) {minx = points[i][0]};
+        if (points[i][1] < miny) {miny = points[i][1]};
+    };
+}
+
+
+function animate(){
+
+    // call the arrayMax and arrayMin every time I draw the circle
+    // so I can keep it inside the canvas
+    arrayMax();
+    arrayMin();
+    if (maxx > 1) {
+        angle = toDegrees(180) - angle
+        maxx = 0;
+    }
+
+    if (maxy > 1) {
+        angle = angle + toDegrees(90) 
+        maxy = 0;
+    }
+
+    if (minx < -1) {
+        angle = toDegrees(180) + angle
+        minx = 0;
+    }
+
+    if (miny < -1) {
+        angle = angle + toDegrees(90) 
+        miny = 0;
+    }    
+
+
+
+
+    angle += getRandomInRange(-0.2,0.2);
+    for (var i = 0; i < points.length; i++) {
+        points[i][0] += small*xDirection();
+        points[i][1] += small*yDirection();
+    };
+    gl.bufferSubData(gl.ARRAY_BUFFER, 0, flatten(points));
+}
+
+function render() {
+    gl.clear( gl.COLOR_BUFFER_BIT );
+    gl.drawArrays( gl.TRIANGLE_FAN, 0, numCirclePoints+2 );
+
+    animate();
+
+    window.requestAnimFrame(render);
+}
+
+
+</script>
+
+</head><body>
+<canvas id="gl-canvas" width="512" height="512">&gt;
+Oops ... your browser doesn't support the HTML5 canvas element
+</canvas>
+
+
+</body></html>

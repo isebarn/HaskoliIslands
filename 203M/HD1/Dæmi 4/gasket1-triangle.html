@@ -33,7 +33,7 @@ main()
 var gl;
 var points;
 
-var NumPoints = 100000;
+var NumPoints = 0;
 
 window.onload = function init()
 {
@@ -51,7 +51,7 @@ window.onload = function init()
     var vertices = [
         vec2( -1, -1 ),
         vec2(  0,  1 ),
-        vec2(  1, -1 )
+        vec2(  1, -1 ),
     ];
 
 
@@ -104,6 +104,21 @@ window.onload = function init()
     gl.vertexAttribPointer( vPosition, 2, gl.FLOAT, false, 0, 0 );
     gl.enableVertexAttribArray( vPosition );
 
+
+        document.getElementById("slider").onchange = function(event) {
+        NumPoints = event.target.value;
+        points = [];
+        points = [ add(u,v) ];
+        for ( var i = 0; points.length < NumPoints; ++i ) {
+            var j = Math.floor(Math.random() * 3);
+            p = add( points[i], vertices[j] );
+            p = scale( 0.5, p );
+            points.push( p );
+        }       
+            gl.bufferData( gl.ARRAY_BUFFER, flatten(points), gl.STATIC_DRAW );
+ 
+        render();
+    };
     render();
 };
 
@@ -118,6 +133,11 @@ function render() {
 
 <body>
 
+<div>
+Number of dots <br>
+0 <input id="slider" min="0" max="100000" step="1000" value="0" type="range">
+ 100.000
+</div>
 
 <canvas id="gl-canvas" width="512" height="512">
 Oops ... your browser doesn't support the HTML5 canvas element

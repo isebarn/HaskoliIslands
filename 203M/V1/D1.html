@@ -1,0 +1,180 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Rotating Square</title>
+
+<script id="vertex-shader" type="x-shader/x-vertex">
+attribute vec4 vPosition;
+
+
+void
+main()
+{
+    gl_PointSize = 1.0;
+    gl_Position = vPosition;
+}
+</script>
+
+<script id="fragment-shader" type="x-shader/x-fragment">
+
+precision mediump float;
+
+void
+main()
+{
+    gl_FragColor = vec4( 1.0, 0.0, 0.0, 1.0 );
+}
+</script>
+
+<script type="text/javascript" src="./files/webgl-utils.js"></script>
+<script type="text/javascript" src="./files/initShaders.js"></script>
+<script type="text/javascript" src="./files/MV.js"></script>
+<script type="text/javascript" src="./helpers.js"></script>
+<script type="text/javascript" src="./jack.js"></script>
+<script type="text/javascript" src="./controls.js"></script>
+<script type="text/javascript" src="./physics.js"></script>
+<script type="text/javascript" src="./coins.js"></script>
+<script type="text/javascript" src="./platforms.js"></script>
+<script type="text/javascript" src="./levels.js"></script>
+<script>
+var canvas;
+var gl;
+var center = [0.0,0.0];
+var level = 0;
+
+var platforms = [];
+levelB()
+//var coins = new coins();
+var jack = new jack(1, center);
+
+/*function scoreKeeper() {
+    this.scoreArray = []
+
+
+    this.createPoint = function() {
+        var place = []
+        this.scoreArray.push(new point([0.0,0.0], 0.05))
+    }
+
+    this.createPoint()
+}
+
+function point(position, radius) {
+    this.circle = createCirclePoints(position, radius, 27)
+    this.position = new Object();
+    this.position.x = position[0]
+    this.position.y = position[1]
+}
+
+
+var score = new scoreKeeper();*/
+
+
+
+/*
+
+function scoreKeeper() {
+    this.scoreCard = []
+
+    this.position = new Object()
+    this.position.x = -0.85
+    this.position.y = -0.92
+
+    this.increaseScore = function() {
+        this.scoreCard.push(createCirclePoints([this.position.x,this.position.y],0.05,27))
+        this.position.x += 0.15
+    }
+
+
+}
+
+var score = new scoreKeeper() */
+
+window.onload = function init() {
+    canvas = document.getElementById( "gl-canvas" );
+    gl = WebGLUtils.setupWebGL( canvas );
+    if ( !gl ) { alert( "WebGL isn't available" ); }
+    gl.viewport( 0, 0, canvas.width, canvas.height );
+    gl.clearColor( 0.5, 1.0, 1.0, 1.0 );
+    var program = initShaders( gl, "vertex-shader", "fragment-shader" );
+    gl.useProgram( program );
+    gogo = [];
+    window.addEventListener("keydown", function(e){
+               keyDown(jack,e.keyCode)               
+            } ); 
+
+    window.addEventListener("keyup", function(e){
+                keyUp(jack,e.keyCode);
+            } ); 
+
+
+    var vBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, vBuffer);
+    var vPosition = gl.getAttribLocation(program, "vPosition");
+    gl.vertexAttribPointer(vPosition, 2, gl.FLOAT, false, 0, 0);
+    gl.enableVertexAttribArray(vPosition);
+    render();
+}
+
+
+function render() {
+    gl.clear( gl.COLOR_BUFFER_BIT );
+
+    if (jack.falling) {
+        jack.moveY(jack.speedY)
+        gravity(jack, -0.015)
+        jack.contact()
+    };
+
+    if (jack.running) {
+        jack.moveX(jack.runStrength)
+        jack.contact()
+    };
+
+    if (jack.jumping) {
+        jack.moveY(jack.speedY)
+        gravity(jack, -0.015)
+    };
+
+    if (jack.leaping) {
+        jack.moveX(jack.runStrength)
+        jack.moveY(jack.speedY)
+        gravity(jack, -0.015)
+        jack.contact()
+
+    };
+
+   jack.createStructure()
+   jack.redraw();
+
+  // coins.age()
+  /*  for (var i = 0; i < coins.coinArray.length; i++) { 
+        gl.bufferData(gl.ARRAY_BUFFER, flatten(coins.coinArray[i].circle), gl.STATIC_DRAW);
+        gl.drawArrays( gl.TRIANGLE_FAN, 0, 27); 
+    };*/
+
+    for (var i = 0; i < platforms.length; i++) {
+        gl.bufferData(gl.ARRAY_BUFFER, flatten(platforms[i].structure), gl.STATIC_DRAW);
+        gl.drawArrays(gl.TRIANGLE_FAN, 0, 4);       
+    };
+
+   /*for (var i = 0; i < score.scoreCard.length; i++) {
+        gl.bufferData(gl.ARRAY_BUFFER, flatten(score.scoreCard[i]), gl.STATIC_DRAW);
+        gl.drawArrays(gl.TRIANGLE_FAN, 0, 27);
+    };*/
+  
+
+
+    window.requestAnimFrame(render);
+}
+
+</script>
+</head>
+
+<body>
+<canvas id="gl-canvas" width="1000" height="1000">
+Oops ... your browser doesn't support the HTML5 canvas element
+</canvas>
+
+
+</body></html>
+

@@ -1,0 +1,130 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Rotating Square</title>
+
+<script id="vertex-shader" type="x-shader/x-vertex">
+attribute vec4 vPosition;
+uniform float x;
+uniform float y;
+
+void
+main()
+{
+    gl_Position.x =  vPosition.x+x;
+    gl_Position.y =  vPosition.y+y; 
+    gl_Position.z = 0.0;
+    gl_Position.w = 1.0;
+}
+</script>
+
+<script id="fragment-shader" type="x-shader/x-fragment">
+
+precision mediump float;
+
+void
+main()
+{
+    gl_FragColor = vec4( 1.0, 0.0, 0.0, 1.0 );
+}
+</script>
+
+<script type="text/javascript" src="./files/webgl-utils.js"></script>
+<script type="text/javascript" src="./files/initShaders.js"></script>
+<script type="text/javascript" src="./files/MV.js"></script>
+<script>
+var canvas;
+var gl;
+var numCirclePoints = 80;
+var radius = 0.5;
+var center = vec2(0, 0);
+var theta = 0.0;
+var angle = 0.0;
+var g = 0.0;
+var x = 0.0;
+var y = 0.0;
+var thetaLox;
+var thetaLoy;
+var turn = 1.0;
+var points = [];
+
+
+// used to get a random number
+function getRandomInRange(min,max) {
+    return Math.random() * (max - min) + min;
+}
+
+// it should be called toRadians. I use this becouse Math.cos/sin
+// takes radians as inputs
+function toDegrees (angle) {
+  return angle * 0.0174533;
+} 
+
+// creates a increment along the x-axis
+function xDirection(){
+    return Math.cos(angle);
+}
+
+// creates a increment along the y-axis
+function yDirection(){
+    return Math.sin(angle);
+}
+
+window.onload = function init() {
+    canvas = document.getElementById( "gl-canvas" );
+    gl = WebGLUtils.setupWebGL( canvas );
+    if ( !gl ) { alert( "WebGL isn't available" ); }
+    gl.viewport( 0, 0, canvas.width, canvas.height );
+    gl.clearColor( 0.5, 1.0, 1.0, 1.0 );
+    var program = initShaders( gl, "vertex-shader", "fragment-shader" );
+    gl.useProgram( program );
+    points.push( center );
+
+    angle = toDegrees(getRandomInRange(0,360));
+    xDir = xDirection();
+    yDir = yDirection();
+    createCirclePoints( center, radius, numCirclePoints );
+    var vBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, vBuffer);
+    gl.bufferData(gl.ARRAY_BUFFER, flatten(points), gl.STATIC_DRAW);
+    var vPosition = gl.getAttribLocation(program, "vPosition");
+    gl.vertexAttribPointer(vPosition, 2, gl.FLOAT, false, 0, 0);
+    gl.enableVertexAttribArray(vPosition);
+    thetaLox = gl.getUniformLocation(program, "x");
+    thetaLoy = gl.getUniformLocation(program, "y");
+    render();
+}
+function createCirclePoints( cent, rad, k )
+{
+    var dAngle = 2*Math.PI/k;
+    for( i=k; i>=0; i-- ) {
+        a = i*dAngle;
+        var p = vec2( rad*Math.sin(a) + cent[0], rad*Math.cos(a) + cent[1] );
+        points.push(p);
+    }
+}
+
+
+
+function render() {
+    
+    gl.clear( gl.COLOR_BUFFER_BIT );
+    angle = getRandomInRange(-0.5,0.5) + angle;
+    var direction = toDegrees(angle);
+    x += 1*xDirection(direction);
+    y += 1*yDirection(direction);
+    gl.uniform1f( thetaLox, x/1000);
+    gl.uniform1f( thetaLoy, y/1000);
+
+    gl.drawArrays( gl.TRIANGLE_FAN, 0, numCirclePoints+2 );
+    window.requestAnimFrame(render);
+}
+</script>
+</head>
+
+<body>
+<canvas id="gl-canvas" width="512" height="512">
+Oops ... your browser doesn't support the HTML5 canvas element
+</canvas>
+
+
+</body></html>

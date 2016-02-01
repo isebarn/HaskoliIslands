@@ -24,16 +24,16 @@ main()
 }
 </script>
 
-<script type="text/javascript" src="gasket1_files/webgl-utils.js"></script>
-<script type="text/javascript" src="gasket1_files/initShaders.js"></script>
-<script type="text/javascript" src="gasket1_files/MV.js"></script>
+<script type="text/javascript" src="./files/webgl-utils.js"></script>
+<script type="text/javascript" src="./files/initShaders.js"></script>
+<script type="text/javascript" src="./files/MV.js"></script>
 <script id 'code-js' type="text/javascript">
 	"use strict";
 
 var gl;
 var points;
 
-var NumPoints = 100000;
+var NumPoints = 0;
 
 window.onload = function init()
 {
@@ -62,8 +62,7 @@ window.onload = function init()
     var u = add( vertices[0], vertices[1] );
     var v = add( vertices[0], vertices[2] );
     var p = [];
-    p.push(1)
-    p.push(1)
+
 
 
     // And, add our initial point into our array of points
@@ -104,6 +103,21 @@ window.onload = function init()
     gl.vertexAttribPointer( vPosition, 2, gl.FLOAT, false, 0, 0 );
     gl.enableVertexAttribArray( vPosition );
 
+    // function that redraws the triangle with a new number of subdivisions
+        document.getElementById("slider").onchange = function(event) {
+        NumPoints = event.target.value;
+        points = [];
+        points = [ add(u,v) ];
+        for ( var i = 0; points.length < NumPoints; ++i ) {
+            var j = Math.floor(Math.random() * 3);
+            p = add( points[i], vertices[j] );
+            p = scale( 0.5, p );
+            points.push( p );
+        }       
+            gl.bufferData( gl.ARRAY_BUFFER, flatten(points), gl.STATIC_DRAW );
+ 
+        render();
+    };
     render();
 };
 
@@ -117,7 +131,11 @@ function render() {
 </head>
 
 <body>
-
+<div>
+Number of dots <br>
+0 <input id="slider" min="0" max="100000" step="1000" value="0" type="range">
+ 100.000
+</div>
 
 <canvas id="gl-canvas" width="512" height="512">
 Oops ... your browser doesn't support the HTML5 canvas element
