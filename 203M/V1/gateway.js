@@ -5,6 +5,7 @@ function gateway(){
 	this.radius = 0.09
     this.width = this.radius
     this.height = this.radius
+    this.color = vec4(0.24,0,0, 1.0 )
 
     this.leave = function() {
     	if (this.position.y.toFixed(1) == jack.position.y.toFixed(1)) {

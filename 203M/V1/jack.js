@@ -23,6 +23,7 @@ function jack(direction, startingPosition){
     this.floor = 0;
     this.grounded = false;
     this.level = level
+    this.color = vec4(0.72,0.88,0.4,1);
 
     this.raise = function() {
         this.position.y += 0.1
@@ -39,7 +40,7 @@ function jack(direction, startingPosition){
 
     this.crash = function() {
         this.false();
-        this.crashing = true
+        this.crashing = true;
         this.position.x -= this.orientation*this.runStrength
         this.crashing = false
     }
@@ -52,7 +53,7 @@ function jack(direction, startingPosition){
         this.falling = false;
         this.jumping = false;
         this.running = false;
-        this.turning = false;
+        this.turning = false
         this.landing = false
         this.leaping = false;
         this.grounded = false
@@ -143,8 +144,9 @@ function jack(direction, startingPosition){
     }
 
     this.redraw = function() { 
+        gl.uniform4fv(locrcolor, flatten(this.color))
         gl.bufferData(gl.ARRAY_BUFFER, flatten(jack.structure), gl.STATIC_DRAW); 
-            gl.drawArrays( gl.TRIANGLES, 0, 3);
+        gl.drawArrays( gl.TRIANGLES, 0, 3);
        
     }
 

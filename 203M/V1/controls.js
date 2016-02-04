@@ -1,6 +1,6 @@
 var left = 37;
 var up = 38;
-var right = 39;
+var right = 39
 var down = 40;
 
 function keyDown(object,direction) { 
@@ -31,7 +31,7 @@ function keyDown(object,direction) {
 			object.leap(object.jumpStrength)
 		}
 		else {
-			object.jump(object.jumpStrength)
+			object.jump(object.jumpStrength);
 		}
 	};
 }

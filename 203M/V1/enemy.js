@@ -5,6 +5,7 @@ function gun(target, bullet) {
     this.width = 0.1
     this.height = 0.1
     this.speed = 0.006*(level + 1)
+    this.color = vec4(0.24,0.22,0,1)
 
     this.createStructure = function() {
         this.structure = [
@@ -34,7 +35,6 @@ function gun(target, bullet) {
         bullet.createStructure()
         this.createStructure()
     }
-
     this.createStructure()
 
 
@@ -43,19 +43,20 @@ function gun(target, bullet) {
 function bullet(){
 	this.position = new Object()
 	this.position.x = -0.8
-	this.position.y = 0.85
+	this.position.y = 0.9;
 	this.radius = 0.05
     this.width = this.radius
     this.height = this.radius	
     this.speed = 0.02 + level*0.01
     this.fired = false;
+    this.color = vec4(0.08,0.01,0.16,1)
 
     this.fire = function() {
         this.fired = true
     	this.position.y -= this.speed
     	this.createStructure()
     	if (this.position.y < -1.1) {
-    		this.position.y = 1.0
+    		this.position.y = 0.9
     		this.position.x = gun.position.x
             this.fired = false;
     	};
@@ -66,13 +67,13 @@ function bullet(){
     	if (this.position.y.toFixed(1) == jack.position.y.toFixed(1)) {
     		if (this.position.x + this.radius >= jack.position.x) {
     			if (this.position.x - this.radius <= jack.position.x) {
-    				this.position.y = 1.0
+    				this.position.y = 0.9
     				jack.hurt()
     			};
     		jack.front()
     		if (this.position.x + this.radius >= jack.position.x) {
 				if (this.position.x - this.radius <= jack.position.x) {
-    				this.position.y = 1.0
+    				this.position.y = 0.9
     				jack.hurt()
 				};    			
     		};	

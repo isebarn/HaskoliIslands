@@ -9,6 +9,7 @@ function platform(center, width, height,x,y, speed, moving) {
     this.swing.yStart = this.position.y
     this.swing.yEnd = y
     this.speed = speed
+    this.color = vec4(0.61,0.4,0.58,1);
 
 
     this.width = width;

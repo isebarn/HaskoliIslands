@@ -17,11 +17,12 @@ main()
 <script id="fragment-shader" type="x-shader/x-fragment">
 
 precision mediump float;
+uniform vec4 rcolor;
 
 void
 main()
 {
-    gl_FragColor = vec4( 1.0, 0.0, 0.0, 1.0 );
+    gl_FragColor = rcolor;
 }
 </script>
 
@@ -38,6 +39,10 @@ main()
 <script type="text/javascript" src="./enemy.js"></script>
 <script type="text/javascript" src="./gateway.js"></script>
 <script>
+var raudur = vec4(1, 0, 0, 1);
+var gulur = vec4(1, 0.843, 0, 1);
+
+
 var canvas;
 var gl;
 var center = [0.0,0.0];
@@ -103,7 +108,7 @@ window.onload = function init() {
     gl = WebGLUtils.setupWebGL( canvas );
     if ( !gl ) { alert( "WebGL isn't available" ); }
     gl.viewport( 0, 0, canvas.width, canvas.height );
-    gl.clearColor( 0.5, 1.0, 1.0, 1.0 );
+    gl.clearColor( 0.21, 0.05, 0.4, 1.0 );
     var program = initShaders( gl, "vertex-shader", "fragment-shader" );
     gl.useProgram( program );
     gogo = [];
@@ -121,6 +126,7 @@ window.onload = function init() {
     var vPosition = gl.getAttribLocation(program, "vPosition");
     gl.vertexAttribPointer(vPosition, 2, gl.FLOAT, false, 0, 0);
     gl.enableVertexAttribArray(vPosition);
+    locrcolor = gl.getUniformLocation(program, "rcolor")
     render();
 }
 
@@ -157,10 +163,17 @@ function render() {
 
     coins.age()
     for (var i = 0; i < coins.coinArray.length; i++) { 
+        gl.uniform4fv(locrcolor, flatten(coins.color))
         gl.bufferData(gl.ARRAY_BUFFER, flatten(coins.coinArray[i].circle), gl.STATIC_DRAW);
         gl.drawArrays( gl.TRIANGLE_FAN, 0, 27); 
     };
 
+    for (var i = 0; i < score.scoreCard.length; i++) {
+        gl.bufferData(gl.ARRAY_BUFFER, flatten(score.scoreCard[i]), gl.STATIC_DRAW);
+        gl.drawArrays(gl.TRIANGLE_FAN, 0, 27);
+    };
+    
+    gl.uniform4fv(locrcolor, flatten(platforms[0].color))
     for (var i = 0; i < platforms.length; i++) {
         if (platforms[i].moving) {
             platforms[i].move()
@@ -169,27 +182,26 @@ function render() {
         gl.drawArrays(gl.TRIANGLE_FAN, 0, 4);       
     };
 
-   for (var i = 0; i < score.scoreCard.length; i++) {
-        gl.bufferData(gl.ARRAY_BUFFER, flatten(score.scoreCard[i]), gl.STATIC_DRAW);
-        gl.drawArrays(gl.TRIANGLE_FAN, 0, 27);
+
+    gun.move()
+    gl.uniform4fv(locrcolor, flatten(gun.color))
+    gl.bufferData(gl.ARRAY_BUFFER, flatten(gun.structure), gl.STATIC_DRAW);
+    gl.drawArrays(gl.TRIANGLE_FAN, 0, 4); 
+
+    if (bullet.fired) {
+        bullet.fire()
     };
 
-        gun.move()
-        gl.bufferData(gl.ARRAY_BUFFER, flatten(gun.structure), gl.STATIC_DRAW);
-        gl.drawArrays(gl.TRIANGLE_FAN, 0, 4); 
+    gl.uniform4fv(locrcolor, flatten(bullet.color))
+    gl.bufferData(gl.ARRAY_BUFFER, flatten(bullet.bullet), gl.STATIC_DRAW);
+    gl.drawArrays(gl.TRIANGLE_FAN, 0, 27);
 
-        if (bullet.fired) {
-            bullet.fire()
-        };
-
-        gl.bufferData(gl.ARRAY_BUFFER, flatten(bullet.bullet), gl.STATIC_DRAW);
-        gl.drawArrays(gl.TRIANGLE_FAN, 0, 27);
-
-        if (jack.coins >= 14) {
-            gate.leave()
-            gl.bufferData(gl.ARRAY_BUFFER, flatten(gate.pathway), gl.STATIC_DRAW);
-            gl.drawArrays(gl.TRIANGLE_FAN, 0, 27);        
-        };
+    if (jack.coins >= 1) {
+        gl.uniform4fv(locrcolor, flatten(gate.color))
+        gate.leave()
+        gl.bufferData(gl.ARRAY_BUFFER, flatten(gate.pathway), gl.STATIC_DRAW);
+        gl.drawArrays(gl.TRIANGLE_FAN, 0, 27);        
+    };
 
     window.requestAnimFrame(render);
 }

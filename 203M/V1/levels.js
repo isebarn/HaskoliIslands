@@ -47,6 +47,12 @@ function changeLevel() {
 	score.scoreCard = []
 	coins.coinArray = []
 	score.position.x = -0.85
+	gl.clearColor( 0.24,0,0, 1.0 );
+	jack.color = vec4(0.4,0.73,0.4,1)
+	platforms[0].color = vec4(0.4,0.55,0.55,1)
+	gun.color = vec4(0.59,0.28,0.03,1)
+	bullet.color = vec4(0.92,0,0,1)
+
 }
 	/*
 	platforms.push(new platform([], 0.1,0.2));

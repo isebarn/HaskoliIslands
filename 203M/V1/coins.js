@@ -2,6 +2,7 @@ function coins() {
     this.coinArray = []
     var place = 0;
     this.timer = 0
+    this.color = vec4(0.92,0.84,0.1,1)
 
 
     this.createCoin = function() {
@@ -28,7 +29,7 @@ function coins() {
         for (var i = 0; i < this.coinArray.length; i++) {
             this.coinArray[i].ager()
             if (this.coinArray[i].age >= 200) {
-                this.coinArray.splice(i,1)
+                this.coinArray.splice(i,1);
             };
         };
     }
