@@ -113,6 +113,11 @@ function jack(direction, startingPosition){
             //this.front()
             this.fall()
         };
+        this.front()
+        if (Math.abs(this.position.x) >= 1.0) {
+            this.position.x = 1.0*this.orientation
+        };
+        this.back()
     }
 
     this.moveY = function(jumpSpeed) {

@@ -38,6 +38,7 @@ main()
 <script type="text/javascript" src="./levels.js"></script>
 <script type="text/javascript" src="./enemy.js"></script>
 <script type="text/javascript" src="./gateway.js"></script>
+<script type="text/javascript" src="./scoreKeeper.js"></script>
 <script>
 var raudur = vec4(1, 0, 0, 1);
 var gulur = vec4(1, 0.843, 0, 1);
@@ -55,52 +56,6 @@ var jack = new jack(1, center);
 var bullet = new bullet()
 var gun = new gun(jack,bullet);
 var gate = new gateway();
-
-function scoreKeeper() {
-    this.scoreArray = []
-
-
-    this.createPoint = function() {
-        var place = []
-        this.scoreArray.push(new point([0.0,0.0], 0.05))
-    }
-
-    this.createPoint()
-}
-
-function point(position, radius) {
-    this.circle = createCirclePoints(position, radius, 27)
-    this.position = new Object();
-    this.position.x = position[0]
-    this.position.y = position[1]
-}
-
-
-var score = new scoreKeeper();
-
-
-
-
-
-function scoreKeeper() {
-    this.scoreCard = []
-
-    this.position = new Object()
-    this.position.x = -0.85
-    this.position.y = -0.92
-
-    this.increaseScore = function() {
-        this.scoreCard.push(createCirclePoints([this.position.x,this.position.y],0.05,27))
-        this.position.x += 0.15
-    }
-    this.decreseScore = function() {
-        this.scoreCard.pop()
-        this.position.x -= 0.15
-    }    
-
-
-}
-
 var score = new scoreKeeper() 
 
 window.onload = function init() {
@@ -161,9 +116,9 @@ function render() {
    jack.createStructure()
    jack.redraw();
 
+    gl.uniform4fv(locrcolor, flatten(coins.color))
     coins.age()
     for (var i = 0; i < coins.coinArray.length; i++) { 
-        gl.uniform4fv(locrcolor, flatten(coins.color))
         gl.bufferData(gl.ARRAY_BUFFER, flatten(coins.coinArray[i].circle), gl.STATIC_DRAW);
         gl.drawArrays( gl.TRIANGLE_FAN, 0, 27); 
     };
@@ -196,7 +151,7 @@ function render() {
     gl.bufferData(gl.ARRAY_BUFFER, flatten(bullet.bullet), gl.STATIC_DRAW);
     gl.drawArrays(gl.TRIANGLE_FAN, 0, 27);
 
-    if (jack.coins >= 1) {
+    if (jack.coins >= 14) {
         gl.uniform4fv(locrcolor, flatten(gate.color))
         gate.leave()
         gl.bufferData(gl.ARRAY_BUFFER, flatten(gate.pathway), gl.STATIC_DRAW);

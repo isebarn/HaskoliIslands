@@ -43,6 +43,7 @@ function changeLevel() {
 	jack.position.ground = platforms[0].position.y
 	jack.false()
 	jack.falling = true
+	jack.level = 1
 	jack.coins = 0
 	score.scoreCard = []
 	coins.coinArray = []
