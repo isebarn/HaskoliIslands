@@ -5,7 +5,10 @@ function coins() {
 
 
     this.createCoin = function() {
-        place = getRandomInRange(1, platforms.length)
+        place = getRandomInRange(1, platforms.length-1)
+        while (platforms[place].moving) {
+            place = getRandomInRange(1, platforms.length-1)
+        }
         this.coinArray.push(new coin([platforms[place].position.x , platforms[place].position.y + 0.06], 0.05))
     }
     

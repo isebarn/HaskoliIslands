@@ -36,6 +36,7 @@ function keyDown(object,direction) {
 	};
 }
 
+
 function keyUp(object,direction) { 
 	if (direction == left ) {
 		if (!object.jumping && !object.leaping && !object.crashing && !object.falling) {

@@ -15,6 +15,7 @@ function jack(direction, startingPosition){
     this.landing = false
     this.leaping = false;
     this.crashing = false;
+    this.passanger = false
     this.speedY = 0.0
     this.speedX = 0.0
     this.runStrength = 0.03
@@ -43,6 +44,10 @@ function jack(direction, startingPosition){
         this.crashing = false
     }
 
+    this.ride = function() {
+        this.passanger = true
+    }
+
     this.false = function(){
         this.falling = false;
         this.jumping = false;
@@ -51,6 +56,7 @@ function jack(direction, startingPosition){
         this.landing = false
         this.leaping = false;
         this.grounded = false
+        this.passanger = false
     }
 
     this.fall = function() {
@@ -65,7 +71,7 @@ function jack(direction, startingPosition){
         this.landing = true;
         this.ground()
         this.position.y = this.position.ground
-
+        this.contact()
 
         this.speedY = 0.0
         this.createStructure()
@@ -74,6 +80,9 @@ function jack(direction, startingPosition){
     }
 
     this.jump = function(jumpSpeed) {
+        if (this.passanger) {
+            this.raise()
+        };
         this.false()
         this.jumping = true;
         this.speedY = jumpSpeed
@@ -86,7 +95,14 @@ function jack(direction, startingPosition){
     }
 
     this.run = function() {
-        this.false()
+        if (this.passanger) {
+            this.false()
+            this.ride()
+        }
+        else {
+            this.false()
+        }
+            
         this.running = true;
     }
 
@@ -120,11 +136,10 @@ function jack(direction, startingPosition){
         for (var i = 0; i < platforms.length; i++) {
             platforms[i].contact(this, i);
         };
-/*
+
         for (var i = 0; i < coins.coinArray.length; i++) {
             coins.coinArray[i].contact(this,i)
-        };*/
-
+        };
     }
 
     this.redraw = function() { 
@@ -139,6 +154,14 @@ function jack(direction, startingPosition){
         this.createStructure();
         this.contact();
         this.turning = false;
+    }
+
+    this.hurt = function() {
+        this.coins -= 1
+        score.decreseScore()
+        if (this.coins <= -1) {
+            console.log("DEATH")
+        };
     }
 
     this.createStructure = function(){

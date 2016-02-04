@@ -1,11 +1,53 @@
-function platform(center, width, height) {
+function platform(center, width, height,x,y, speed, moving) {
     this.position = new Object();
     this.position.x = center[0]
     this.position.y = center[1]
+    this.moving = moving
+    this.swing = new Object()
+    this.swing.xStart = this.position.x
+    this.swing.xEnd = x
+    this.swing.yStart = this.position.y
+    this.swing.yEnd = y
+    this.speed = speed
 
 
     this.width = width;
     this.height = height;
+
+    this.move = function(){
+        this.construct()
+        if (this.swing.xStart != this.swing.xEnd) {
+            this.position.x += this.speed
+        };
+
+        if (this.swing.yStart != this.swing.yEnd) {
+            this.position.y += this.speed
+        };
+
+        if (this.position.x.toFixed(2) == this.swing.xEnd.toFixed(2)) {
+            this.speed *= -1
+        };
+
+        if (this.position.x.toFixed(2) == this.swing.xStart.toFixed(2)) {
+            this.speed *= -1
+        };
+
+        if (this.position.y.toFixed(2) == this.swing.yEnd.toFixed(2)) {
+            this.speed *= -1
+        };
+
+        if (this.position.y.toFixed(2) == this.swing.yStart.toFixed(2)) {
+            this.speed *= -1
+        };
+
+        if (jack.passanger) {
+            if (clampX(jack,this)) {
+                jack.position.y = this.position.y
+            };
+        };
+        //this.position.x += this.speed
+
+    }
 
     this.contact = function(object,floor){
         if (object.falling) {
@@ -45,7 +87,7 @@ function platform(center, width, height) {
 
         if (object.running) {
             object.front()
-            if (clampX(object,this)) {
+            if (clampX(object,this) && !object.passanger) {
                 if (object.level == 0 && clampY(object,this) && !above(object,this)) {
                     object.crash()
                 };
@@ -57,15 +99,26 @@ function platform(center, width, height) {
             };
             object.back()
         };
-        /*if (object.running) {
-            object.front()
-            if (clampX(object,this)) {
-                if (locationDifferenceY(object,this,0.1)) {
-                    object.crash()
+
+        if (object.landing) {
+            object.raise()
+            if (this.moving) {
+                if (clampX(object,this)) {
+                    if (above(object,this) && Math.abs(object.position.y - this.position.y) < 0.4) {
+                        console.log(object.position.y - this.position.y)
+                        object.ride()
+                    };
                 };
             };
-            object.back()
-        };*/
+            if (clampY(object,this) && !above(object,this)) {
+                object.front()
+                while (clampX(object,this)){
+                    object.position.x -= object.orientation*0.01
+                };
+                object.back()
+            };
+            object.lower()
+        };
 
 
     }

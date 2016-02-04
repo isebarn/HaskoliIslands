@@ -35,6 +35,8 @@ main()
 <script type="text/javascript" src="./coins.js"></script>
 <script type="text/javascript" src="./platforms.js"></script>
 <script type="text/javascript" src="./levels.js"></script>
+<script type="text/javascript" src="./enemy.js"></script>
+<script type="text/javascript" src="./gateway.js"></script>
 <script>
 var canvas;
 var gl;
@@ -42,11 +44,14 @@ var center = [0.0,0.0];
 var level = 0;
 
 var platforms = [];
-levelB()
-//var coins = new coins();
+levelA()
+var coins = new coins();
 var jack = new jack(1, center);
+var bullet = new bullet()
+var gun = new gun(jack,bullet);
+var gate = new gateway();
 
-/*function scoreKeeper() {
+function scoreKeeper() {
     this.scoreArray = []
 
 
@@ -66,11 +71,11 @@ function point(position, radius) {
 }
 
 
-var score = new scoreKeeper();*/
+var score = new scoreKeeper();
 
 
 
-/*
+
 
 function scoreKeeper() {
     this.scoreCard = []
@@ -83,11 +88,15 @@ function scoreKeeper() {
         this.scoreCard.push(createCirclePoints([this.position.x,this.position.y],0.05,27))
         this.position.x += 0.15
     }
+    this.decreseScore = function() {
+        this.scoreCard.pop()
+        this.position.x -= 0.15
+    }    
 
 
 }
 
-var score = new scoreKeeper() */
+var score = new scoreKeeper() 
 
 window.onload = function init() {
     canvas = document.getElementById( "gl-canvas" );
@@ -146,23 +155,41 @@ function render() {
    jack.createStructure()
    jack.redraw();
 
-  // coins.age()
-  /*  for (var i = 0; i < coins.coinArray.length; i++) { 
+    coins.age()
+    for (var i = 0; i < coins.coinArray.length; i++) { 
         gl.bufferData(gl.ARRAY_BUFFER, flatten(coins.coinArray[i].circle), gl.STATIC_DRAW);
         gl.drawArrays( gl.TRIANGLE_FAN, 0, 27); 
-    };*/
+    };
 
     for (var i = 0; i < platforms.length; i++) {
+        if (platforms[i].moving) {
+            platforms[i].move()
+        };
         gl.bufferData(gl.ARRAY_BUFFER, flatten(platforms[i].structure), gl.STATIC_DRAW);
         gl.drawArrays(gl.TRIANGLE_FAN, 0, 4);       
     };
 
-   /*for (var i = 0; i < score.scoreCard.length; i++) {
+   for (var i = 0; i < score.scoreCard.length; i++) {
         gl.bufferData(gl.ARRAY_BUFFER, flatten(score.scoreCard[i]), gl.STATIC_DRAW);
         gl.drawArrays(gl.TRIANGLE_FAN, 0, 27);
-    };*/
-  
+    };
 
+        gun.move()
+        gl.bufferData(gl.ARRAY_BUFFER, flatten(gun.structure), gl.STATIC_DRAW);
+        gl.drawArrays(gl.TRIANGLE_FAN, 0, 4); 
+
+        if (bullet.fired) {
+            bullet.fire()
+        };
+
+        gl.bufferData(gl.ARRAY_BUFFER, flatten(bullet.bullet), gl.STATIC_DRAW);
+        gl.drawArrays(gl.TRIANGLE_FAN, 0, 27);
+
+        if (jack.coins >= 14) {
+            gate.leave()
+            gl.bufferData(gl.ARRAY_BUFFER, flatten(gate.pathway), gl.STATIC_DRAW);
+            gl.drawArrays(gl.TRIANGLE_FAN, 0, 27);        
+        };
 
     window.requestAnimFrame(render);
 }
