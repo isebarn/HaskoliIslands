@@ -1,3 +1,23 @@
+/* 
+Use:    platform(center, width, height,x,y, speed, moving)
+After:  a platform
+
+Arguements:
+    center  - 2-coordinate array
+    width   - width of the platform
+    height  - height of the platform
+    x       - position to move back and forth to on the x-axis
+    y       - position to move back and forth to on the y-axis
+    speed   - the platforms speed
+    moving  - boolean to indicate wheter the platform is moving or not
+
+Functions:
+    move()                  - If the boolean 'mooving' is true, the platform is moved
+    contact(object,floor)   - Checs if object has touched the platform
+    redraw()                - Redraws the platform
+    construct()             - Resets the coordinates of the platform
+*/
+
 function platform(center, width, height,x,y, speed, moving) {
     this.position = new Object();
     this.position.x = center[0]
@@ -120,8 +140,14 @@ function platform(center, width, height,x,y, speed, moving) {
             };
             object.lower()
         };
+    }
 
-
+    this.redraw = function() {
+        if (this.moving) {
+            this.move()
+        };
+        gl.bufferData(gl.ARRAY_BUFFER, flatten(this.structure), gl.STATIC_DRAW);
+        gl.drawArrays(gl.TRIANGLE_FAN, 0, 4);         
     }
 
     this.construct = function() {

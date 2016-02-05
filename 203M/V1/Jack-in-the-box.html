@@ -1,0 +1,143 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Jack-in-the-box</title>
+
+<script id="vertex-shader" type="x-shader/x-vertex">
+attribute vec4 vPosition;
+
+
+void
+main()
+{
+    gl_PointSize = 1.0;
+    gl_Position = vPosition;
+}
+</script>
+
+<script id="fragment-shader" type="x-shader/x-fragment">
+
+precision mediump float;
+uniform vec4 rcolor;
+
+void
+main()
+{
+    gl_FragColor = rcolor;
+}
+</script>
+
+<script type="text/javascript" src="./files/webgl-utils.js"></script>
+<script type="text/javascript" src="./files/initShaders.js"></script>
+<script type="text/javascript" src="./files/MV.js"></script>
+<script type="text/javascript" src="./helpers.js"></script>
+<script type="text/javascript" src="./jack.js"></script>
+<script type="text/javascript" src="./controls.js"></script>
+<script type="text/javascript" src="./physics.js"></script>
+<script type="text/javascript" src="./coins.js"></script>
+<script type="text/javascript" src="./platforms.js"></script>
+<script type="text/javascript" src="./levels.js"></script>
+<script type="text/javascript" src="./enemy.js"></script>
+<script type="text/javascript" src="./gateway.js"></script>
+<script type="text/javascript" src="./scoreKeeper.js"></script>
+<script>
+var raudur = vec4(1, 0, 0, 1);
+var gulur = vec4(1, 0.843, 0, 1);
+
+
+var canvas;
+var gl;
+var center = [0.0,0.0];
+var level = 0;
+
+var platforms = [];
+levelA()
+var coins = new coins();
+var jack = new jack(1, center);
+var bullet = new bullet(jack)
+var gun = new gun(jack,bullet);
+var gate = new gateway();
+var score = new scoreKeeper() 
+
+window.onload = function init() {
+    canvas = document.getElementById( "gl-canvas" );
+    gl = WebGLUtils.setupWebGL( canvas );
+    if ( !gl ) { alert( "WebGL isn't available" ); }
+    gl.viewport( 0, 0, canvas.width, canvas.height );
+    gl.clearColor( 0.21, 0.05, 0.4, 1.0 );
+    var program = initShaders( gl, "vertex-shader", "fragment-shader" );
+    gl.useProgram( program );
+    gogo = [];
+    window.addEventListener("keydown", function(e){
+               keyDown(jack,e.keyCode)               
+            } ); 
+
+    window.addEventListener("keyup", function(e){
+                keyUp(jack,e.keyCode);
+            } ); 
+
+
+    var vBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, vBuffer);
+    var vPosition = gl.getAttribLocation(program, "vPosition");
+    gl.vertexAttribPointer(vPosition, 2, gl.FLOAT, false, 0, 0);
+    gl.enableVertexAttribArray(vPosition);
+    locrcolor = gl.getUniformLocation(program, "rcolor")
+    render();
+}
+
+
+function render() {
+    gl.clear( gl.COLOR_BUFFER_BIT );
+
+
+
+    jack.decideMovement()
+    jack.createStructure()
+    jack.redraw();
+
+    gl.uniform4fv(locrcolor, flatten(coins.color))
+    coins.age()
+    coins.redraw()
+    score.redraw()
+
+
+    gl.uniform4fv(locrcolor, flatten(platforms[0].color))
+    for (var i = 0; i < platforms.length; i++) {
+        platforms[i].redraw()    
+    };
+
+
+    gun.move()
+    gl.uniform4fv(locrcolor, flatten(gun.color))
+    gl.bufferData(gl.ARRAY_BUFFER, flatten(gun.structure), gl.STATIC_DRAW);
+    gl.drawArrays(gl.TRIANGLE_FAN, 0, 4); 
+
+    if (bullet.fired) {
+        bullet.fire()
+    };
+
+    gl.uniform4fv(locrcolor, flatten(bullet.color))
+    gl.bufferData(gl.ARRAY_BUFFER, flatten(bullet.bullet), gl.STATIC_DRAW);
+    gl.drawArrays(gl.TRIANGLE_FAN, 0, 27);
+
+    if (jack.coins >= 13) {
+        gl.uniform4fv(locrcolor, flatten(gate.color))
+        gate.leave()
+        gl.bufferData(gl.ARRAY_BUFFER, flatten(gate.pathway), gl.STATIC_DRAW);
+        gl.drawArrays(gl.TRIANGLE_FAN, 0, 27);        
+    };
+
+    window.requestAnimFrame(render);
+}
+
+</script>
+</head>
+
+<body>
+<canvas id="gl-canvas" width="1000" height="1000">
+Oops ... your browser doesn't support the HTML5 canvas element
+</canvas>
+
+
+</body></html>
+

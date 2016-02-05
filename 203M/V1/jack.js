@@ -1,3 +1,36 @@
+/* 
+Use:    jack(direction, startingPosition)
+After:  A jack object
+
+Arguements:
+    direction        - starting direction for jack to face
+    startingPosition - Initial position 
+
+Functions:
+raise()             - raises the 'y' coordinate by the objects 'head' 
+lower()             - lowers the 'y' coordinate by the objects 'head'
+front()             - increases/decreases the 'x' coordinate by the objects 'nose' 
+back()              - decreases/increases the 'x' coordinate by the objects 'nose'
+crash()             - calls the false() function and sets the attribute crashing as true
+ride()              - calls the false() function and sets the attribute passanger as true
+false()             - sets all booleans as false
+fall()              - calls the false() function and sets the attribute falling as true
+land()              - calls the false() function and sets the attribute landing as true
+jump(jumpSpeed)     - calls the false() function and sets the attribute landing as true
+leap(jumpSpeed)     - calls the false() function and sets the attribute leaping as true
+run()               - calls the false() function and sets the attribute running as true
+moveX(runSpeed)     - moves the object in the x-direction
+moveY(jumpSpeed)    - moves the object in the y-direction
+stop()              - sets the running attribute as false
+ground()            - calls the false() function and sets the attribute grounded as true          
+contact()           - calls the contact method of all platforms, coins and the bullet
+redraw()            - redraws the object
+reverse()           - turns the objects orientation
+hurt()              - decreases the coin attribute by one
+createStructure()   - moves the ojects x and y coordinates
+decideMovement()    - checks wheter the object is running, jumping, leaping or falling   
+*/
+
 function jack(direction, startingPosition){
     this.orientation = direction;
     this.position = new Object();
@@ -180,5 +213,28 @@ function jack(direction, startingPosition){
     }
     this.createStructure();
 
-    
+    this.decideMovement = function() {
+        if (this.falling) {
+            this.moveY(this.speedY)
+            gravity(this, -0.015)
+            this.contact()
+        };
+
+        if (this.running) {
+            this.moveX(this.runStrength)
+            this.contact()
+        };
+
+        if (this.jumping) {
+            this.moveY(this.speedY)
+            gravity(this, -0.015)
+        };
+
+        if (this.leaping) {
+            this.moveX(this.runStrength)
+            this.moveY(this.speedY)
+            gravity(this, -0.015)
+            this.contact()
+        };
+    }
 } 

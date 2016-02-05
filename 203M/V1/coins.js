@@ -1,3 +1,13 @@
+/* 
+Use:    coins()
+After:  Creates an object that creates randomly placed coins at a specific interval
+
+
+Functions:
+    createCoin() - creates a coin on a random platform
+    age()        - increases the age of all active coins and removes those that reach a certain age
+    redraw()     - redraws the coordinates for the coins
+*/
 function coins() {
     this.coinArray = []
     var place = 0;
@@ -33,7 +43,24 @@ function coins() {
             };
         };
     }
+
+    this.redraw = function() {
+        for (var i = 0; i < this.coinArray.length; i++) { 
+            gl.bufferData(gl.ARRAY_BUFFER, flatten(this.coinArray[i].circle), gl.STATIC_DRAW);
+            gl.drawArrays( gl.TRIANGLE_FAN, 0, 27); 
+        };
+    }
 }
+
+/* 
+Use:    coin(position, radius)
+After:  a coin
+
+
+Functions:
+    contact()  - method called by other objects to see if the coin has been touched
+    ager()     - increases the age of the coin
+*/
 
 function coin(position,radius) {
     this.circle = createCirclePoints(position,radius,27);
@@ -58,7 +85,6 @@ function coin(position,radius) {
 
     this.ager = function() {
         this.age += 1
-
     }
 }
 

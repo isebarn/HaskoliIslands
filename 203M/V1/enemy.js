@@ -1,3 +1,15 @@
+/* 
+Use:    gun(target, bullet)
+After:  object that follows a target-object
+
+Arguements:
+    target - The object that the gun follows
+    bullet - The object the gun fires at its target
+
+Functions:
+    createStructure() - Creates the gun's coordinates
+    move()            - moves the gun around, following its target
+*/
 function gun(target, bullet) {
     this.position = new Object()
     this.position.x = -0.8
@@ -36,11 +48,21 @@ function gun(target, bullet) {
         this.createStructure()
     }
     this.createStructure()
-
-
 }
 
-function bullet(){
+/* 
+Use:    bullet(target)
+After:  object that moves at a certain speed vertically across the screen
+
+Arguements: 
+    target - the object the bullet is fired at by the gun
+Functions:
+    fire()            - Initiates the objects movement across the screen
+    hit()             - Checks if the object has hit its object
+    createStructure() - Creates the objects coordinates
+    contact()         - Checks if the bullet has hit its target
+*/
+function bullet(target){
 	this.position = new Object()
 	this.position.x = -0.8
 	this.position.y = 0.9;
@@ -64,30 +86,28 @@ function bullet(){
     }
 
     this.hit = function() {
-    	if (this.position.y.toFixed(1) == jack.position.y.toFixed(1)) {
-    		if (this.position.x + this.radius >= jack.position.x) {
-    			if (this.position.x - this.radius <= jack.position.x) {
+    	if (this.position.y.toFixed(1) == target.position.y.toFixed(1)) {
+    		if (this.position.x + this.radius >= target.position.x) {
+    			if (this.position.x - this.radius <= target.position.x) {
     				this.position.y = 0.9
-    				jack.hurt()
+    				target.hurt()
     			};
-    		jack.front()
-    		if (this.position.x + this.radius >= jack.position.x) {
-				if (this.position.x - this.radius <= jack.position.x) {
+    		target.front()
+    		if (this.position.x + this.radius >= target.position.x) {
+				if (this.position.x - this.radius <= target.position.x) {
     				this.position.y = 0.9
-    				jack.hurt()
+    				target.hurt()
 				};    			
     		};	
-    		jack.back()    		
+    		target.back()    		
     		};
 
     	};
     }
 
-
     this.createStructure = function(){
 		this.bullet = createCirclePoints([this.position.x,this.position.y], this.radius, 27)
     }
-
 
     this.contact = function(object) {
         if (clampX(object, this)) {
@@ -98,5 +118,4 @@ function bullet(){
     }
 
     this.createStructure()	
-
 }

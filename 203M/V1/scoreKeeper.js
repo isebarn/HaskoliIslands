@@ -1,3 +1,14 @@
+/* 
+Use:    scoreKeeper()
+After:  Scorekeeping object
+
+
+Functions:
+    increaseScore() - increases the number of circles representing the score
+    decreaseScore() - decreases the number of circles representing the score
+    redraw()        - redraws the scoreCard array
+*/
+
 function scoreKeeper() {
     this.scoreCard = []
 
@@ -12,7 +23,12 @@ function scoreKeeper() {
     this.decreseScore = function() {
         this.scoreCard.pop()
         this.position.x -= 0.15
-    }    
+    }   
 
-
+    this.redraw = function() {
+        for (var i = 0; i < this.scoreCard.length; i++) {
+            gl.bufferData(gl.ARRAY_BUFFER, flatten(this.scoreCard[i]), gl.STATIC_DRAW);
+            gl.drawArrays(gl.TRIANGLE_FAN, 0, 27);
+        };
+    } 
 }
