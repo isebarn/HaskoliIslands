@@ -1,0 +1,94 @@
+Jack-in-the-box
+https://notendur.hi.is/~dia2/203M/Verkefni/Verkefni1/Jack-in-the-box.html
+https://github.com/isebarn/HaskoliIslands/tree/master/203M/V1
+
+
+-------------------Basic features------------------------
+In the game you use the arrow keys to move the triange (jack) 
+The right/left arrow keys move jack sideways and the up arrow button jumps/leaps
+
+Following jack is a gun that follows jack and shoots him once the gun is directly above him
+
+Jacks objective is to collect 13 coins in the first level, and jump into the portal leading to level 2
+There, jack also must collect 13 coins
+There is no kill-screen or end-screen. Once jack has collected 13 coins in both levels, coins stop
+appearing
+
+There are 2-3 coins in the game simultaneously. Sometimes coins are on the same place, so reaching those
+would give 2-3 points instead of one point. Coins only 'live' for a short time before they disappear
+If Jack collects a coin, a new one wont appear immedietally
+
+The 'crash-physics' of the levels differ slightly. In the first level, Jack cannot hit the sides
+of the boxes, he can only land ontop of the platforms
+In the second level jack can crash into the platforms
+Jack can always jump through platforms from below 
+
+The gun that follows Jack around has a single bullet. The gun simply follows jack and wheter jack is right 
+below or far below, the gun fires the bullet once the gun is directly above
+Once the bullet has been fired, the gun will reload either when the bullet leaves the screen or if the
+bullet hits Jack
+Jack has as many lives as coins he has collected. However, as previsously stated, there is no kill-screen
+so if Jack runs out of coins and gets hit, it wont 'end' the game. However the gun will keep firing at Jack
+bringing him to a 'debt'
+The gun's speed and the bullets velocity depends on wheter Jack is in level 1 or level 2
+
+When Jack collects a coin, a score-coin appears on the bottom of the screen, right under the 'ground' 
+platform
+
+
+
+-------------------Collision detection-------------------
+All objects in the game that Jack may interact with in some way have their own 'contact()' function
+Every time Jack moves, he calls the 'contact()' function of all objects to invoke a reaction, usually 
+based on boolean attributes that Jack has, such as running, landing, jumping etc
+
+The platforms react differently whether Jack is landing, running, leaping or falling and also depend
+on wheter Jack is at level 1 or level 2
+
+The bullet simply check for a hit, as do the coins
+
+The functions used for collosion detection are: 
+above(objectA, objectB) 	- returns true of objectA has a higher y-coordinate than objectB
+clampX(objectA, objectB) 	- returns true if objectA's x-coordinate is between objectB's x-coordinate
+								and its x-coordinate + its width
+clampY(objectA, objectB) 	- returns true if objectA's y-coordinate is between objectB's y-coordinate
+								and its y-coordinate + its height
+
+locationDifferenceY(objectA, objectB, sensitivity) - returns true if objectA's coordinate is within
+objectB's y-coordinate +/- the sensitivity														
+
+Jack also has a method called front(), back(), raise() and lower()
+These methods increase Jack's x-coordinate by his length, deacrease it, or increase his y-coordinate
+by his height, and decrease it
+This is due to the fact that Jack's x/y coordinates are single points, the point of Jack that touches
+the ground. These functions simplify the  clampX(), clampY(), locationDifferenceY() functions, so it is
+convenient to fx call in this order: 
+jack.front()
+clampX(jack, platform[4])
+jack.back()
+
+To check if Jack's nose is within a platform but his actual coordinates are. Jack only lands on a platform 
+if his 'feet' land on it, not the nose
+
+
+------------------ .js Files ---------------------
+coins.js 		- are the functions necessary to create the coins lying around
+controls.js 	- are the functions conected to the keyboards arrow-keypresses
+enemy.js 		- are the functions to create the gun-object and the bullet-object
+gateway.js 		- creates the gateway that appears once jack has 13 coins in level 1
+helpers.js 		- has all the collision-detection functions and a function to create circles
+jack.js 		- creates the Jack object
+levels.js 		- are simply constructors for level1 and level2 to build the platforms, and a functino to
+change levels
+physics.js 	    - the function for gravity for when jack jumps. 
+platforms.js    - the function to create platform objects
+scoreKeeper.js  - the function t o create the array that keeps score, aswell as the score-circles
+
+
+All these files have brief documentation, but all methods and object attributes are named clearly so there
+should be no ambiguity what is going on, and most methods are 'one-liners', as is custom
+
+----------------- Basic control flow ---------------------
+The control flow of the program is in the hands of the Jack-in-the-box.html file
+The render() function begins by calling Jack to see what has changed since the last time he was drawn
+Jack calls his own contact() method that calls the contact() method of all the other objects (that have one) and redraw accordingly

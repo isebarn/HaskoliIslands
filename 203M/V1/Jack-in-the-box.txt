@@ -1,4 +1,7 @@
 Jack-in-the-box
+https://notendur.hi.is/~dia2/203M/Verkefni/Verkefni1/Jack-in-the-box.html
+https://github.com/isebarn/HaskoliIslands/tree/master/203M/V1
+
 
 -------------------Basic features------------------------
 In the game you use the arrow keys to move the triange (jack) 
