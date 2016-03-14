@@ -14,6 +14,10 @@ var spinY = 0;
 var origX;
 var origY;
 
+var separation = 1;
+var alignment = 2;
+var cohesion = 2;
+
 var matrixLoc;
 var vv = []
 
@@ -54,7 +58,6 @@ var indices = [
      18,19,23,22,18,20,21,19,21,25,23,25,24,22,24,20,18,    
 ];
 
-console.log(indices.length)
 window.onload = function init(){
     canvas = document.getElementById( "gl-canvas" );
 
@@ -145,6 +148,18 @@ window.onload = function init(){
                }                            
             } );    
 
+    document.getElementById("separation").value = separation;
+    document.getElementById("alignment").value = alignment;
+    document.getElementById("cohesion").value = cohesion;
+    document.getElementById("separation").onchange = function(){
+        separation = this.value;
+    };    
+    document.getElementById("alignment").onchange = function(){
+        alignment = this.value;
+    };
+    document.getElementById("cohesion").onchange = function(){
+        cohesion = this.value;
+    };
     render();
 }
 

@@ -1,0 +1,203 @@
+---------------- Hlekkur á lausnina ----------------
+https://notendur.hi.is/~dia2/203M/Verkefni/Verkefni2/hh.html
+Ásamt þessa skjals og skjáskots
+
+
+---------------- Lausnin ----------------
+
+10 fiðrildi sem fljúga um. Þau hafa öll 
+slembiupphafsstað og slembiupphafsstefnu
+og þar að auki breytist stefna þeirra eftir
+hendingu sem og eftir hjarðarhegðun
+
+Fiðrildin eru inni í litlum alheimi, 2x2x2
+kassa sem hægt er að skoða frá öllum
+sjónarhornum með því að draga músina og líka
+með því að zooma með up/niður örvahnöppunum
+
+Einnig eru stýristikur fyrir separation,
+alignment og cohesion
+Stærðin á tölunum segir til um radíusinn
+eða réttara sagt lágmarksvirkjunarfjarlægðina
+á þeim
+
+Ef alignment er sett í 5 þá eftir augnablik
+hafa öll fiðrildin sömu stefnu
+
+Ef cohesion er sett í 5 þá eftir örfá
+auknablig hafa fiðrildin þyrpst saman
+
+Erfitt er að sjá áhrif separation öðruvísi
+en með því að stilla cohesion í botn og 
+leifa þeim að hópa sér saman og síðan 
+sprengja þau í sundur með því að hækka
+separation
+
+
+
+---------------- Forrit ----------------
+
+Það eru 5 .js skrár
+bb.js		 - main skráin 
+bug.js 		 - lýsir einstaka fiðrildum
+bugBody.js   - geymir hnit allra forma
+bugGroup.js  - lýsir hegðun fiðrildahóps
+tools.js 	 - það sem það heitir
+
+
+
+---------------- bb.js ----------------
+
+Þessi skrá geymir flestar almennar breytur 
+og indexana sem fara í litarana
+Hún geymir einnig músaratburði og zoom atburði
+Svo er þar einnig render() aðferðin
+
+
+
+---------------- bug.js ----------------
+
+Þessi skrá býr til hluti bug() sem eru 
+fiðrildi og lýsir hegðun einstaka firðilda
+og teiknar þau upp
+
+Skráin hefur 8 aðferðir:
+
+flaps() :
+	sem stýrir horninu sem vængir mynda
+	og hvort fiðrildið blaki upp/niður
+
+direction() :
+	sem býr til slembistefnu og leggur
+	saman alla fengna hraða (skv 
+	hjarðhegðun) við slembistefnu og 
+	finnur hornið sem fiðrildið er undir
+
+fix() :
+	sem sér um að senda fiðrildið inn um
+	andstæðann útgangsflöt ef það fer 
+	útfyrir
+
+draw() :
+	sem teiknar upp fiðrildið
+
+body() : 
+	sem skilar tilteknum halla/stefnu
+	fiðrildis til draw() fallsins
+
+wingR() :
+	sem skilar hægri væng til draw()
+	fallsins
+
+wingL() :
+	sem skilar vinstri væng til draw()
+	fallsins
+
+fly(): 
+	sem heldur utanum röð aðgerða
+
+
+
+---------------- bugBody.js ----------------
+
+Heldur utanum hnúta skrokks, beggja vængja
+og kassans sem fiðrildin lifa í
+
+
+
+---------------- bugGroup.js ----------------
+
+bugGroup(size) býr til hlutinn bugGroup af
+ákveðinni stærð (fjölda fiðrilda)
+
+bugGroup() hefur svo 5 aðferðir, þar á meðal
+hjarðhegðannaaðferðirnar
+
+createFlock() :
+	sem er keyrð einusinni og býr til marga
+	fiðrildahluti og setur þá í vigurinn 
+	bugs[]
+
+groupFly() : 
+	sem byrjar á því að kalla á hjarðhegðun-
+	araðferðirnar og kallar síðan á fly()
+	aðferð hvers einasta fiðrildahlutar
+
+alignment() :
+	sem heldur fiðrildunum sem eru ákveðið
+	nálægt hvort öðru með sömu meðalstefnu
+	bug() hlutir hafa vigurinn groupVelocity
+	sem eru svo lagðir við slembda 
+	stefnuvigurinn sem firðildið býr til fyrir
+	sjálft sig
+	Aðferðin fer í gegnum fyrir hvert bug()
+	öll hin bug(), þ.e.a.s tvöföld for-lykkja
+
+	Aðferðin býr fyrst til tómann 
+	groupVelocity-vigur
+	Síðan athugar hún hvaða fiðrildi eru í
+	ákveðinni lágmarksfjarlægð frá sér
+	og bætir við stefnuvigri þess fiðrildis
+	ef svo er
+	Síðan þegar búið er að skoða hvert einasta
+	fiðrildi þá er deilt í gegn með fjölda
+	nálægra fiðrilda og vigurinn skalaður niður
+
+cohesion() :
+	sem sér til þess að fiðrildi sem eru í hóp
+	haldist sem hópur
+
+	Aðferðin virkar nánast eins og alignment()
+	Munurinn er sá að í stað þess að hafa 
+	breytuna groupVelocity þá hefur hún
+	groupLocation
+
+	Staðsetningu nálægra fiðrilda er bætt
+	inní groupLocation-vigurinn og síðan
+	er meðalstaðsetningin fundin með deilingu
+	fjölda hópsins
+	Síðan er þessum vigri 'breytt' í stefnuvigur
+	með þvi að draga frá honum staðsetningu
+	fiðrildisins
+
+	Þessum vigri, eins og groupVelocity-vigrinum
+	er síðan bætt við slembda vigur fiðrildisins
+
+separation():
+	sem sér til þess að fiðrildi klessi ekki á
+	hvort annað
+
+	Þessi aðferð er ögn einfaldari en cohesion
+	Þessi aðferð finnur staðsetningu þess
+	fiðrildis í hópnum sem er næst fiðrildinu
+	og finnur síðan stefnuvigurinn sem er 
+	í gagnstæða stefnu við það fiðrildi
+
+	Þessi vigur er síðan lagður við slembda
+	stefnuvigur fiðrildisins
+
+
+
+---------------- tools.js ----------------
+Þessi skrá geymir 2 aðferðir 
+
+randomColor() :
+	Býr til slembilit, maður verður nú að
+	sýna smá lit
+
+rotate() :
+	Sér um að snúa myndavélinni bæði fyrir 
+	kassan sem fiðrildin eru í og líka
+	fiðrildin sjálf
+
+
+
+
+
+
+
+
+
+
+
+

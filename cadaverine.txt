@@ -1,0 +1,117 @@
+https://en.wikipedia.org/wiki/Cadaverine
+Putrescine[3] and cadaverine[4] were first described in 1885 by the Berlin physician Ludwig Brieger (1849–1919).[5]
+
+
+
+http://www.kingscientific.com/pro_result/4325/
+http://www.sigmaaldrich.com/catalog/product/aldrich/d22606?lang=en&region=IE
+https://mcule.com/MCULE-3785554987/
+sölusíða
+
+
+https://pubchem.ncbi.nlm.nih.gov/compound/1_5-Diaminopentane#section=Metabolism-Metabolites
+Cadaverine is synthesized from lysine in a one-step reaction with lysine decarboxylase (LDC).
+
+
+http://patft.uspto.gov/netacgi/nph-Parser?d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=8906653.PN.&OS=PN/8906653&RS=PN/8906653
+
+1,5-Diaminopentane (frequently also referred to as pentamethylenediamine or cadaverine
+
+ DAP is used, for example, in the preparation of polyamides, polyureas or polyurethanes and of copolymers thereof.
+
+
+Moreover, the fermentative or enzymatic production of DAP via lysine decarboxylation has been known for some time. Various processes for isolating the product of interest from the fermentation broth have been described in this context. 
+
+The object of the present invention is therefore to further improve the isolation of DAP (cadaverine) from fermentation broths. More specifically, it is intended to further increase the yield of product of interest and improve on the time required for isolation, in particular solvent-based extraction.
+
+ There are also in principle no limitations whatsoever regarding the microorganisms employed in the fermentation. The latter may be naturally occurring microrganisms, microorganisms improved by means of mutation and selection, but in particular recombinantly produced microorganisms, such as fungi, but in particular bacteria. These microorganisms are capable either of producing DAP 
+
+ Fermentation broths to be worked up according to the invention are derived, for example, from the culturing of recombinant coryneform bacteria which, via a deregulating intervention that promotes lysine biosynthesis and affects at least one lysine biosynthesis gene, have increased production of lysine, in particular L-lysine, or of a lysine-comprising mixture and/or which additionally overexpress an enzyme having lysine decarboxylase activity and accumulate DAP and/or acetyl-DAP. The latter are therefore capable of producing DAP directly. 
+
+ A process for producing DAP using recombinant microorganisms having a deregulated lysine decarboxylase gene and at least one further deregulated gene, involved in lysine biosynthesis for example, has been disclosed in WO 2007/113127 to which reference is explicitly made hereby. 
+
+ "Deregulation", as is apparent, should be understood in the broadest sense and comprises an increase or reduction or elimination of an enzyme activity in many different ways, for example by an increase or reduction of the copy number of enzyme molecules in the microorganism or a modification of another property that reduces lysine biosynthesis
+
+
+
+ ------------Listi af örverum
+
+Corynebacterium glutamicum ATCC 13032,
+
+Corynebacterium acetoglutamicum ATCC 15806,
+
+Corynebacterium acetoacidophilum ATCC 13870,
+
+Corynebacterium thermoaminogenes FERM BP-1539,
+
+Corynebacterium melassecola ATCC 17965
+
+Brevibacterium flavum ATCC 14067
+
+Brevibacterium lactofermentum ATCC 13869 and
+
+Brevibacterium divaricatum ATCC 14020;
+
+Corynebacterium glutamicum KFCC10065
+
+Corynebacterium glutamicum ATCC21608. 
+
+
+http://everything2.com/title/Cadaverine
+ You can produce cadaverine (as well as putrescine, spermidine and histamine) by letting fish such as tuna or swordfish decay. Something more elegant would consist in soaking the flowers of Hoodia gordonii in alcohol.
+
+
+ http://www.jbc.org/content/269/10/7412.full.pdf
+ Grein frá 93 um framleiðslu á cadaverine
+
+
+https://books.google.is/books?id=wbL3Ca4aHXEC&pg=PA9&lpg=PA9&dq=cadaverine+uses&source=bl&ots=NIdO3J88Qk&sig=DcOIp70ULkT8fhSn9KlYB2Q1BoY&hl=en&sa=X&redir_esc=y#v=onepage&q=cadaverine%20uses&f=false blaðsíða 7
+Molecular basis for the maintenance of envelope integrity in selenomonas rumunantium: Cadaverine biosynthesis and covalent modification into the peptidoglycan 
+
+Cadaverine is produced by the bacterial enzyme lysine decarboxylase which breaks down the amino acid L-lysine to cadaverine and carbon dioxide
+
+
+http://onlinelibrary.wiley.com/doi/10.1002/bit.22918/abstract
+A five carbon linear chain diamine, cadaverine (1,5-diaminopentane), is an important platform chemical having many applications in chemical industry. Bio-based production of cadaverine from renewable feedstock is a promising and sustainable alternative to the petroleum-based chemical synthesis.
+The final engineered strain was able to produce 9.61 g L−1 of cadaverine with a productivity of 0.32 g L−1 h−1 
+
+
+Putrescine and cadaverine are chemically very similar: they are both diamines – molecules that contain two amine groups. Both have short hydrocarbon chains with a primary amine group at each end. The difference is that putrescine has four carbon atoms in the chain between the two amines, whereas there are five in cadaverine
+
+The industrial process for making certain plastics such as nylon is to take a diamine and another molecule that has a carboxylic acid group at either end (a diacid). Reacting these two molecules together makes long chain polymers, in which the diamine and diacid building blocks alternate, connected by amide bonds. 
+
+Industrially, putrescine is made from acrylonitrile (2-propenenitrile) and hydrogen cyanide.These two molecules are reacted togetherto make succinonitrile, which is similar to putrescine but contains fewer hydrogen atoms. Hydrogenation then turns the colourless waxy solid of succinonitrile into the foul-smelling putrescine.
+
+
+https://www.sciencenews.org/blog/gory-details/why-death-smells-so-deadly
+cadaverine and putrescine. These two molecules are produced during the decomposition of proteins, when the amino acids lysine and ornithine break down
+'putrescine'
+
+
+http://www.rsc.org/chemistryworld/podcast/CIIEcompounds/transcripts/putrescine.asp
+- cadaverine comes from removing the carboxylic acid group from the amino acid lysine, whereas putrescine is derived from a different amino acid, arginine
+
+
+https://www.jstage.jst.go.jp/article/jnsv/58/3/58_153/_pdf
+Selenomonas ruminantium , a strictly anaerobic Gram-negative bacte- rium dominant in sheep rumen, cadaverine displays its function in a quite distinctive scheme compared to the general bacteria reported. It serves as an essential constituent of the peptidoglycan for the maintenance of  envelope integrity through an interaction with the periplasm-exposed SLH domain of  Mep45, the outer membrane protein of  this bacterium. Furthermore, cytoplasmic biosynthesis of  cadaverine occurs totally in a eukaryotic-like manner rather than in a conventional way of  bacteria. Lysine/ornithine decarboxylase (LDC/ODC), a PLP-dependent enzyme responsible for cadaverine synthesis inthis bacte-rium, 
+
+ The envelope of
+Gram-negative bacteria is organized in three layers
+comprising cytoplasmic membrane, peptidoglycan
+layer, and outer membrane. 
+
+In S.ruminantium, cadaverine biosynthesis takes place in the cytoplasm by decarboxylating ornithine into cadaverine catalyzed by lysine/ornithine decarbox-ylase (LDC/ODC), a pyridoxal-5 -phosphate (PLP)-dependent enzyme (15–17 ). Cadaverine is subsequently transferred to the peptidoglycan at the intermediate stage of  peptidoglycan-biosynthesis ( 18 ), and functions atthe cell surface.
+
+----Heill subchapter um "Cadaverine Biosynthesis and Its Regulation in S.ruminantium"---
+
+
+
+
+Överur sem framleiða
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC321251/
+Corynebacterium glutamicum pottþétt til Matlab model
+
+
+
+http://systemsbiology.ucsd.edu/InSilicoOrganisms/OtherOrganisms
+Listi yfir módel

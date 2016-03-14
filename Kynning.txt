@@ -1,0 +1,68 @@
+Kynning á að vera 4 glærur
+
+Glæra 0
+Hvaða efni komu til greina
+
+Beta-glucan - Nýlegar rannsóknir hafa gefið til kynna að Beta-glucan geti
+bætt allt að ári við líf krabbameinssjúklinga. 
+Er þegar til staðar í E. coli sem er góður bónus.
+Gallin er að það er til allstaðar og er hræódýrt
+
+N-acetyl cysteine
+Hefur verið rannsakað mikið seinasta áratug og hefur not í tengslum við
+fjölda geð- og taugasjúkdóma, allt frá stressi og upp í dópamín ójafnvægi
+og rannsóknir benda einnig til að efnið geti hjálpað alzheimersjúklingum
+Gallin er að það er vægast sagt ódýrt, eða um 2 USD/kg
+
+
+Cadaverine
+Frændi Steins, Sang Yung Lee, hefur m.a rannsakað amminósýruna L-lysine
+bak og fyrir. Ef að CO2 er bætt við L-lysine þá fæst Cadaverine
+Cadaverine á uppruna sinn í rotnandi mannfólki þar að auki sem að 
+þvag fær lyktina sína frá Cadaverinie. Ef Cadaverine er helt í bíl, þá
+er bíllinn ónýtur
+Cadaverine hefur fjölda nota eins og að búa til polymera og í rannsóknum
+
+Bakteríubatterí
+Kannski væri hægt að nota örveruna geobater sulfureduace til að búa
+til rafhlöðu fyrir gangráði
+
+Glæra 1
+Hvaða efni
+Við enduðum á að velja
+Cadaverine
+
+
+Glæra 2
+Hversvegna cadaverine
+	-Mögulega hægt að framleiða þetta efni á ódýrann og góðann máta
+	til að seinna meir búa til polymera, en líka vegna þess að það
+	er erfitt að finna eithvað target sem að er ekki dead end
+	-Svo vill líka enginn vera að búa þetta til
+
+
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3416434/ grein um bakteríuna
+Glæra 3
+Hvaða örveru notum við
+	-bacillus methanolicus
+	-Þessi örvera notar methanol sem er hræódýrt sem er mikill selling point
+	-Bacillus methanolicus er þegar mjög vinsælt rannsóknartarget þegar kemur 
+	að því að búa til l-lysine og l-glutamine úr methanolei
+
+Glæra 4
+Planið okkar:
+---Tímaáætlun
+Skoða efnið og örveruna sem við notum gaumgæfilega (in progress)
+Deadline: 11 mars
+->
+Lesa greinar um reiknirit og gera stuttan útdrátt með pros/cons
+Ákvarða hvaða reiknirit hentar best
+Deadline:18 mars
+->
+Búa reiknirit til
+Deadline:5 apríl
+->
+Nota reiknirit
+Túlka niðurstöður
+Skrifa skýrslu
+Deadline: 19 apríl

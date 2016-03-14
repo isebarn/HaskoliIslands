@@ -1,0 +1,40 @@
+Ég setti sem viðhengi skjal
+
+Það er skipt í 4 (stutta) kafla:
+
+-N-Acetyl cysteine
+-Beta-glucan
+-Cadaverine
+-Bacteria battery
+
+ 
+
+Í N-acetylcysteine "kaflanum" þá reyni ég að taka fyrir allar spurningarnar sem þú settir í lýsingu á "Fyrsti áfangi", eins og "mat á umfangi", "markaðsaðstæður" og fleira og væri fínt ef þú segðir mér að það sem ég er að gera sé á réttri leið
+
+ 
+
+Þar eru líka nokkrar spurningar:
+
+1 Hvernig á að ákvarða hvaða veiru á að nota? Ég valdi C. glutamicum því að í fyrirlestrarglæru stóð að það væri notað fyrir amminosýrur
+
+2 "Er þetta efni í örverunni" Ég finn ekkert um það á kegg, ég fann efnið sjálft (N-acetylcysteine) á kegg og reactions, en kemst ekki lengra
+
+3 "Hvernig á að velja erfðabreytingar" er spurning sem stóð að við ættum að svara. Er þetta spurning sem á að svara strax?
+
+4 "Hvaða reiknirit notum við" er líka spurning sem stóð að við ættum að svara. Eigum við að svara því strax?
+
+ 
+
+Eftir kaflann um N-acetylcystene eru kaflar um Beta-glucan, cadaverine og "bacteria battery" sem eru bara niðurstöður örstuttra markaðsrannsókna hjá mér og hver pælingin er að nota efnin í og líka pros/cons
+
+ 
+
+Ég reyndi eftir bestu getu að hafa þetta skemmtilega lesningu, sem er erfitt en þetta er bara 140 línur, en ég biðst afsökunar á að neyðast til að setja svona spurningar inn
+
+ 
+
+Ástæðan fyrir þessu er að ég vil fá álit hvort ég sé að fara í rétta átt með spurningarnar og líka til að þú getir gefið mér ráð hvaða efni er skynsamlegast að velja með þessum upplýsingum, það efni verður eflaust fyrir valinu, en þetta voru upprunalega 10 efni sem ég narrowed down í þessi 4
+
+ 
+
+P.s kynningin er í fyrramálið, þarf styrktarumsóknarskýrslan að koma á sama tíma? 

@@ -1,0 +1,7 @@
+[Próf 2013] Ef við slepptum alveg umhverfisendurskininu (e. ambient) í lýsingarlíkani Phong hvernig myndi það koma fram í líkani? Lýsið líkani þar sem greinilega er hægt að sjá mun á því hvort umhverfisendurskin er til staðar eða ekki. 
+
+Á myndunum er fyrri myndin með ambient-lið í bútalitaranum (fragment-shader) en í seinni myndinni hef ég tekið hann út
+
+Munurinn er að ef ambient-lið vantar þá verða óupplýstir hlutar myndarinnar kolsvartir sem er óraunverulegt nema þegar það á að vera ekkert umhverfi sem ljós varpast af, eins og í geimnum
+
+Á mynd 3 höfum við rauðu kúluna "í geimnum" með ambient-lýsingu  en þá lýtur það augljóslega undarlega út en á mynd 4 er slökkt á ambient-lýsingunni og þá kemur það mjög eðlilega út

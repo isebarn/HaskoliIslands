@@ -1,0 +1,143 @@
+Efni
+
+Efni sem koma til greina
+
+N-Acetyl cysteine
+Beta-glucan
+Cadaverine
+Bacteria battery
+
+
+-------------------- N-Acetylcystene (Snake oil) --------------------
+[http://www.ncbi.nlm.nih.gov/pubmed/25957927]
+[Tekið og stytt úr grein frá 2015]
+
+N-acetylcysteine has been researched over the past decade and there is evidence for the use of NAC in treating psychiatric and neurological disorders, including oxidative stress, apoptosis, mitochondrial dysfunction, neuroinflammation and glutamate and dopamine dysregulation. 
+Favorable evidence exists for the use of NAC in treating autism, Alzheimer's disease, cocaine and cannabis addiction, bipolar disorder, depression, trichotillomania, nail biting, skin picking, obsessive-compulsive disorder, schizophrenia, drug-induced neuropathy and progressive myoclonic epilepsy.
+
+
+[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4423164/]
+[Önnur grein frá 2015 semfjallar aðallega um obsessive compulsive disorder og NAC]
+
+
+Annar vinkill:
+[http://www.nutrientsreview.com/proteins/amino-acids/derivatives/n-acetylcysteine.html]
+Lowering homocysteine levels
+improving exercise performance
+Þá er lítið mál að pranga þessu á fólk
+
+Pros/Cons
++Auðvelt (held ég)
++Nóg efni til á netinu
+-Ódýrt
++Algengt
+
+---Hvaða örvera
+E. coli býst ég við? Óttar sagði að það væri sniðugt
+Ég sé samt að C. glutamicum er notað í aminosýrur 
+
+---Hversvegna
+Óttar sagði það
+???Hvaða aðferð ætti ég annars að nota til að ákvarða það
+
+---Er gott efnaskiptalíkan til
+Já
+
+---Er þetta efni í örverunni
+???? hvernig finn ég útúr því? Ég kann ekki alveg að leita á kegg
+Kegg:
+COMPOUND: C05727
+REACTION: R04950 - R10553 - R10617 - R10720
+
+
+---Er efnið náttúrulegt eða ónáttúrulegt
+Náttúrulegt, amminósýruafleiða af L-cysteine
+
+---Markaðsaðstæður
+[https://en.wikipedia.org/wiki/Acetylcysteine]
+It is available as a generic medication and is not very expensive 
+(frábært orðalag..."is not very expensive"...það ætti að vera til orð fyrir þetta)
+
+---Hraefni sem þarf til að frammleiða
+Það sem að E.coli/C.glutamicum borðar
+
+---CO2 losun
+Af þeim efnaferlum sem ég taldi upp losar engin CO2
+
+---Hvernig á að velja erfðabreytingar
+???
+
+---Hvaða reiknirit notum við
+???
+
+---Mat á umfangi
+Skoða reiknirit sem eru í boði = 5 klst
+Skilja hvaða reiknirit henntar = 5 klst
+Búa reiknirit til = 50 klst
+Nota reiknirit og framkvæma allt sem þarf að gera til að fá niðurstöður = 20 klst
+Skrifa skýrslu = 10 klst
+
+---Tímaáætlun
+Skoða efnið og örveruna sem við notum gaumgæfilega (in progress)
+Deadline: 11 mars
+->
+Lesa greinar um reiknirit og gera stuttan útdrátt með pros/cons
+Ákvarða hvaða reiknirit hentar best
+Deadline:18 mars
+->
+Búa reiknirit til
+Deadline:5 apríl
+->
+Nota reiknirit
+Túlka niðurstöður
+Skrifa skýrslu
+Deadline: 19 apríl
+
+
+
+-------------------- Beta-glucan --------------------
+
+[http://www.webmd.com/vitamins-supplements/ingredientmono-1041-beta-glucans.aspx?activeingredientid=1041&activeingredientname=beta-glucans]
+
+There is some evidence that giving specific kinds of beta-glucans intravenously (IV) or as a shot into the muscle can extend life in some people with advanced cancer. 
+
+
+Reaction - R00308 - R03115 - R03116 - R03118
+
+Kostar : next to nothing 20-125 USD/kg en finn bara "powder"
+
+Pros/Cons
++Insanely easy
+-Til alstaðar
+
+
+
+-------------------- Cadaverine --------------------
+
+Notað til að búa til skrúfur
+
+Kostar 1800-2200/tonn
+i.e 1.8-2.2 per kíló
+Dalian future international býður uppá 98-101.5% purity, stefni á að toppa það
+Hægt að frammleiða í baccilus methanolicus sem er víst cheap
+
+Reaction: R00462 - R03666 - R06740 - R08359 - R08418 - R08419 - R08421 - R09048
+
+
+
+
+-------------------- Bakteríubatterí hahaha --------------------
+
+[http://www.ncbi.nlm.nih.gov/pubmed/12620842]
+Studies have suggested that members of the Geobacteraceae can use electrodes as electron acceptors for anaerobic respiration. 
+
+[https://en.wikipedia.org/wiki/Geopsychrobacter_electrodiphilus]
+Geopsychrobacter electrodiphilus is a species of bacteria, the type species of its genus. It is a psychotolerant member of its family, capable of attaching to the anodes of sediment fuel cells and harvesting electricity by oxidizing organic compounds to carbon dioxide and transferring the electrons to the anode. 
+
+Ég hef í raun ekki hugmynd hvort það sé hægt að nota þetta til að búa til eh 
+realiable jafnstraum til að nota í gangræði 
+
+
++Enginn er að reyna að nota þetta í gangræði
+-Ég kann ekki að nota þetta sem batterí í gangræði
++Geðveikt

@@ -1,0 +1,52 @@
+Ef við hefðum eftirfarandi punkta:
+a [-0.5,0.5,0.0] 
+b [-0.5,-0.5,0.0]
+c [0.5,-0.5,0.0]
+d [0.5,-0.5,0.0]
+
+
+
+a--------------------c
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+b--------------------d
+
+Þá gæti ég fyllt uppí bæði með TRIANGLE_FAN eða TRIANGLE_STRIP
+
+TRIANGLE_FAN 
+Fyrsti punkturinn sem fer inní TRIANGLE_FAN er "miðpunkturinn" 
+og verður einn punktanna í öllum þríhyrningum sem verða teiknaðir
+Til að mynda fyrsta þríhyrninginn þá þarf miðpunktinn og síðan punkt
+2 og punkt 3. 
+
+Næsti þríhyrningur þar á eftir notar miðpunktinn,
+punkt 3 og nýja punktin, punkt 4. 
+
+Þriðji þríhyrningurinn myndi nota miðpunktinn,
+punkt 4 og nýja punktinn, punkt 5
+
+Til að fylla upp í ferhyrninginn með punktum a,b,c,d þá gætum við
+sett inn í TRIANGLE_FAN í eftirfarandi röð:
+a,b,d,c
+Þá teiknast fyrst þríhyrningur með punkta a,b,d
+Síðan þríhyrningur með a,d,c
+
+
+TRIANGLE_STRIP
+TRIANGLE_FAN notar alltaf sama miðpunktinn, elsta punktinn og 
+nýja punktinn
+TRIANGLE_STRIP notar elsta, næstelsta punktinn og nýjasta 
+punktin
+Þá myndum við kalla á TRIANGLE_STRIP með:
+a, b, a, d, c
+
+Þá búum við fyrst til "ósýnilegann" þríhyrning með 
+punktanna a,b,a
+Síðan þríhyrning með punktanna b,a,d
+Seinast með punktunum a,d,c

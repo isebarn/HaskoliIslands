@@ -3,12 +3,12 @@ function bug(){
 	this.position[0] = (Math.random() - 0.5)*2
 	this.position[1] = (Math.random() - 0.5)*2
 	this.velocity = vec3()
-	this.speed = 0.005
+	this.speed = 0.005 * (Math.floor(Math.random() * 3 + 1))
 	this.groupVelocity = vec3()
 	this.groupLocation = vec3()
 	this.groupSpace = vec3()
 	this.flap = 0
-	this.stroke = 5
+	this.stroke = 30 * Math.sign(Math.random()-0.5)
 	this.size = 1
 	this.theta = Math.floor(Math.random()*90)
 	this.phi = Math.floor(Math.random()*180)

@@ -1,0 +1,4 @@
+Stuðlarnir I og k eru báðir vigrar. I eru litir ljósgjafa og k eru litir yfirborðs, ka er ambient litur yfirborðs, kd er diffuse litur yfirborðs og ks er specular litur yfirborðs
+Vigrarnir geyma gildin r,g,b,a, öll frá 0-1
+
+Þetta er samt frekar ambiguous spurning, en bókin gefur til kynna að stuðlarnir ka, kd og ks séu skalarstærðir frá 0-1 og segir síðan beint á eftir að þeir séu liðaðir í r,g,b,a 
