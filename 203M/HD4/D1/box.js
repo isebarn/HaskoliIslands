@@ -21,33 +21,13 @@ var matrixLoc;
 
 // the 8 vertices of the cube
 var vertices = [
-    vec3(  0.5,  0.5,  0.5 ), //0
-    vec3(  0.5,  0.5, -0.5 ), //1
-    vec3(  0.5, -0.5,  0.5 ), //2
-    vec3(  0.5, -0.5, -0.5 ), //3
-    vec3( -0.5,  0.5,  0.5 ), //4
-    vec3( -0.5,  0.5, -0.5 ), //5
-    vec3( -0.5, -0.5,  0.5 ), //6
-    vec3( -0.5, -0.5, -0.5 ), //7
+    vec3(0,0,0),
+    vec3(0,-0.5,0),
+    vec3(0.5,-0.5,0),
+    vec3(0.5,0,0)
 ];
 
-for (var i = 0; i < 8; i++) {
-    vertices[i][0] *= 3
-    vertices[i][1] *= 3
-    vertices[i][2] *= -3
 
-    vertices[i][0] += 1.5
-    vertices[i][1] += 1.5
-    vertices[i][2] += -1.5  
-
-    vertices[i][0] += 3
-    vertices[i][1] += 0
-    vertices[i][2] += -2                
-
-}
-for (var i = 0; i < 8; i++) {
-    console.log(vertices[i])
-}
 
 var vertexColors = [
     vec4( 0.0, 0.0, 0.0, 1.0 ),  // black
@@ -69,7 +49,7 @@ var vertexColors = [
 
 // indices of the 12 triangles that compise the cube
 var indices = [
-    7,5,1,3,7,6,2,3,1,0,2,0,4,5,4,6
+    0,3,2,1
 ];
 
 window.onload = function init()
@@ -155,7 +135,7 @@ function render()
     ctm = mult( translate(0.5,0.5,0,5), ctm)
     ctm = mult( ctm, scalem( 0.1    , 0.1   , 0.1   ) );
     gl.uniformMatrix4fv(matrixLoc, false, flatten(ctm));
-    gl.drawElements( gl.LINE_LOOP, 16, gl.UNSIGNED_BYTE, 0 );
+    gl.drawElements( gl.TRIANGLE_STRIP, 4, gl.UNSIGNED_BYTE, 0 );
 
     time += 1
     var a = mat4()

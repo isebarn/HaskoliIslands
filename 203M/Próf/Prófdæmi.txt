@@ -1,7 +1,7 @@
 Prófdæmi
 
 S14		   - Status
-	Dæmi 1 - Unstarted
+	Dæmi 1 - Unstarted / Not possible, spyrja Hjálmtýr
 	Dæmi 2 - Unstarted
 	Dæmi 3 - Unstarted
 	Dæmi 4 - Unstarted

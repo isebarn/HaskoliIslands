@@ -55,7 +55,9 @@ var indices = [
    ,16,17,13
    ,13,15,17
    ,13,14,15, 
-     18,19,23,22,18,20,21,19,21,25,23,25,24,22,24,20,18,    
+     18,19,23,22,18,20,21,19,21,25,23,25,24,22,24,20,18, 
+     18,19,21,20
+
 ];
 
 window.onload = function init(){
@@ -176,6 +178,8 @@ function render()
     ctm = rotate(ctm)   
     gl.uniformMatrix4fv(matrixLoc, false, flatten(ctm));
     gl.drawElements(gl.LINE_LOOP, 16, gl.UNSIGNED_BYTE, 60 );
+
+
 
     fly.groupFly()
     requestAnimFrame( render );

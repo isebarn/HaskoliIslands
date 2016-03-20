@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<script id="vertex-shader" type="x-shader/x-vertex">
+
+attribute vec4 vPosition;
+attribute vec4 vNormal;
+varying vec3 N, L, E;
+varying float D;
+uniform mat4 modelViewMatrix;
+uniform mat4 projectionMatrix;
+uniform vec4 lightPosition;
+uniform mat3 normalMatrix;
+
+void main()
+{
+    vec3 pos = (modelViewMatrix * vPosition).xyz;
+    vec3 d = lightPosition.xyz - pos;
+    D = length(d);
+    // check for directional light
+    L = normalize(lightPosition.xyz);
+
+
+    E =  -normalize(pos);
+    N = normalize( normalMatrix*vNormal.xyz);
+
+    gl_Position = projectionMatrix * modelViewMatrix * vPosition;
+
+}
+</script>
+
+<script id="fragment-shader" type="x-shader/x-fragment">
+
+precision mediump float;
+
+uniform vec4 ambientProduct;
+uniform vec4 diffuseProduct;
+uniform vec4 specularProduct;
+uniform float shininess;
+varying vec3 N, L, E;
+uniform float a,b,c;
+varying float D;
+
+void main()
+{
+    vec4 fColor;
+    float f = 1.0/(0.01*a+0.1*b*D+0.01*c*D*D);
+
+    vec3 H = normalize( L + E );
+    vec4 ambient = ambientProduct;
+
+    float Kd = max( dot(L, N), 0.0 );
+    vec4  diffuse = Kd*diffuseProduct;
+
+    float Ks = pow( max(dot(N, H), 0.0), shininess );
+    vec4  specular = Ks * specularProduct;
+
+    if( dot(L, N) < 0.0 ) specular = vec4(0.0, 0.0, 0.0, 1.0);
+
+    fColor = ambient + f*(diffuse +specular);
+    fColor.a = 1.0;
+
+    gl_FragColor = fColor;
+}
+</script>
+
+<script type="text/javascript" src="./files/webgl-utils.js"></script>
+<script type="text/javascript" src="./files/initShaders.js"></script>
+<script type="text/javascript" src="./files/MV.js"></script>
+<script type="text/javascript" src="teapotData.js"></script>
+<script type="text/javascript" src="PhongTepottur2.js"></script>
+
+<body>
+ <canvas id="gl-canvas" width="600" height="600">
+        Oops ... your browser doesn't support the HTML5 canvas element</canvas>
+        <div>
+            a: <input min="1" max="500.0" id="a" type="number"><br>
+            b:  <input min="1" max="500.0" id="b" type="number"><br>
+            c:   <input min="1" max="500.0" id="c" type="number"><br>
+        </div>
+</body>
+</html>
