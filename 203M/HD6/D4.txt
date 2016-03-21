@@ -13,4 +13,4 @@ Við viljum því að stefna normalvigursins sé akkúrat mitt á milli ljósvig
 
 C = acos((dot(i,v)/||i||||v||)
 
-og við viljum fá hornið akkúrat á milli svo við fáum C/2 + 90
+og við viljum fá hornið akkúrat á milli svo við fáum C/2 m.v normalvigur
