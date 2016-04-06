@@ -1,0 +1,99 @@
+https://notendur.hi.is/~dia2/203M/Verkefni/Verkefni3/
+Þessi .pdf skrá er inná og er mögulega þægilegra að lesa heldur en inná gradescope
+
+Frog-machine
+
+Tvær html skrár, frog-machine.html og frog-machine-small.html, 700x700 punktar og 500x500 punktar
+
+Í leiknum leikur þú frosk (bláa kassann) og tilgangur leiksins er að safna stigum frekar en
+að komast á leiðarenda
+Á skjánnum fyrir ofan leikmyndina er Score, Lives, Flies og Highscore
+Score byrjar í 4000 og er sífelt að minnka
+Til að fá fleiri stig er hægt að gera tvennt. 1. Ná flugum. 2. Komast á leiðarenda
+Hver fluga gefur froskinum 1 aukalíf og 1000 stig, að komast á leiðarenda gefur 3 aukalíf og
+stigin sem voru inni þegar bætast ofaná highscorið
+
+Ef froskurinn stekkur fyrir bíl eða ofaní vatnið þá missir hann 1 líf og 1000 stig, og þegar 
+lífin/stigin verða að 0 þá endurstillist leikurinn
+
+Til að komast yfir götur þá þarf froskurinn að passa sig á að verða ekki fyrir bíl
+Til að komast yfir ár þá þarf froskurinn að 'verða fyrir' trjábolum meðþví að stökkva uppá þá
+
+Bílar og trjábolir færast 'smoothly' eftir skjánnum en froskurinn stekkur eftir reitum
+sem eru augljóslega aðgreindir
+
+Flugan stekkur á milli þessara reita og er alltaf nálægt froskinum og alltaf fyrir framan hann
+
+
+---Samsetning leiks---
+Leikurinn inniheldur 11 .js skrár
+car.js
+fly.js
+frog-machine.js
+frog.js
+group.js
+lanes.js
+logs.js
+tools.js
+tree.js
+walls.js
+world.js
+
+
+--tools.js--
+Toolbox sem ég hef smátt og smátt búið til í gegnum námskeiðið
+Hefur aðferðirnar (sem ég nota í leiknum)
+
+absMax/absMin sem finna max/min í fylki
+
+boxVertices/rectangleVertices sem býr til hnútpunkta fyrir kassa/rétthyrning með miðju (0,0,0)
+boxIndices/rectangleVertices sem býr til indexa fyrir TRIANGLE_FAN litun og stingur staðsetninu
+indexanna í fylki sem er notað allstaðar til að teikna, en öll object geyma 'hvar' þeirra indexar
+eru í indexafylkinu, þetta er gert til að spara mér gráu hárin að halda utanum hvar allir indexar
+eru fyrir hvern einasta hlut sem ég bý til
+
+Eftirfarandi lína lýsir sennilega betur hvað ég er að reyna að gera heldur en orð
+gl.drawElements(gl.TRIANGLE_FAN, indiceTrack[this.indiceLocation][2], gl.UNSIGNED_BYTE, indiceTrack[this.indiceLocation][0] );
+
+en indiceTrack er 'global' vigur sem allir komast í en indiceLocation er eithvað sem hver
+einasti hlutur hefur fyrir sig
+
+
+--logs.js og groups.js--
+logs.js og groups.js halda utanum marga trjádrumba/bíla og sjá um að teikna þá og finna
+handa þeim rétta 'línu' til að vera í. T.d þá er bara 'smíðað' eitt instance af tree og car
+hlutum en það eru settir 1-5 á hverja línu í þessu 11x100 gridi. Hver einasti logs eða groups
+hópur heldur utanum fjölda trjábola/bíla og sér um að setja þá niður á 'slembi' línu til að
+það séu t.d ekki alltaf 5 bílar í línu 4, heldur stekkur hópurinn á milli og finnur auða línu
+
+Að vísu ákvað ég að taka þessa aðferð út fyrir logs því að það gerir leikinn algjörlega ómögulegann ef það er ekki hægt að segja til um hversu margir trjábolir koma, og ég festi töluna
+á 3 á hverja línu í vötnunum. Ennfremur þá er samt aðferðin findLane() ennþá til staðar bæði til að koma trjábolum fyrir í upphafi, og líka ef ég vil breyta þessu seinna meir
+
+
+--frog.js--
+Hér smíða ég froskinn ásamt stigafjölda hans, flugufjölda etc
+Í drawFrog() aðferðinni athuga ég í hverri ítrun hvort froskurinn sé:
+
+Á götunni, en þá athuga ég hvort að sú lína sé upptekinn af bílahóp, ef svo er þá athuga ég í xPos breytu þeirrar línu hvort til sé xPos[i] sem er innan ákveðinar fjarlægðar frá froskinum, en ef svo er þá fer froskurinn á byrjunarreit, missir 1 líf og 1000 stig
+
+Á vatni, en þá  athuga ég hvort this.float breyta frosksins sé true, en þá hefur froskurinn 'klesst' á trjádrumb (xPos gildin eins og hjá bílunum) og er ofaná honum, ef ekki þá druknar froskurinn og byrjar á upphafsreit
+
+Athuga einnig hvort froskurinn nái í fluguna, og gef froskinum auka líf og 1000 stig ef svo er
+
+
+--car.js og tree.js--
+Búa til bílahlut og tréhlut og sjá um að teikna
+Teikningin fer fram á þann hátt eins og lýst var í logs.js og groups.js
+Hver einasti log og group hlutur sendir inn í tree/car hlutinn upplýsingar um línuna og xPos staðsetningar hvers bíls sem á að teikna, sem og leggja 'hraða' hverrar línu við hvert stak xPos vigursins 
+
+Sjá líka um að athuga hvort að bíll/tré sé komið útfyrir og þá endurstillist allur xPos vigurinn
+
+--world.js--
+Sér um að búa til veginn sem froskurinn stekkur um á
+
+--walls.js--
+Sér um að búa til svörtu veggina
+
+--frog-machine.js--
+Er skráin sem er í öllu, heldur utanum öll object instance og gerir öll webgl köll og inniheldur
+render() fallið
