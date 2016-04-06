@@ -1,9 +1,14 @@
+model = addReaction(model, 'CADA', 'LYS[c] <=> cad[c] + CO2[c]');
+model = addReaction(model, cad, 'cad[c] <=>');
+model = changeRxnBounds(model,'EX_o2(e)',1,'l');
+[minFluxN, maxFluxN] = fluxVariability(model) //hvað er 'native pathway' hérna?
+
+
 //metabolite sem býr til lysine
 procedure probability(in target metabolite, in selection scheme, out pathway)
 begin
 	pathway = construct(target metabolite, selection scheme, pathway)
 	[minFlux, maxFlux] = fluxVariability(pathway) 
-	[minFluxN, maxFluxN] = fluxVariability(model) //hvað er 'native pathway' hérna?
 
 	if maxFlux < maxFluxN //þarf að finna max fyrir lysine í báðum vigrunum
 		pathway = sucks
